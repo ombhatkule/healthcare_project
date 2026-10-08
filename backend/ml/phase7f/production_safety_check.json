@@ -1,0 +1,45 @@
+{
+  "title": "Phase 7F Production Safety Check",
+  "checks": {
+    "disease_model.joblib": {
+      "size_mb": 581.08,
+      "sha256": "f772b3b8a48e5e07196ee153e593a0e096e0f19875349ddb9dcfaf83895d16a6",
+      "unchanged_since_phase7e": true
+    },
+    "symptom_columns.joblib": {
+      "size_mb": 0.0,
+      "sha256": "9fea903cfcbdf2d02e1a37082d88d4cbcdd495a264bf59bf81eafd947d99332e",
+      "unchanged_since_phase7e": true
+    },
+    "disease_dataset_cleaned_v2.csv": {
+      "size_mb": 34.56,
+      "sha256": "5912fa31e8a2b22dbd65ad8d584482dc531154452f5b8881e9bb5d12cd2c2e50",
+      "unchanged_since_phase7e": true
+    }
+  },
+  "flutter_unchanged": true,
+  "flask_unchanged": true,
+  "api_unchanged": true,
+  "production_model_deployed": false,
+  "production_dataset_replaced": false,
+  "phase_8_started": false,
+  "phase7f_files_created": [
+    "dynamic_symptom_vocabulary_design.md",
+    "future_dataset_requirements.md",
+    "model_strategy_decision.md",
+    "one_vs_rest_feasibility.csv",
+    "phase7f_baseline.md",
+    "phase7f_docs.py",
+    "phase7f_experiments.py",
+    "phase7f_intermediate_experiments.json",
+    "phase7f_step10.py",
+    "phase7f_step11_model_selection.md",
+    "phase7f_step12_task_assessment.md",
+    "phase7f_step13_model_architecture.md",
+    "phase7f_step15_muscle_pain.md",
+    "phase7f_step2_problem_definition.md",
+    "phase7f_step6_hierarchical.md",
+    "phase7f_step9_minimum_info.md",
+    "step10_model_comparison.json"
+  ]
+}

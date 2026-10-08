@@ -1,0 +1,88 @@
+{
+  "title": "Phase 7D Model Comparison",
+  "date": "2026-09-08",
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratified": true,
+    "train_rows": 79999,
+    "test_rows": 20001,
+    "n_classes": 42
+  },
+  "models_ranked_by_macro_f1": [
+    {
+      "model": "production_rf_balanced_7C",
+      "accuracy": 0.32015,
+      "balanced_accuracy": null,
+      "macro_precision": 0.197107,
+      "macro_recall": 0.267981,
+      "macro_f1": 0.198602,
+      "weighted_precision": 0.397093,
+      "weighted_recall": 0.32015,
+      "weighted_f1": 0.329881,
+      "train_time_s": null,
+      "predict_time_s": null,
+      "note": "Phase 7C production model baseline metrics (known from prior evaluation)"
+    },
+    {
+      "model": "logreg",
+      "accuracy": 0.422529,
+      "balanced_accuracy": 0.201598,
+      "macro_precision": 0.214161,
+      "macro_recall": 0.184068,
+      "macro_f1": 0.194922,
+      "weighted_precision": 0.410915,
+      "weighted_recall": 0.422529,
+      "weighted_f1": 0.411963,
+      "train_time_s": 433.84,
+      "predict_time_s": 0.06
+    },
+    {
+      "model": "linear_svm",
+      "accuracy": 0.410379,
+      "balanced_accuracy": 0.198354,
+      "macro_precision": 0.249659,
+      "macro_recall": 0.181106,
+      "macro_f1": 0.192275,
+      "weighted_precision": 0.40096,
+      "weighted_recall": 0.410379,
+      "weighted_f1": 0.383702,
+      "train_time_s": 112.43,
+      "predict_time_s": 0.0369
+    },
+    {
+      "model": "rf_balanced",
+      "accuracy": 0.315534,
+      "balanced_accuracy": 0.248731,
+      "macro_precision": 0.172965,
+      "macro_recall": 0.227102,
+      "macro_f1": 0.172667,
+      "weighted_precision": 0.394564,
+      "weighted_recall": 0.315534,
+      "weighted_f1": 0.325526,
+      "train_time_s": 11.6,
+      "predict_time_s": 0.3567
+    },
+    {
+      "model": "rf_none",
+      "accuracy": 0.40418,
+      "balanced_accuracy": 0.102857,
+      "macro_precision": 0.263019,
+      "macro_recall": 0.093913,
+      "macro_f1": 0.102795,
+      "weighted_precision": 0.478975,
+      "weighted_recall": 0.40418,
+      "weighted_f1": 0.351681,
+      "train_time_s": 3.74,
+      "predict_time_s": 0.3137
+    }
+  ],
+  "notes": [
+    "All experimental models use the SAME fixed stratified 80/20 split (random_state=42)",
+    "Production baseline metrics are from Phase 7C evaluation (different split/conditions)",
+    "rf_balanced = RandomForest with class_weight='balanced' (experimental copy)",
+    "rf_none = RandomForest with class_weight=None (no class weighting)",
+    "logreg = LogisticRegression (multiclass, max_iter=1000)",
+    "linear_svm = LinearSVC (multiclass, max_iter=2000)"
+  ]
+}

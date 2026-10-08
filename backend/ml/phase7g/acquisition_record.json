@@ -1,0 +1,62 @@
+{
+  "phase": "7G",
+  "acquisitions": [
+    {
+      "id": "SYM-001",
+      "dataset": "SymbiPredict / Symptom-Disease Prediction Dataset (SDPD)",
+      "source": "Mendeley Data DOI 10.17632/dv5z3v2xyd.1 (published 2024-04-02, v1); Symptom-Disease Prediction Dataset (SDPD); symptoms sourced from medical literature, clinical observations, expert consensus (methodology inspired by CDC approach)",
+      "source_url": "https://data.mendeley.com/datasets/dv5z3v2xyd/1",
+      "local_file": "backend/ml/phase7g/acquired/symbipredict_2022.csv",
+      "size_bytes": 1382907,
+      "sha256": "9834c90dd48eb2fef1fa56282f8f016a6781b0e4ada878015dc34a81af8e9e1b",
+      "license": "CC BY 4.0 (explicit)",
+      "documentation": "Peer-reviewed MDPI Electronics article; DOI-indexed record; symptoms from medical literature, clinical observations, expert consensus",
+      "veracity_check": "PASS - structure verified locally (41 classes x 121, 132 binary symptom features, no missing); measured MI/separability strongly better than current",
+      "status": "ACQUIRED - CONDITIONALLY APPROVED (decision B)",
+      "warning": "Community-curated symptom->disease associations (NOT real patient records); 94% duplicate rows - Phase 7H must decide representation/deduplication",
+      "acquired_by": "prior Phase 7G work session (2026-09-09)"
+    },
+    {
+      "id": "COL-001",
+      "dataset": "Columbia University Disease-Symptom Knowledge Database",
+      "source": "Columbia University DBMI (Prof. Carol Friedman); extraction from 25,074 NYP Hospital 2004 discharge summaries via MedLEE NLP, UMLS-coded",
+      "source_url": "https://impact.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html",
+      "reference": "AMIA 2008, PMC2656103 (~90% recall / ~92% precision)",
+      "local_file": "backend/ml/phase7g/acquired/columbia_disease_symptom_kb.csv",
+      "size_bytes": 124473,
+      "sha256": "51b81b8999b072768bb0692376be1983f15b59a77a8eb5c95af276fcbfa73a17",
+      "license": "UNKNOWN - no explicit license statement found; MANUAL REVIEW REQUIRED (contact friedman@dbmi.columbia.edu)",
+      "documentation": "Peer-reviewed AMIA paper; UMLS-coded symptoms; real clinical provenance",
+      "veracity_check": "PASS - structure verified locally (134 diseases, 401 symptoms, 1,858 associations, 0 missing)",
+      "status": "ACQUIRED - CONDITIONALLY APPROVED (license pending)",
+      "warning": "Association-count format (3-28 associations per disease) requires weighting/scoring adaptation; not a direct train-ready matrix"
+    },
+    {
+      "id": "KAU-001",
+      "dataset": "Kaushil268 - Disease Prediction using Machine Learning",
+      "source": "Kaggle dataset by kaushil268; fetched via public GitHub raw mirror of the archive (Kaggle itself requires auth download)",
+      "source_url": "https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning",
+      "local_file": "backend/ml/phase7g/acquired/kaushil268_disease_prediction.csv",
+      "size_bytes": 632202,
+      "sha256": "ebbd391c4ba4d64f57a00eb3d0a55f0ca9b920b0c5de6b9af4234e72519c9618",
+      "license": "Apache 2.0",
+      "documentation": "None (no indexed citation)",
+      "veracity_check": "PASS as mirror cross-check - same 41-class/131-symptom family as SymbiPredict (94% duplicate rows / 304 unique patterns)",
+      "status": "ACQUIRED - REJECTED as primary candidate (redundant, undocumented; superseded by documented SymbiPredict)",
+      "warning": "Same community disease-symptom family as SymbiPredict; not an independent better dataset"
+    }
+  ],
+  "not_downloaded": [
+    {
+      "id": "ALSH-001",
+      "dataset": "Al Shafi et al. (Mendeley rjgjh8hgrt/6)",
+      "reason": "Reference-only (85 rows, one per disease) - documented symptom list but insufficient training samples"
+    },
+    {
+      "id": "SYN-001",
+      "dataset": "Mendeley synthetic (2cxccsxydc/1)",
+      "reason": "Explicitly synthetic; does not resolve synthetic-data concern"
+    }
+  ],
+  "provenance_note": "SymbiPredict and kaushil268 share the same disease-symptom association family (41 classes). The documented, peer-reviewed, CC BY 4.0 SymbiPredict is the primary approved representation; kaushil268 retained for cross-checking only."
+}

@@ -1,0 +1,49 @@
+{
+  "phase": "7K",
+  "title": "Independent Generalization / External Validation",
+  "decision": "C",
+  "decision_label": "INSUFFICIENT_EXTERNAL_DATA",
+  "decision_rationale": [
+    "No credible, adequately-covered independent dataset could be obtained.",
+    "Only independent clinically-sourced candidate (Columbia University Disease-Symptom KB) is license-pending (Phase 7G manual-review requirement) and aggregated association-count format, not case/patient-level.",
+    "Label coverage: 8 EXACT / 8 HIGH_CONFIDENCE / 3 POSSIBLE / 22 NO_MATCH of 41; automatic use limited to 8 EXACT per mapping rules.",
+    "Feature coverage: 14 EXACT + 10 HIGH_CONFIDENCE of 397 unique Columbia symptoms (6.05%); per-disease retained evidence 0-57% (1 disease 0%, 4 <=30%).",
+    "Large public disease-symptom datasets mirror the SymbiPredict canonical family (leakage risk) or are artificially generated (246k-row Mendeley set, DDXPlus synthetic).",
+    "Real patient datasets (Brazil SINAN, HCMC dengue cohort) are single-disease (Dengue); MIMIC-III lacks a symptom-presence matrix.",
+    "No clinician review available for HIGH_CONFIDENCE/POSSIBLE mappings; evaluation would be a mapping-coverage artifact, not generalization evidence."
+  ],
+  "external_evaluation_performed": false,
+  "external_evaluation_metrics": null,
+  "evaluated_class_count": 0,
+  "predictions_made": 0,
+  "generalization_claim": "NOT_TESTED - Phase 7I ceiling performance could not be assessed against independent observations; no evidence for or against external generalization was produced.",
+  "phase7i_vs_phase7k": {
+    "comparison_fallback": "NO EXTERNAL METRICS EXIST - direct comparison not possible and not attempted.",
+    "why_not_comparable": "Phase 7I used grouped CV on canonical SymbiPredict associations; Phase 7K found no valid independent evaluation set."
+  },
+  "coverage": {
+    "label_automatic": "8/41",
+    "label_status_counts": {"EXACT": 8, "HIGH_CONFIDENCE": 8, "POSSIBLE": 3, "NO_MATCH": 22},
+    "feature_exact": "14/397",
+    "feature_exact_high_confidence": "24/397",
+    "feature_no_match": "373/397",
+    "row_coverage_exact_high_pct": 19.97,
+    "per_disease_signal_retention_min_max_pct": [0.0, 57.1]
+  },
+  "leakage_check": {
+    "result": "PASS",
+    "detail": "No copies or canonical-signature replication detected across sources; mean symptom-set Jaccard 0.022 for shared EXACT-label diseases (Columbia vs Phase 7I).",
+    "independent_source": true
+  },
+  "production_safety": "PASS",
+  "production_changed": false,
+  "clinical_validation": false,
+  "clinician_signoff": false,
+  "data_augmentation_used": false,
+  "synthetic_data_used": false,
+  "model_retrained": false,
+  "model_finetuned": false,
+  "thresholds_tuned": false,
+  "disclaimer": "Non-clinical research/educational evaluation; not clinically validated; does not establish medical diagnostic accuracy, clinical validity, or suitability for patient care.",
+  "phase7j": "NOT READY - external generalization unverified; integration/deployment prohibited without explicit approval."
+}

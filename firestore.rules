@@ -1,0 +1,79 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Users may read and update only their own profile document.
+    match /users/{userId} {
+      allow read, update: if request.auth != null && request.auth.uid == userId;
+      allow create: if request.auth != null && request.auth.uid == userId;
+      allow delete: if false;
+    }
+
+    // Appointments are nested under each user and are strictly private to
+    // that authenticated user: nobody can read or write another user's
+    // appointment records.
+    match /users/{userId}/appointments/{appointmentId} {
+      allow read, create, update: if request.auth != null && request.auth.uid == userId;
+      allow list: if request.auth != null && request.auth.uid == userId;
+      allow delete: if false;
+    }
+
+    // EHR medical records are owned exclusively by the authenticated user.
+    // Records may be deleted by the owner (unlike appointments and profiles).
+    match /users/{userId}/medical_records/{recordId} {
+      allow read, create, update, delete: if request.auth != null && request.auth.uid == userId;
+      allow list: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // EHR medical profile is a single fixed document holding the user's
+    // structured medical information (blood group, allergies, conditions,
+    // surgeries, family history). Only the owner may read or write it.
+    match /users/{userId}/medical_profile/{docId} {
+      allow read, create, update: if request.auth != null && request.auth.uid == userId;
+      allow list: if request.auth != null && request.auth.uid == userId;
+      allow delete: if false;
+    }
+
+    // Prescriptions are owned exclusively by the authenticated user. They
+    // record an existing doctor-prescribed treatment, so the owner may create,
+    // update and delete them (like medical records, but never a public
+    // read or any cross-user access).
+    match /users/{userId}/prescriptions/{prescriptionId} {
+      allow read, create, update, delete: if request.auth != null && request.auth.uid == userId;
+      allow list: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Diet & Exercise (Phase 15). Every document is nested under the owning
+    // user document and is private to that user: nobody — including a signed-in
+    // different user — can read or write another user's wellness data, and
+    // unauthenticated access is always denied.
+    //
+    // Wellness preferences (goal, food preference, activity level, goals).
+    match /users/{userId}/diet_exercise_preferences/{docId} {
+      allow read, create, update: if request.auth != null && request.auth.uid == userId;
+      allow list: if request.auth != null && request.auth.uid == userId;
+      allow delete: if false;
+    }
+
+    // Daily water intake, one document per day keyed by `yyyy-MM-dd`.
+    match /users/{userId}/water_intake/{date} {
+      allow read, create, update: if request.auth != null && request.auth.uid == userId;
+      allow list: if request.auth != null && request.auth.uid == userId;
+      allow delete: if false;
+    }
+
+    // Completed exercises, one document per day keyed by `yyyy-MM-dd`.
+    match /users/{userId}/workouts/{date} {
+      allow read, create, update: if request.auth != null && request.auth.uid == userId;
+      allow list: if request.auth != null && request.auth.uid == userId;
+      allow delete: if false;
+    }
+
+    // Manually logged daily activity (entries and optional steps).
+    match /users/{userId}/daily_activity/{date} {
+      allow read, create, update: if request.auth != null && request.auth.uid == userId;
+      allow list: if request.auth != null && request.auth.uid == userId;
+      allow delete: if false;
+    }
+  }
+}

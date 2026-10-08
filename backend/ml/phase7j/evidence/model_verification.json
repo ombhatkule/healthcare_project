@@ -1,0 +1,47 @@
+{
+  "phase": "7J",
+  "integration_timestamp": "2026-09-10T02:23:23",
+  "python_version": "3.11.9",
+  "scikit_learn_version": "1.8.0",
+  "joblib_version": "1.6.0",
+  "production_originals": {
+    "disease_model.joblib": {
+      "sha256": "F772B3B8A48E5E07196EE153E593A0E096E0F19875349DDB9DCFAF83895D16A6",
+      "size": 609303049
+    },
+    "symptom_columns.joblib": {
+      "sha256": "9FEA903CFCBDF2D02E1A37082D88D4CBCDD495A264BF59BF81EAFD947D99332E",
+      "size": 4761
+    },
+    "disease_dataset_cleaned_v2.csv": {
+      "sha256": "5912FA31E8A2B22DBD65AD8D584482DC531154452F5B8881E9BB5D12CD2C2E50",
+      "size": 36235985
+    }
+  },
+  "experimental_artifacts": {
+    "experimental_disease_model.joblib": {
+      "source": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\phase7i\\models\\experimental_best_model.joblib",
+      "sha256": "4CBA73935D56AE4FDB6DF74B2175E9DC89E70CF797533F62B00E1DB8A4D1E93A",
+      "installed_sha256": "4CBA73935D56AE4FDB6DF74B2175E9DC89E70CF797533F62B00E1DB8A4D1E93A"
+    },
+    "experimental_symptom_columns.joblib": {
+      "source": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\phase7i\\data\\symptom_columns_131.json",
+      "sha256_installed": "E771E636803380CD7FE550AF34784DF6F1E60FC3278339DFF60F5100F69A79BA",
+      "feature_count": 131
+    },
+    "source_vocab_json_sha256": "88DA86895DB4F73ACF80B572606FCBDBB5A798A260042581370CB7C27E12618D"
+  },
+  "verification": {
+    "model_type": "LogisticRegression",
+    "n_features_in_": 131,
+    "n_classes": 41,
+    "n_columns": 131,
+    "columns_match_feature_names_in": true,
+    "columns_are_strings": true,
+    "columns_unique": true,
+    "load_time_s": 5.923,
+    "has_predict_proba": true,
+    "fluid_overload_present": false,
+    "fluid_overload_1_present": true
+  }
+}

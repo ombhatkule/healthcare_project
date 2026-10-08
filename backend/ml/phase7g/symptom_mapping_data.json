@@ -1,0 +1,600 @@
+{
+  "current_vocab_size": 174,
+  "candidate": "symbipredict_2022.csv",
+  "candidate_symptom_columns": 132,
+  "normalization": "lowercase/strip symptom_ prefix/underscore normalize",
+  "summary": {
+    "exact_match": 17,
+    "possible_match_manual_review": 11,
+    "no_match": 104,
+    "non_symptom": 0
+  },
+  "categories": {
+    "exact_match": [
+      {
+        "candidate": "chills",
+        "current": "symptom_chills",
+        "type": "exact"
+      },
+      {
+        "candidate": "vomiting",
+        "current": "symptom_vomiting",
+        "type": "exact"
+      },
+      {
+        "candidate": "fatigue",
+        "current": "symptom_fatigue",
+        "type": "exact"
+      },
+      {
+        "candidate": "cough",
+        "current": "symptom_cough",
+        "type": "exact"
+      },
+      {
+        "candidate": "headache",
+        "current": "symptom_headache",
+        "type": "exact"
+      },
+      {
+        "candidate": "nausea",
+        "current": "symptom_nausea",
+        "type": "exact"
+      },
+      {
+        "candidate": "loss_of_appetite",
+        "current": "symptom_loss_of_appetite",
+        "type": "exact"
+      },
+      {
+        "candidate": "constipation",
+        "current": "symptom_constipation",
+        "type": "exact"
+      },
+      {
+        "candidate": "abdominal_pain",
+        "current": "symptom_abdominal_pain",
+        "type": "exact"
+      },
+      {
+        "candidate": "runny_nose",
+        "current": "symptom_runny_nose",
+        "type": "exact"
+      },
+      {
+        "candidate": "chest_pain",
+        "current": "symptom_chest_pain",
+        "type": "exact"
+      },
+      {
+        "candidate": "neck_pain",
+        "current": "symptom_neck_pain",
+        "type": "exact"
+      },
+      {
+        "candidate": "dizziness",
+        "current": "symptom_dizziness",
+        "type": "exact"
+      },
+      {
+        "candidate": "muscle_weakness",
+        "current": "symptom_muscle_weakness",
+        "type": "exact"
+      },
+      {
+        "candidate": "loss_of_smell",
+        "current": "symptom_loss_of_smell",
+        "type": "exact"
+      },
+      {
+        "candidate": "polyuria",
+        "current": "symptom_polyuria",
+        "type": "exact"
+      },
+      {
+        "candidate": "palpitations",
+        "current": "symptom_palpitations",
+        "type": "exact"
+      }
+    ],
+    "possible_match_manual_review": [
+      {
+        "candidate": "joint_pain",
+        "current": [
+          "joint_pain_symptom"
+        ],
+        "type": "possible_match_manual_review"
+      },
+      {
+        "candidate": "weight_gain",
+        "current": [
+          "weight_gain_symptom"
+        ],
+        "type": "possible_match_manual_review"
+      },
+      {
+        "candidate": "anxiety",
+        "current": [
+          "anxiety_symptom"
+        ],
+        "type": "possible_match_manual_review"
+      },
+      {
+        "candidate": "weight_loss",
+        "current": [
+          "weight_loss_unintentional",
+          "unintentional_weight_loss"
+        ],
+        "type": "possible_match_manual_review"
+      },
+      {
+        "candidate": "high_fever",
+        "current": [
+          "fever"
+        ],
+        "type": "possible_match_manual_review"
+      },
+      {
+        "candidate": "back_pain",
+        "current": [
+          "low_back_pain"
+        ],
+        "type": "possible_match_manual_review"
+      },
+      {
+        "candidate": "mild_fever",
+        "current": [
+          "fever"
+        ],
+        "type": "possible_match_manual_review"
+      },
+      {
+        "candidate": "congestion",
+        "current": [
+          "nasal_congestion"
+        ],
+        "type": "possible_match_manual_review"
+      },
+      {
+        "candidate": "cramps",
+        "current": [
+          "muscle_cramps_symptom"
+        ],
+        "type": "possible_match_manual_review"
+      },
+      {
+        "candidate": "bruising",
+        "current": [
+          "easy_bruising"
+        ],
+        "type": "possible_match_manual_review"
+      },
+      {
+        "candidate": "drying_and_tingling_lips",
+        "current": [
+          "tingling"
+        ],
+        "type": "possible_match_manual_review"
+      }
+    ],
+    "no_match": [
+      {
+        "candidate": "itching",
+        "type": "no match"
+      },
+      {
+        "candidate": "skin_rash",
+        "type": "no match"
+      },
+      {
+        "candidate": "nodal_skin_eruptions",
+        "type": "no match"
+      },
+      {
+        "candidate": "continuous_sneezing",
+        "type": "no match"
+      },
+      {
+        "candidate": "shivering",
+        "type": "no match"
+      },
+      {
+        "candidate": "stomach_pain",
+        "type": "no match"
+      },
+      {
+        "candidate": "acidity",
+        "type": "no match"
+      },
+      {
+        "candidate": "ulcers_on_tongue",
+        "type": "no match"
+      },
+      {
+        "candidate": "muscle_wasting",
+        "type": "no match"
+      },
+      {
+        "candidate": "burning_micturition",
+        "type": "no match"
+      },
+      {
+        "candidate": "spotting_ urination",
+        "type": "no match"
+      },
+      {
+        "candidate": "cold_hands_and_feets",
+        "type": "no match"
+      },
+      {
+        "candidate": "mood_swings",
+        "type": "no match"
+      },
+      {
+        "candidate": "restlessness",
+        "type": "no match"
+      },
+      {
+        "candidate": "lethargy",
+        "type": "no match"
+      },
+      {
+        "candidate": "patches_in_throat",
+        "type": "no match"
+      },
+      {
+        "candidate": "irregular_sugar_level",
+        "type": "no match"
+      },
+      {
+        "candidate": "sunken_eyes",
+        "type": "no match"
+      },
+      {
+        "candidate": "breathlessness",
+        "type": "no match"
+      },
+      {
+        "candidate": "sweating",
+        "type": "no match"
+      },
+      {
+        "candidate": "dehydration",
+        "type": "no match"
+      },
+      {
+        "candidate": "indigestion",
+        "type": "no match"
+      },
+      {
+        "candidate": "yellowish_skin",
+        "type": "no match"
+      },
+      {
+        "candidate": "dark_urine",
+        "type": "no match"
+      },
+      {
+        "candidate": "pain_behind_the_eyes",
+        "type": "no match"
+      },
+      {
+        "candidate": "diarrhoea",
+        "type": "no match"
+      },
+      {
+        "candidate": "yellow_urine",
+        "type": "no match"
+      },
+      {
+        "candidate": "yellowing_of_eyes",
+        "type": "no match"
+      },
+      {
+        "candidate": "acute_liver_failure",
+        "type": "no match"
+      },
+      {
+        "candidate": "fluid_overload",
+        "type": "no match"
+      },
+      {
+        "candidate": "swelling_of_stomach",
+        "type": "no match"
+      },
+      {
+        "candidate": "swelled_lymph_nodes",
+        "type": "no match"
+      },
+      {
+        "candidate": "malaise",
+        "type": "no match"
+      },
+      {
+        "candidate": "blurred_and_distorted_vision",
+        "type": "no match"
+      },
+      {
+        "candidate": "phlegm",
+        "type": "no match"
+      },
+      {
+        "candidate": "throat_irritation",
+        "type": "no match"
+      },
+      {
+        "candidate": "redness_of_eyes",
+        "type": "no match"
+      },
+      {
+        "candidate": "sinus_pressure",
+        "type": "no match"
+      },
+      {
+        "candidate": "weakness_in_limbs",
+        "type": "no match"
+      },
+      {
+        "candidate": "fast_heart_rate",
+        "type": "no match"
+      },
+      {
+        "candidate": "pain_during_bowel_movements",
+        "type": "no match"
+      },
+      {
+        "candidate": "pain_in_anal_region",
+        "type": "no match"
+      },
+      {
+        "candidate": "bloody_stool",
+        "type": "no match"
+      },
+      {
+        "candidate": "irritation_in_anus",
+        "type": "no match"
+      },
+      {
+        "candidate": "obesity",
+        "type": "no match"
+      },
+      {
+        "candidate": "swollen_legs",
+        "type": "no match"
+      },
+      {
+        "candidate": "swollen_blood_vessels",
+        "type": "no match"
+      },
+      {
+        "candidate": "puffy_face_and_eyes",
+        "type": "no match"
+      },
+      {
+        "candidate": "enlarged_thyroid",
+        "type": "no match"
+      },
+      {
+        "candidate": "brittle_nails",
+        "type": "no match"
+      },
+      {
+        "candidate": "swollen_extremeties",
+        "type": "no match"
+      },
+      {
+        "candidate": "excessive_hunger",
+        "type": "no match"
+      },
+      {
+        "candidate": "extra_marital_contacts",
+        "type": "no match"
+      },
+      {
+        "candidate": "slurred_speech",
+        "type": "no match"
+      },
+      {
+        "candidate": "knee_pain",
+        "type": "no match"
+      },
+      {
+        "candidate": "hip_joint_pain",
+        "type": "no match"
+      },
+      {
+        "candidate": "stiff_neck",
+        "type": "no match"
+      },
+      {
+        "candidate": "swelling_joints",
+        "type": "no match"
+      },
+      {
+        "candidate": "movement_stiffness",
+        "type": "no match"
+      },
+      {
+        "candidate": "spinning_movements",
+        "type": "no match"
+      },
+      {
+        "candidate": "loss_of_balance",
+        "type": "no match"
+      },
+      {
+        "candidate": "unsteadiness",
+        "type": "no match"
+      },
+      {
+        "candidate": "weakness_of_one_body_side",
+        "type": "no match"
+      },
+      {
+        "candidate": "bladder_discomfort",
+        "type": "no match"
+      },
+      {
+        "candidate": "foul_smell_of urine",
+        "type": "no match"
+      },
+      {
+        "candidate": "continuous_feel_of_urine",
+        "type": "no match"
+      },
+      {
+        "candidate": "passage_of_gases",
+        "type": "no match"
+      },
+      {
+        "candidate": "internal_itching",
+        "type": "no match"
+      },
+      {
+        "candidate": "toxic_look_(typhos)",
+        "type": "no match"
+      },
+      {
+        "candidate": "depression",
+        "type": "no match"
+      },
+      {
+        "candidate": "irritability",
+        "type": "no match"
+      },
+      {
+        "candidate": "muscle_pain",
+        "type": "no match"
+      },
+      {
+        "candidate": "altered_sensorium",
+        "type": "no match"
+      },
+      {
+        "candidate": "red_spots_over_body",
+        "type": "no match"
+      },
+      {
+        "candidate": "belly_pain",
+        "type": "no match"
+      },
+      {
+        "candidate": "abnormal_menstruation",
+        "type": "no match"
+      },
+      {
+        "candidate": "dischromic _patches",
+        "type": "no match"
+      },
+      {
+        "candidate": "watering_from_eyes",
+        "type": "no match"
+      },
+      {
+        "candidate": "increased_appetite",
+        "type": "no match"
+      },
+      {
+        "candidate": "family_history",
+        "type": "no match"
+      },
+      {
+        "candidate": "mucoid_sputum",
+        "type": "no match"
+      },
+      {
+        "candidate": "rusty_sputum",
+        "type": "no match"
+      },
+      {
+        "candidate": "lack_of_concentration",
+        "type": "no match"
+      },
+      {
+        "candidate": "visual_disturbances",
+        "type": "no match"
+      },
+      {
+        "candidate": "receiving_blood_transfusion",
+        "type": "no match"
+      },
+      {
+        "candidate": "receiving_unsterile_injections",
+        "type": "no match"
+      },
+      {
+        "candidate": "coma",
+        "type": "no match"
+      },
+      {
+        "candidate": "stomach_bleeding",
+        "type": "no match"
+      },
+      {
+        "candidate": "distention_of_abdomen",
+        "type": "no match"
+      },
+      {
+        "candidate": "history_of_alcohol_consumption",
+        "type": "no match"
+      },
+      {
+        "candidate": "fluid_overload.1",
+        "type": "no match"
+      },
+      {
+        "candidate": "blood_in_sputum",
+        "type": "no match"
+      },
+      {
+        "candidate": "prominent_veins_on_calf",
+        "type": "no match"
+      },
+      {
+        "candidate": "painful_walking",
+        "type": "no match"
+      },
+      {
+        "candidate": "pus_filled_pimples",
+        "type": "no match"
+      },
+      {
+        "candidate": "blackheads",
+        "type": "no match"
+      },
+      {
+        "candidate": "scurring",
+        "type": "no match"
+      },
+      {
+        "candidate": "skin_peeling",
+        "type": "no match"
+      },
+      {
+        "candidate": "silver_like_dusting",
+        "type": "no match"
+      },
+      {
+        "candidate": "small_dents_in_nails",
+        "type": "no match"
+      },
+      {
+        "candidate": "inflammatory_nails",
+        "type": "no match"
+      },
+      {
+        "candidate": "blister",
+        "type": "no match"
+      },
+      {
+        "candidate": "red_sore_around_nose",
+        "type": "no match"
+      },
+      {
+        "candidate": "yellow_crust_ooze",
+        "type": "no match"
+      }
+    ],
+    "non_symptom": []
+  }
+}

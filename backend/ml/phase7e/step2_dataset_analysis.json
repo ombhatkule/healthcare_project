@@ -1,0 +1,1449 @@
+{
+  "class_support": {
+    "total_samples": 100000,
+    "n_classes": 46,
+    "class_distribution": {
+      "Asthma": 21295,
+      "Hyperthyroidism": 10747,
+      "Irritable_Bowel_Syndrome": 9023,
+      "Obesity": 7853,
+      "Pneumonia": 6493,
+      "Peptic_Ulcer_Disease": 5834,
+      "Type2_Diabetes": 5239,
+      "Chronic_Kidney_Disease": 4993,
+      "Gastritis": 4431,
+      "Osteoarthritis": 4264,
+      "Flu": 3444,
+      "Depression": 2321,
+      "Common_Cold": 2236,
+      "COPD": 2060,
+      "COVID19": 2033,
+      "Polycystic_Ovary_Syndrome": 1820,
+      "Hypothyroidism": 1683,
+      "Hypertension": 1647,
+      "Coronary_Artery_Disease": 922,
+      "Migraine": 467,
+      "Epilepsy": 366,
+      "Cystic_Fibrosis": 164,
+      "Systemic_Lupus_Erythematosus": 156,
+      "Generalized_Anxiety_Disorder": 95,
+      "Tuberculosis": 67,
+      "Stroke": 64,
+      "Amyotrophic_Lateral_Sclerosis": 50,
+      "Osteopetrosis": 46,
+      "Marfan_Syndrome": 29,
+      "Ehlers_Danlos_Syndrome": 24,
+      "Cirrhosis": 18,
+      "Spinal_Muscular_Atrophy": 17,
+      "Dengue": 17,
+      "Inflammatory_Bowel_Disease": 14,
+      "Niemann_Pick_Disease": 14,
+      "Gaucher_Disease": 12,
+      "Multiple_Sclerosis": 12,
+      "Ulcerative_Colitis": 7,
+      "Chronic_Liver_Disease": 5,
+      "Crohn_Disease": 4,
+      "Fanconi_Anemia": 4,
+      "Acute_Gastroenteritis": 3,
+      "Typhoid_Fever": 2,
+      "Psoriasis": 2,
+      "Urinary_Tract_Infection": 2,
+      "Metabolic_Syndrome": 1
+    },
+    "categories": {
+      "critically_insufficient": {
+        "range": "<5",
+        "count": 7,
+        "percentage_of_classes": 15.22,
+        "diseases": [
+          "Crohn_Disease",
+          "Fanconi_Anemia",
+          "Acute_Gastroenteritis",
+          "Typhoid_Fever",
+          "Psoriasis",
+          "Urinary_Tract_Infection",
+          "Metabolic_Syndrome"
+        ]
+      },
+      "extremely_insufficient": {
+        "range": "5-9",
+        "count": 2,
+        "percentage_of_classes": 4.35,
+        "diseases": [
+          "Ulcerative_Colitis",
+          "Chronic_Liver_Disease"
+        ]
+      },
+      "very_small": {
+        "range": "10-19",
+        "count": 7,
+        "percentage_of_classes": 15.22,
+        "diseases": [
+          "Cirrhosis",
+          "Spinal_Muscular_Atrophy",
+          "Dengue",
+          "Inflammatory_Bowel_Disease",
+          "Niemann_Pick_Disease",
+          "Gaucher_Disease",
+          "Multiple_Sclerosis"
+        ]
+      },
+      "small": {
+        "range": "20-49",
+        "count": 3,
+        "percentage_of_classes": 6.52,
+        "diseases": [
+          "Osteopetrosis",
+          "Marfan_Syndrome",
+          "Ehlers_Danlos_Syndrome"
+        ]
+      },
+      "limited": {
+        "range": "50-99",
+        "count": 4,
+        "percentage_of_classes": 8.7,
+        "diseases": [
+          "Generalized_Anxiety_Disorder",
+          "Tuberculosis",
+          "Stroke",
+          "Amyotrophic_Lateral_Sclerosis"
+        ]
+      },
+      "moderate": {
+        "range": "100-499",
+        "count": 4,
+        "percentage_of_classes": 8.7,
+        "diseases": [
+          "Migraine",
+          "Epilepsy",
+          "Cystic_Fibrosis",
+          "Systemic_Lupus_Erythematosus"
+        ]
+      },
+      "larger": {
+        "range": "500+",
+        "count": 19,
+        "percentage_of_classes": 41.3,
+        "diseases": [
+          "Asthma",
+          "Hyperthyroidism",
+          "Irritable_Bowel_Syndrome",
+          "Obesity",
+          "Pneumonia",
+          "Peptic_Ulcer_Disease",
+          "Type2_Diabetes",
+          "Chronic_Kidney_Disease",
+          "Gastritis",
+          "Osteoarthritis",
+          "Flu",
+          "Depression",
+          "Common_Cold",
+          "COPD",
+          "COVID19",
+          "Polycystic_Ovary_Syndrome",
+          "Hypothyroidism",
+          "Hypertension",
+          "Coronary_Artery_Disease"
+        ]
+      }
+    },
+    "top_5_classes": {
+      "Asthma": 21295,
+      "Hyperthyroidism": 10747,
+      "Irritable_Bowel_Syndrome": 9023,
+      "Obesity": 7853,
+      "Pneumonia": 6493
+    },
+    "top_5_classes_percentage_of_total": 55.41,
+    "imbalance_ratio": 21295,
+    "largest_class": "Asthma",
+    "largest_class_count": 21295,
+    "smallest_class": "Metabolic_Syndrome",
+    "smallest_class_count": 1
+  },
+  "feature_analysis": {
+    "top_20_discriminative": [
+      {
+        "feature": "symptom_dark_stools",
+        "mi_score": 0.054308,
+        "prevalence": 0.23092
+      },
+      {
+        "feature": "symptom_loss_of_appetite",
+        "mi_score": 0.052053,
+        "prevalence": 0.23111
+      },
+      {
+        "feature": "symptom_weight_gain_symptom",
+        "mi_score": 0.041365,
+        "prevalence": 0.23233
+      },
+      {
+        "feature": "symptom_night_sweats",
+        "mi_score": 0.038486,
+        "prevalence": 0.25284
+      },
+      {
+        "feature": "symptom_vomiting",
+        "mi_score": 0.038317,
+        "prevalence": 0.23516
+      },
+      {
+        "feature": "symptom_melena",
+        "mi_score": 0.038078,
+        "prevalence": 0.23351
+      },
+      {
+        "feature": "symptom_constipation",
+        "mi_score": 0.037189,
+        "prevalence": 0.23166
+      },
+      {
+        "feature": "symptom_abdominal_bloating",
+        "mi_score": 0.036342,
+        "prevalence": 0.23181
+      },
+      {
+        "feature": "symptom_heat_intolerance_symptom",
+        "mi_score": 0.0347,
+        "prevalence": 0.25353
+      },
+      {
+        "feature": "symptom_jaundice_symptom",
+        "mi_score": 0.034333,
+        "prevalence": 0.23246
+      },
+      {
+        "feature": "symptom_bitter_regurgitation",
+        "mi_score": 0.033748,
+        "prevalence": 0.23459
+      },
+      {
+        "feature": "symptom_numbness",
+        "mi_score": 0.033501,
+        "prevalence": 0.2041
+      },
+      {
+        "feature": "symptom_headache",
+        "mi_score": 0.03313,
+        "prevalence": 0.20279
+      },
+      {
+        "feature": "symptom_seizures_symptom",
+        "mi_score": 0.032826,
+        "prevalence": 0.20598
+      },
+      {
+        "feature": "symptom_dysphagia",
+        "mi_score": 0.032643,
+        "prevalence": 0.23308
+      },
+      {
+        "feature": "symptom_hematemesis",
+        "mi_score": 0.032473,
+        "prevalence": 0.23246
+      },
+      {
+        "feature": "symptom_nausea",
+        "mi_score": 0.032199,
+        "prevalence": 0.23224
+      },
+      {
+        "feature": "symptom_photophobia",
+        "mi_score": 0.031709,
+        "prevalence": 0.20551
+      },
+      {
+        "feature": "symptom_weight_loss_unintentional",
+        "mi_score": 0.031629,
+        "prevalence": 0.23518
+      },
+      {
+        "feature": "symptom_polyphagia",
+        "mi_score": 0.031594,
+        "prevalence": 0.25266
+      }
+    ],
+    "bottom_20_discriminative": [
+      {
+        "feature": "rare_symptom_angiokeratomas_rare",
+        "mi_score": 0.000276,
+        "prevalence": 0.00127
+      },
+      {
+        "feature": "rare_symptom_hearing_loss_early_onset_rare",
+        "mi_score": 0.000276,
+        "prevalence": 0.00187
+      },
+      {
+        "feature": "rare_symptom_erythema_nodosum",
+        "mi_score": 0.000267,
+        "prevalence": 0.00158
+      },
+      {
+        "feature": "rare_symptom_spastic_paraparesis_rare",
+        "mi_score": 0.000259,
+        "prevalence": 0.00222
+      },
+      {
+        "feature": "rare_symptom_malar_rash",
+        "mi_score": 0.000254,
+        "prevalence": 0.00223
+      },
+      {
+        "feature": "rare_symptom_neuropathic_pain_rare",
+        "mi_score": 0.000234,
+        "prevalence": 0.00207
+      },
+      {
+        "feature": "rare_symptom_steatorrhea_rare",
+        "mi_score": 0.000234,
+        "prevalence": 0.00189
+      },
+      {
+        "feature": "rare_symptom_portal_hypertension_signs_rare",
+        "mi_score": 0.000226,
+        "prevalence": 0.00194
+      },
+      {
+        "feature": "rare_symptom_cardiomyopathy_rare",
+        "mi_score": 0.000225,
+        "prevalence": 0.00205
+      },
+      {
+        "feature": "rare_symptom_macroglossia_rare",
+        "mi_score": 0.000212,
+        "prevalence": 0.00214
+      },
+      {
+        "feature": "rare_symptom_dysautonomia_rare",
+        "mi_score": 0.00021,
+        "prevalence": 0.00296
+      },
+      {
+        "feature": "rare_symptom_hemolytic_anemia_rare",
+        "mi_score": 0.000196,
+        "prevalence": 0.00235
+      },
+      {
+        "feature": "rare_symptom_hematuria",
+        "mi_score": 0.000192,
+        "prevalence": 0.00301
+      },
+      {
+        "feature": "rare_symptom_oral_ulcers",
+        "mi_score": 0.000191,
+        "prevalence": 0.00204
+      },
+      {
+        "feature": "rare_symptom_bloody_sputum_rare",
+        "mi_score": 0.00019,
+        "prevalence": 0.00137
+      },
+      {
+        "feature": "rare_symptom_optic_neuritis_rare",
+        "mi_score": 0.000181,
+        "prevalence": 0.00085
+      },
+      {
+        "feature": "rare_symptom_foot_drop_rare",
+        "mi_score": 0.000161,
+        "prevalence": 0.00065
+      },
+      {
+        "feature": "rare_symptom_arrhythmia_persistent_rare",
+        "mi_score": 0.000161,
+        "prevalence": 0.00179
+      },
+      {
+        "feature": "rare_symptom_proteinuria",
+        "mi_score": 0.000154,
+        "prevalence": 0.00201
+      },
+      {
+        "feature": "rare_symptom_raynaud_phenomenon",
+        "mi_score": 0.000148,
+        "prevalence": 0.00238
+      }
+    ],
+    "summary_statistics": {
+      "mean_mi": 0.016966,
+      "median_mi": 0.018243,
+      "std_mi": 0.01216,
+      "min_mi": 0.000148,
+      "max_mi": 0.054308,
+      "features_with_zero_mi": 0,
+      "features_with_mi_above_001": 143,
+      "features_with_mi_above_01": 116
+    },
+    "discriminative_strength": "B. Only a few symptoms provide useful discrimination",
+    "total_features_analyzed": 174
+  },
+  "separability_analysis": {
+    "n_diseases": 46,
+    "average_pairwise_similarity": 0.694207,
+    "similarity_std": 0.144585,
+    "20_most_similar_pairs": [
+      {
+        "disease_1": "Generalized_Anxiety_Disorder",
+        "disease_2": "Pneumonia",
+        "cosine_similarity": 0.959759
+      },
+      {
+        "disease_1": "Depression",
+        "disease_2": "Flu",
+        "cosine_similarity": 0.950191
+      },
+      {
+        "disease_1": "Asthma",
+        "disease_2": "Type2_Diabetes",
+        "cosine_similarity": 0.949263
+      },
+      {
+        "disease_1": "COPD",
+        "disease_2": "Hyperthyroidism",
+        "cosine_similarity": 0.948154
+      },
+      {
+        "disease_1": "Chronic_Kidney_Disease",
+        "disease_2": "Pneumonia",
+        "cosine_similarity": 0.945215
+      },
+      {
+        "disease_1": "Multiple_Sclerosis",
+        "disease_2": "Pneumonia",
+        "cosine_similarity": 0.943507
+      },
+      {
+        "disease_1": "Hyperthyroidism",
+        "disease_2": "Irritable_Bowel_Syndrome",
+        "cosine_similarity": 0.941768
+      },
+      {
+        "disease_1": "Asthma",
+        "disease_2": "Irritable_Bowel_Syndrome",
+        "cosine_similarity": 0.94104
+      },
+      {
+        "disease_1": "Asthma",
+        "disease_2": "Stroke",
+        "cosine_similarity": 0.939538
+      },
+      {
+        "disease_1": "Irritable_Bowel_Syndrome",
+        "disease_2": "Obesity",
+        "cosine_similarity": 0.935775
+      },
+      {
+        "disease_1": "Chronic_Kidney_Disease",
+        "disease_2": "Generalized_Anxiety_Disorder",
+        "cosine_similarity": 0.934642
+      },
+      {
+        "disease_1": "Flu",
+        "disease_2": "Osteoarthritis",
+        "cosine_similarity": 0.929006
+      },
+      {
+        "disease_1": "COVID19",
+        "disease_2": "Pneumonia",
+        "cosine_similarity": 0.921073
+      },
+      {
+        "disease_1": "Depression",
+        "disease_2": "Irritable_Bowel_Syndrome",
+        "cosine_similarity": 0.920548
+      },
+      {
+        "disease_1": "COVID19",
+        "disease_2": "Osteoarthritis",
+        "cosine_similarity": 0.919603
+      },
+      {
+        "disease_1": "Chronic_Kidney_Disease",
+        "disease_2": "Multiple_Sclerosis",
+        "cosine_similarity": 0.918983
+      },
+      {
+        "disease_1": "Irritable_Bowel_Syndrome",
+        "disease_2": "Osteoarthritis",
+        "cosine_similarity": 0.918493
+      },
+      {
+        "disease_1": "Depression",
+        "disease_2": "Epilepsy",
+        "cosine_similarity": 0.917661
+      },
+      {
+        "disease_1": "COVID19",
+        "disease_2": "Chronic_Kidney_Disease",
+        "cosine_similarity": 0.917055
+      },
+      {
+        "disease_1": "Generalized_Anxiety_Disorder",
+        "disease_2": "Multiple_Sclerosis",
+        "cosine_similarity": 0.916314
+      }
+    ],
+    "20_most_different_pairs": [
+      {
+        "disease_1": "Gaucher_Disease",
+        "disease_2": "Typhoid_Fever",
+        "cosine_similarity": 0.20806
+      },
+      {
+        "disease_1": "Crohn_Disease",
+        "disease_2": "Typhoid_Fever",
+        "cosine_similarity": 0.217717
+      },
+      {
+        "disease_1": "Chronic_Liver_Disease",
+        "disease_2": "Typhoid_Fever",
+        "cosine_similarity": 0.22886
+      },
+      {
+        "disease_1": "Niemann_Pick_Disease",
+        "disease_2": "Typhoid_Fever",
+        "cosine_similarity": 0.24584
+      },
+      {
+        "disease_1": "Typhoid_Fever",
+        "disease_2": "Urinary_Tract_Infection",
+        "cosine_similarity": 0.252714
+      },
+      {
+        "disease_1": "Fanconi_Anemia",
+        "disease_2": "Gaucher_Disease",
+        "cosine_similarity": 0.267153
+      },
+      {
+        "disease_1": "Systemic_Lupus_Erythematosus",
+        "disease_2": "Typhoid_Fever",
+        "cosine_similarity": 0.271696
+      },
+      {
+        "disease_1": "Metabolic_Syndrome",
+        "disease_2": "Typhoid_Fever",
+        "cosine_similarity": 0.275884
+      },
+      {
+        "disease_1": "Fanconi_Anemia",
+        "disease_2": "Metabolic_Syndrome",
+        "cosine_similarity": 0.291091
+      },
+      {
+        "disease_1": "Acute_Gastroenteritis",
+        "disease_2": "Typhoid_Fever",
+        "cosine_similarity": 0.29702
+      },
+      {
+        "disease_1": "Crohn_Disease",
+        "disease_2": "Gaucher_Disease",
+        "cosine_similarity": 0.319146
+      },
+      {
+        "disease_1": "Gaucher_Disease",
+        "disease_2": "Ulcerative_Colitis",
+        "cosine_similarity": 0.319156
+      },
+      {
+        "disease_1": "Crohn_Disease",
+        "disease_2": "Metabolic_Syndrome",
+        "cosine_similarity": 0.322452
+      },
+      {
+        "disease_1": "Fanconi_Anemia",
+        "disease_2": "Typhoid_Fever",
+        "cosine_similarity": 0.323343
+      },
+      {
+        "disease_1": "Acute_Gastroenteritis",
+        "disease_2": "Psoriasis",
+        "cosine_similarity": 0.332545
+      },
+      {
+        "disease_1": "Acute_Gastroenteritis",
+        "disease_2": "Metabolic_Syndrome",
+        "cosine_similarity": 0.33776
+      },
+      {
+        "disease_1": "Fanconi_Anemia",
+        "disease_2": "Osteopetrosis",
+        "cosine_similarity": 0.349556
+      },
+      {
+        "disease_1": "Fanconi_Anemia",
+        "disease_2": "Niemann_Pick_Disease",
+        "cosine_similarity": 0.35335
+      },
+      {
+        "disease_1": "Acute_Gastroenteritis",
+        "disease_2": "Fanconi_Anemia",
+        "cosine_similarity": 0.363249
+      },
+      {
+        "disease_1": "Common_Cold",
+        "disease_2": "Typhoid_Fever",
+        "cosine_similarity": 0.367641
+      }
+    ],
+    "specific_disease_inspection": {
+      "Migraine": {
+        "avg_similarity_to_all_others": 0.721441,
+        "most_similar_5": [
+          {
+            "disease": "Asthma",
+            "similarity": 0.89053
+          },
+          {
+            "disease": "Systemic_Lupus_Erythematosus",
+            "similarity": 0.88709
+          },
+          {
+            "disease": "Stroke",
+            "similarity": 0.885341
+          },
+          {
+            "disease": "Type2_Diabetes",
+            "similarity": 0.852422
+          },
+          {
+            "disease": "Hyperthyroidism",
+            "similarity": 0.849101
+          }
+        ],
+        "least_similar_5": [
+          {
+            "disease": "Chronic_Liver_Disease",
+            "similarity": 0.577767
+          },
+          {
+            "disease": "Ulcerative_Colitis",
+            "similarity": 0.499055
+          },
+          {
+            "disease": "Psoriasis",
+            "similarity": 0.493582
+          },
+          {
+            "disease": "Fanconi_Anemia",
+            "similarity": 0.470677
+          },
+          {
+            "disease": "Typhoid_Fever",
+            "similarity": 0.411661
+          }
+        ],
+        "class_count": 467
+      },
+      "Asthma": {
+        "avg_similarity_to_all_others": 0.803453,
+        "most_similar_5": [
+          {
+            "disease": "Type2_Diabetes",
+            "similarity": 0.949263
+          },
+          {
+            "disease": "Irritable_Bowel_Syndrome",
+            "similarity": 0.94104
+          },
+          {
+            "disease": "Stroke",
+            "similarity": 0.939538
+          },
+          {
+            "disease": "Multiple_Sclerosis",
+            "similarity": 0.916026
+          },
+          {
+            "disease": "Hyperthyroidism",
+            "similarity": 0.915027
+          }
+        ],
+        "least_similar_5": [
+          {
+            "disease": "Gaucher_Disease",
+            "similarity": 0.629858
+          },
+          {
+            "disease": "Crohn_Disease",
+            "similarity": 0.622622
+          },
+          {
+            "disease": "Chronic_Liver_Disease",
+            "similarity": 0.612995
+          },
+          {
+            "disease": "Typhoid_Fever",
+            "similarity": 0.589593
+          },
+          {
+            "disease": "Fanconi_Anemia",
+            "similarity": 0.554998
+          }
+        ],
+        "class_count": 21295
+      },
+      "Common_Cold": {
+        "avg_similarity_to_all_others": 0.747413,
+        "most_similar_5": [
+          {
+            "disease": "Obesity",
+            "similarity": 0.913958
+          },
+          {
+            "disease": "Chronic_Kidney_Disease",
+            "similarity": 0.884545
+          },
+          {
+            "disease": "Pneumonia",
+            "similarity": 0.874828
+          },
+          {
+            "disease": "Hypertension",
+            "similarity": 0.858861
+          },
+          {
+            "disease": "Stroke",
+            "similarity": 0.858158
+          }
+        ],
+        "least_similar_5": [
+          {
+            "disease": "Fanconi_Anemia",
+            "similarity": 0.620996
+          },
+          {
+            "disease": "Acute_Gastroenteritis",
+            "similarity": 0.604255
+          },
+          {
+            "disease": "Gaucher_Disease",
+            "similarity": 0.532571
+          },
+          {
+            "disease": "Metabolic_Syndrome",
+            "similarity": 0.504764
+          },
+          {
+            "disease": "Typhoid_Fever",
+            "similarity": 0.367641
+          }
+        ],
+        "class_count": 2236
+      },
+      "Flu": {
+        "avg_similarity_to_all_others": 0.722061,
+        "most_similar_5": [
+          {
+            "disease": "Depression",
+            "similarity": 0.950191
+          },
+          {
+            "disease": "Osteoarthritis",
+            "similarity": 0.929006
+          },
+          {
+            "disease": "Irritable_Bowel_Syndrome",
+            "similarity": 0.909957
+          },
+          {
+            "disease": "Epilepsy",
+            "similarity": 0.880161
+          },
+          {
+            "disease": "Osteopetrosis",
+            "similarity": 0.858359
+          }
+        ],
+        "least_similar_5": [
+          {
+            "disease": "Acute_Gastroenteritis",
+            "similarity": 0.514412
+          },
+          {
+            "disease": "Gaucher_Disease",
+            "similarity": 0.503277
+          },
+          {
+            "disease": "Niemann_Pick_Disease",
+            "similarity": 0.469827
+          },
+          {
+            "disease": "Fanconi_Anemia",
+            "similarity": 0.44681
+          },
+          {
+            "disease": "Crohn_Disease",
+            "similarity": 0.416487
+          }
+        ],
+        "class_count": 3444
+      },
+      "Pneumonia": {
+        "avg_similarity_to_all_others": 0.778637,
+        "most_similar_5": [
+          {
+            "disease": "Generalized_Anxiety_Disorder",
+            "similarity": 0.959759
+          },
+          {
+            "disease": "Chronic_Kidney_Disease",
+            "similarity": 0.945215
+          },
+          {
+            "disease": "Multiple_Sclerosis",
+            "similarity": 0.943507
+          },
+          {
+            "disease": "COVID19",
+            "similarity": 0.921073
+          },
+          {
+            "disease": "Tuberculosis",
+            "similarity": 0.914093
+          }
+        ],
+        "least_similar_5": [
+          {
+            "disease": "Fanconi_Anemia",
+            "similarity": 0.582894
+          },
+          {
+            "disease": "Crohn_Disease",
+            "similarity": 0.555174
+          },
+          {
+            "disease": "Acute_Gastroenteritis",
+            "similarity": 0.554315
+          },
+          {
+            "disease": "Typhoid_Fever",
+            "similarity": 0.549497
+          },
+          {
+            "disease": "Metabolic_Syndrome",
+            "similarity": 0.517548
+          }
+        ],
+        "class_count": 6493
+      },
+      "Coronary_Artery_Disease": {
+        "avg_similarity_to_all_others": 0.696337,
+        "most_similar_5": [
+          {
+            "disease": "Gastritis",
+            "similarity": 0.895333
+          },
+          {
+            "disease": "Hyperthyroidism",
+            "similarity": 0.882265
+          },
+          {
+            "disease": "Irritable_Bowel_Syndrome",
+            "similarity": 0.816638
+          },
+          {
+            "disease": "Stroke",
+            "similarity": 0.814666
+          },
+          {
+            "disease": "COPD",
+            "similarity": 0.813707
+          }
+        ],
+        "least_similar_5": [
+          {
+            "disease": "Inflammatory_Bowel_Disease",
+            "similarity": 0.545078
+          },
+          {
+            "disease": "Psoriasis",
+            "similarity": 0.518816
+          },
+          {
+            "disease": "Crohn_Disease",
+            "similarity": 0.498043
+          },
+          {
+            "disease": "Fanconi_Anemia",
+            "similarity": 0.455657
+          },
+          {
+            "disease": "Typhoid_Fever",
+            "similarity": 0.430878
+          }
+        ],
+        "class_count": 922
+      },
+      "Hypothyroidism": {
+        "avg_similarity_to_all_others": 0.724261,
+        "most_similar_5": [
+          {
+            "disease": "Hypertension",
+            "similarity": 0.901128
+          },
+          {
+            "disease": "Hyperthyroidism",
+            "similarity": 0.874043
+          },
+          {
+            "disease": "Asthma",
+            "similarity": 0.825488
+          },
+          {
+            "disease": "COPD",
+            "similarity": 0.824784
+          },
+          {
+            "disease": "Common_Cold",
+            "similarity": 0.819394
+          }
+        ],
+        "least_similar_5": [
+          {
+            "disease": "Psoriasis",
+            "similarity": 0.600605
+          },
+          {
+            "disease": "Niemann_Pick_Disease",
+            "similarity": 0.597728
+          },
+          {
+            "disease": "Fanconi_Anemia",
+            "similarity": 0.55213
+          },
+          {
+            "disease": "Metabolic_Syndrome",
+            "similarity": 0.474826
+          },
+          {
+            "disease": "Typhoid_Fever",
+            "similarity": 0.370067
+          }
+        ],
+        "class_count": 1683
+      },
+      "Hyperthyroidism": {
+        "avg_similarity_to_all_others": 0.801092,
+        "most_similar_5": [
+          {
+            "disease": "COPD",
+            "similarity": 0.948154
+          },
+          {
+            "disease": "Irritable_Bowel_Syndrome",
+            "similarity": 0.941768
+          },
+          {
+            "disease": "Asthma",
+            "similarity": 0.915027
+          },
+          {
+            "disease": "Cystic_Fibrosis",
+            "similarity": 0.904101
+          },
+          {
+            "disease": "Stroke",
+            "similarity": 0.895845
+          }
+        ],
+        "least_similar_5": [
+          {
+            "disease": "Psoriasis",
+            "similarity": 0.651207
+          },
+          {
+            "disease": "Metabolic_Syndrome",
+            "similarity": 0.639364
+          },
+          {
+            "disease": "Crohn_Disease",
+            "similarity": 0.569279
+          },
+          {
+            "disease": "Fanconi_Anemia",
+            "similarity": 0.508686
+          },
+          {
+            "disease": "Typhoid_Fever",
+            "similarity": 0.470573
+          }
+        ],
+        "class_count": 10747
+      },
+      "Ulcerative_Colitis": {
+        "avg_similarity_to_all_others": 0.62531,
+        "most_similar_5": [
+          {
+            "disease": "Cirrhosis",
+            "similarity": 0.891706
+          },
+          {
+            "disease": "Obesity",
+            "similarity": 0.833178
+          },
+          {
+            "disease": "Hypertension",
+            "similarity": 0.792354
+          },
+          {
+            "disease": "Osteoarthritis",
+            "similarity": 0.785816
+          },
+          {
+            "disease": "Depression",
+            "similarity": 0.785358
+          }
+        ],
+        "class_count": 7
+      },
+      "Chronic_Liver_Disease": {
+        "avg_similarity_to_all_others": 0.611091,
+        "most_similar_5": [
+          {
+            "disease": "Cirrhosis",
+            "similarity": 0.778353
+          },
+          {
+            "disease": "COPD",
+            "similarity": 0.769743
+          },
+          {
+            "disease": "Common_Cold",
+            "similarity": 0.748417
+          },
+          {
+            "disease": "Pneumonia",
+            "similarity": 0.746394
+          },
+          {
+            "disease": "Obesity",
+            "similarity": 0.745218
+          }
+        ],
+        "class_count": 5
+      },
+      "Crohn_Disease": {
+        "avg_similarity_to_all_others": 0.520732,
+        "most_similar_5": [
+          {
+            "disease": "Hypothyroidism",
+            "similarity": 0.757209
+          },
+          {
+            "disease": "Hypertension",
+            "similarity": 0.73061
+          },
+          {
+            "disease": "Common_Cold",
+            "similarity": 0.721541
+          },
+          {
+            "disease": "Asthma",
+            "similarity": 0.622622
+          },
+          {
+            "disease": "Marfan_Syndrome",
+            "similarity": 0.620215
+          }
+        ],
+        "class_count": 4
+      },
+      "Fanconi_Anemia": {
+        "avg_similarity_to_all_others": 0.48277,
+        "most_similar_5": [
+          {
+            "disease": "Common_Cold",
+            "similarity": 0.620996
+          },
+          {
+            "disease": "Chronic_Kidney_Disease",
+            "similarity": 0.597811
+          },
+          {
+            "disease": "Pneumonia",
+            "similarity": 0.582894
+          },
+          {
+            "disease": "Hypertension",
+            "similarity": 0.578772
+          },
+          {
+            "disease": "COVID19",
+            "similarity": 0.575556
+          }
+        ],
+        "class_count": 4
+      },
+      "Acute_Gastroenteritis": {
+        "avg_similarity_to_all_others": 0.543044,
+        "most_similar_5": [
+          {
+            "disease": "Hypothyroidism",
+            "similarity": 0.768407
+          },
+          {
+            "disease": "Polycystic_Ovary_Syndrome",
+            "similarity": 0.722767
+          },
+          {
+            "disease": "Hypertension",
+            "similarity": 0.718687
+          },
+          {
+            "disease": "Migraine",
+            "similarity": 0.68816
+          },
+          {
+            "disease": "Hyperthyroidism",
+            "similarity": 0.652139
+          }
+        ],
+        "class_count": 3
+      }
+    }
+  },
+  "pattern_analysis": {
+    "total_rows": 100000,
+    "unique_feature_vectors": 100000,
+    "all_rows_unique": true,
+    "active_symptoms_per_row": {
+      "mean": 28.52,
+      "std": 13.5,
+      "min": 1,
+      "max": 97,
+      "median": 27.0
+    },
+    "per_disease_symptom_counts": {
+      "Acute_Gastroenteritis": {
+        "mean": 36.0,
+        "std": 5.35,
+        "min": 29,
+        "max": 42,
+        "samples": 3
+      },
+      "Amyotrophic_Lateral_Sclerosis": {
+        "mean": 25.2,
+        "std": 12.65,
+        "min": 7,
+        "max": 53,
+        "samples": 50
+      },
+      "Asthma": {
+        "mean": 33.18,
+        "std": 13.85,
+        "min": 2,
+        "max": 97,
+        "samples": 21295
+      },
+      "COPD": {
+        "mean": 24.23,
+        "std": 12.13,
+        "min": 2,
+        "max": 79,
+        "samples": 2060
+      },
+      "COVID19": {
+        "mean": 25.06,
+        "std": 12.98,
+        "min": 1,
+        "max": 70,
+        "samples": 2033
+      },
+      "Chronic_Kidney_Disease": {
+        "mean": 26.07,
+        "std": 12.25,
+        "min": 2,
+        "max": 75,
+        "samples": 4993
+      },
+      "Chronic_Liver_Disease": {
+        "mean": 34.6,
+        "std": 8.89,
+        "min": 24,
+        "max": 48,
+        "samples": 5
+      },
+      "Cirrhosis": {
+        "mean": 43.33,
+        "std": 9.04,
+        "min": 27,
+        "max": 61,
+        "samples": 18
+      },
+      "Common_Cold": {
+        "mean": 24.56,
+        "std": 12.73,
+        "min": 2,
+        "max": 71,
+        "samples": 2236
+      },
+      "Coronary_Artery_Disease": {
+        "mean": 17.03,
+        "std": 8.88,
+        "min": 1,
+        "max": 52,
+        "samples": 922
+      },
+      "Crohn_Disease": {
+        "mean": 27.0,
+        "std": 15.02,
+        "min": 12,
+        "max": 52,
+        "samples": 4
+      },
+      "Cystic_Fibrosis": {
+        "mean": 28.85,
+        "std": 13.79,
+        "min": 5,
+        "max": 74,
+        "samples": 164
+      },
+      "Dengue": {
+        "mean": 46.0,
+        "std": 11.86,
+        "min": 28,
+        "max": 66,
+        "samples": 17
+      },
+      "Depression": {
+        "mean": 23.54,
+        "std": 10.62,
+        "min": 1,
+        "max": 73,
+        "samples": 2321
+      },
+      "Ehlers_Danlos_Syndrome": {
+        "mean": 22.79,
+        "std": 10.45,
+        "min": 7,
+        "max": 39,
+        "samples": 24
+      },
+      "Epilepsy": {
+        "mean": 43.6,
+        "std": 10.18,
+        "min": 9,
+        "max": 80,
+        "samples": 366
+      },
+      "Fanconi_Anemia": {
+        "mean": 18.5,
+        "std": 4.39,
+        "min": 12,
+        "max": 23,
+        "samples": 4
+      },
+      "Flu": {
+        "mean": 25.3,
+        "std": 11.53,
+        "min": 2,
+        "max": 66,
+        "samples": 3444
+      },
+      "Gastritis": {
+        "mean": 23.01,
+        "std": 10.39,
+        "min": 2,
+        "max": 74,
+        "samples": 4431
+      },
+      "Gaucher_Disease": {
+        "mean": 22.67,
+        "std": 7.04,
+        "min": 11,
+        "max": 32,
+        "samples": 12
+      },
+      "Generalized_Anxiety_Disorder": {
+        "mean": 42.73,
+        "std": 13.12,
+        "min": 10,
+        "max": 74,
+        "samples": 95
+      },
+      "Hypertension": {
+        "mean": 21.67,
+        "std": 10.83,
+        "min": 1,
+        "max": 61,
+        "samples": 1647
+      },
+      "Hyperthyroidism": {
+        "mean": 29.7,
+        "std": 13.45,
+        "min": 2,
+        "max": 92,
+        "samples": 10747
+      },
+      "Hypothyroidism": {
+        "mean": 20.59,
+        "std": 10.33,
+        "min": 1,
+        "max": 72,
+        "samples": 1683
+      },
+      "Inflammatory_Bowel_Disease": {
+        "mean": 37.14,
+        "std": 10.91,
+        "min": 22,
+        "max": 63,
+        "samples": 14
+      },
+      "Irritable_Bowel_Syndrome": {
+        "mean": 29.94,
+        "std": 13.85,
+        "min": 2,
+        "max": 89,
+        "samples": 9023
+      },
+      "Marfan_Syndrome": {
+        "mean": 23.14,
+        "std": 11.59,
+        "min": 4,
+        "max": 44,
+        "samples": 29
+      },
+      "Metabolic_Syndrome": {
+        "mean": 51.0,
+        "std": 0.0,
+        "min": 51,
+        "max": 51,
+        "samples": 1
+      },
+      "Migraine": {
+        "mean": 16.24,
+        "std": 8.92,
+        "min": 1,
+        "max": 49,
+        "samples": 467
+      },
+      "Multiple_Sclerosis": {
+        "mean": 63.42,
+        "std": 7.5,
+        "min": 49,
+        "max": 75,
+        "samples": 12
+      },
+      "Niemann_Pick_Disease": {
+        "mean": 25.86,
+        "std": 10.9,
+        "min": 10,
+        "max": 42,
+        "samples": 14
+      },
+      "Obesity": {
+        "mean": 30.28,
+        "std": 13.99,
+        "min": 2,
+        "max": 86,
+        "samples": 7853
+      },
+      "Osteoarthritis": {
+        "mean": 25.4,
+        "std": 12.47,
+        "min": 2,
+        "max": 77,
+        "samples": 4264
+      },
+      "Osteopetrosis": {
+        "mean": 25.98,
+        "std": 11.56,
+        "min": 8,
+        "max": 63,
+        "samples": 46
+      },
+      "Peptic_Ulcer_Disease": {
+        "mean": 28.1,
+        "std": 11.91,
+        "min": 2,
+        "max": 87,
+        "samples": 5834
+      },
+      "Pneumonia": {
+        "mean": 28.06,
+        "std": 12.69,
+        "min": 2,
+        "max": 85,
+        "samples": 6493
+      },
+      "Polycystic_Ovary_Syndrome": {
+        "mean": 22.22,
+        "std": 10.72,
+        "min": 2,
+        "max": 71,
+        "samples": 1820
+      },
+      "Psoriasis": {
+        "mean": 36.5,
+        "std": 7.5,
+        "min": 29,
+        "max": 44,
+        "samples": 2
+      },
+      "Spinal_Muscular_Atrophy": {
+        "mean": 20.41,
+        "std": 12.01,
+        "min": 5,
+        "max": 47,
+        "samples": 17
+      },
+      "Stroke": {
+        "mean": 40.78,
+        "std": 12.29,
+        "min": 12,
+        "max": 74,
+        "samples": 64
+      },
+      "Systemic_Lupus_Erythematosus": {
+        "mean": 44.09,
+        "std": 11.92,
+        "min": 13,
+        "max": 76,
+        "samples": 156
+      },
+      "Tuberculosis": {
+        "mean": 47.49,
+        "std": 10.06,
+        "min": 23,
+        "max": 74,
+        "samples": 67
+      },
+      "Type2_Diabetes": {
+        "mean": 29.5,
+        "std": 13.9,
+        "min": 1,
+        "max": 92,
+        "samples": 5239
+      },
+      "Typhoid_Fever": {
+        "mean": 31.5,
+        "std": 2.5,
+        "min": 29,
+        "max": 34,
+        "samples": 2
+      },
+      "Ulcerative_Colitis": {
+        "mean": 46.71,
+        "std": 8.38,
+        "min": 34,
+        "max": 58,
+        "samples": 7
+      },
+      "Urinary_Tract_Infection": {
+        "mean": 49.0,
+        "std": 8.0,
+        "min": 41,
+        "max": 57,
+        "samples": 2
+      }
+    },
+    "structure_evidence": [
+      "Every row has a unique feature vector \u2014 no repeated patterns",
+      "Low mutual information between features and disease labels",
+      "Extreme class imbalance ratio"
+    ],
+    "structure_classification": "weakly structured"
+  }
+}

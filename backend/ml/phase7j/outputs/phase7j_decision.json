@@ -1,0 +1,68 @@
+{
+  "phase": "7J",
+  "decision": "A",
+  "decision_label": "INTEGRATION_SUCCESSFUL_RESEARCH_MODE",
+  "summary": "Phase 7I experimental LogisticRegression model integrated into the Flask + Flutter healthcare application for research/educational demonstration. All backend and Flutter tests pass. Production baseline files remain unchanged.",
+  "clinical_validity": "NOT ESTABLISHED",
+  "external_validation": "NOT ESTABLISHED",
+  "model_status": "EXPERIMENTAL",
+  "model": {
+    "type": "LogisticRegression",
+    "feature_count": 131,
+    "class_count": 41,
+    "artifact": "experimental_disease_model.joblib",
+    "vocabulary": "experimental_symptom_columns.joblib",
+    "source": "phase7i/models/experimental_best_model.joblib",
+    "version": "phase7i_experimental_lr_class_weight_none"
+  },
+  "validation_results": {
+    "backend_tests": "PASS",
+    "flask_health": "PASS",
+    "flask_symptoms_131": "PASS",
+    "prediction_api_valid": "PASS",
+    "invalid_input_rejection": "PASS",
+    "empty_input_handled": "PASS",
+    "duplicate_input_handled": "PASS",
+    "prediction_determinism": "PASS",
+    "flutter_analyze": "PASS",
+    "flutter_tests": "PASS",
+    "debug_apk": "PASS",
+    "production_hashes_unchanged": "PASS",
+    "disclaimer_present": "PASS",
+    "rollback_documented": "PASS"
+  },
+  "production_baseline": {
+    "status": "PASS",
+    "disease_model_joblib_sha256": "F772B3B8A48E5E07196EE153E593A0E096E0F19875349DDB9DCFAF83895D16A6",
+    "symptom_columns_joblib_sha256": "9FEA903CFCBDF2D02E1A37082D88D4CBCDD495A264BF59BF81EAFD947D99332E",
+    "disease_dataset_cleaned_v2_csv_sha256": "5912FA31E8A2B22DBD65AD8D584482DC531154452F5B8881E9BB5D12CD2C2E50"
+  },
+  "files_modified": [
+    "backend/services/prediction_service.py",
+    "backend/routes/prediction_routes.py",
+    "backend/routes/health_routes.py",
+    "backend/config/config.py",
+    "backend/app.py",
+    "backend/test_phase7j.py",
+    "lib/features/disease_prediction/models/prediction_result.dart",
+    "lib/features/disease_prediction/models/mock_symptoms.dart",
+    "lib/features/disease_prediction/services/disease_prediction_service.dart",
+    "lib/features/disease_prediction/services/flask_disease_prediction_service.dart",
+    "lib/features/disease_prediction/services/symptom_backend_mapping.dart",
+    "lib/features/disease_prediction/services/services.dart",
+    "lib/features/disease_prediction/presentation/disease_prediction_screen.dart",
+    "lib/features/disease_prediction/presentation/prediction_result_screen.dart",
+    "lib/features/disease_prediction/presentation/prediction_history_screen.dart",
+    "lib/features/disease_prediction/presentation/providers/disease_prediction_controller.dart",
+    "lib/features/disease_prediction/presentation/widgets/prediction_result_card.dart",
+    "lib/features/disease_prediction/presentation/widgets/prediction_disclaimer.dart",
+    "lib/core/constants/app_strings.dart",
+    "test/flask_prediction_service_test.dart"
+  ],
+  "key_limitations": [
+    "Near-ceiling CV scores reflect the dataset's canonical noiseless symptom signatures, not real-world patient variability.",
+    "No independent external validation exists (Phase 7K: INSUFFICIENT_EXTERNAL_DATA).",
+    "Model scores are un-calibrated raw Logistic Regression outputs.",
+    "Integration is for academic research/educational demonstration only; not a medical diagnostic system."
+  ]
+}

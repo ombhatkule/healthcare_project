@@ -1,0 +1,27 @@
+{
+  "phase": "7H.1",
+  "purpose": "manual_review_and_signoff",
+  "training_started": false,
+  "production_modified": false,
+  "production_model_modified": false,
+  "production_dataset_modified": false,
+  "flask_modified": false,
+  "flutter_modified": false,
+  "api_modified": false,
+  "provenance_status": "CONDITIONAL",
+  "synonym_review_status": "PENDING_CLINICIAN_REVIEW",
+  "fluid_overload_decision": "REMOVE_CONSTANT_FEATURE (documented for Phase 7I preprocessing; cleaned datasets not modified)",
+  "recommended_representation": "C",
+  "split_strategy": "grouped_by_unique_symptom_vector",
+  "clinician_signoff_verified": false,
+  "phase7i_gate": "CONDITIONAL_GO_TO_7I",
+  "gate_conditions": [
+    "label Phase 7I experiment as non-clinical research/educational evaluation, not clinically validated",
+    "use Representation C (304 unique vector+disease associations)",
+    "grouped split by unique symptom vector; no naive row split",
+    "remove fluid_overload (constant) in Phase 7I preprocessing with documented reason",
+    "keep all 11 synonym mappings PENDING_CLINICIAN_REVIEW",
+    "report per-class support; metrics are exploratory"
+  ],
+  "no_false_claims": true
+}

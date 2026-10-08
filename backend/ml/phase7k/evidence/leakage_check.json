@@ -1,0 +1,55 @@
+{
+  "independence_assessment": "Content-independent sources analyzed (real NYP discharge notes NLP 2008 vs community-curated SDPD).",
+  "shared_exact_label_jaccard": {
+    "Arthritis": {
+      "columbia_n": 10,
+      "symbipredict_n": 5,
+      "overlap_n": 0,
+      "jaccard": 0.0
+    },
+    "Diabetes": {
+      "columbia_n": 14,
+      "symbipredict_n": 10,
+      "overlap_n": 1,
+      "jaccard": 0.043
+    },
+    "Gastroenteritis": {
+      "columbia_n": 11,
+      "symbipredict_n": 4,
+      "overlap_n": 0,
+      "jaccard": 0.0
+    },
+    "Hepatitis B": {
+      "columbia_n": 9,
+      "symbipredict_n": 12,
+      "overlap_n": 0,
+      "jaccard": 0.0
+    },
+    "Hepatitis C": {
+      "columbia_n": 11,
+      "symbipredict_n": 6,
+      "overlap_n": 0,
+      "jaccard": 0.0
+    },
+    "Hypoglycemia": {
+      "columbia_n": 10,
+      "symbipredict_n": 12,
+      "overlap_n": 0,
+      "jaccard": 0.0
+    },
+    "Hypothyroidism": {
+      "columbia_n": 21,
+      "symbipredict_n": 13,
+      "overlap_n": 2,
+      "jaccard": 0.062
+    },
+    "Pneumonia": {
+      "columbia_n": 19,
+      "symbipredict_n": 11,
+      "overlap_n": 2,
+      "jaccard": 0.071
+    }
+  },
+  "mean_jaccard": 0.022,
+  "dup_vs_symbipredict": "No row-level copying detected (different format + vocabulary)."
+}

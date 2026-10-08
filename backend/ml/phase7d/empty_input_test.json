@@ -1,0 +1,152 @@
+{
+  "title": "Empty/Low-Information Input Test (Phase 7D)",
+  "date": "2026-09-08",
+  "model_used": "production (disease_model.joblib)",
+  "n_features": 174,
+  "tests": {
+    "all_zeros": {
+      "predicted_disease": "Migraine",
+      "top_5_predictions": [
+        {
+          "disease": "Migraine",
+          "probability": 0.094558
+        },
+        {
+          "disease": "Coronary_Artery_Disease",
+          "probability": 0.084596
+        },
+        {
+          "disease": "Hypothyroidism",
+          "probability": 0.062715
+        },
+        {
+          "disease": "Hypertension",
+          "probability": 0.060193
+        },
+        {
+          "disease": "Polycystic_Ovary_Syndrome",
+          "probability": 0.052333
+        }
+      ],
+      "max_probability": 0.094558
+    },
+    "single_headache": {
+      "predicted_disease": "Migraine",
+      "top_5_predictions": [
+        {
+          "disease": "Migraine",
+          "probability": 0.112617
+        },
+        {
+          "disease": "Coronary_Artery_Disease",
+          "probability": 0.084062
+        },
+        {
+          "disease": "Hypothyroidism",
+          "probability": 0.063064
+        },
+        {
+          "disease": "Hypertension",
+          "probability": 0.057789
+        },
+        {
+          "disease": "COVID19",
+          "probability": 0.051914
+        }
+      ],
+      "max_probability": 0.112617
+    },
+    "headache_photophobia": {
+      "predicted_disease": "Migraine",
+      "top_5_predictions": [
+        {
+          "disease": "Migraine",
+          "probability": 0.111795
+        },
+        {
+          "disease": "Coronary_Artery_Disease",
+          "probability": 0.079518
+        },
+        {
+          "disease": "Hypothyroidism",
+          "probability": 0.058771
+        },
+        {
+          "disease": "COVID19",
+          "probability": 0.058132
+        },
+        {
+          "disease": "Depression",
+          "probability": 0.05401
+        }
+      ],
+      "max_probability": 0.111795
+    },
+    "all_ones": {
+      "predicted_disease": "Asthma",
+      "top_5_predictions": [
+        {
+          "disease": "Asthma",
+          "probability": 0.135178
+        },
+        {
+          "disease": "Hyperthyroidism",
+          "probability": 0.114116
+        },
+        {
+          "disease": "Irritable_Bowel_Syndrome",
+          "probability": 0.079655
+        },
+        {
+          "disease": "Obesity",
+          "probability": 0.060374
+        },
+        {
+          "disease": "Type2_Diabetes",
+          "probability": 0.050176
+        }
+      ],
+      "max_probability": 0.135178
+    },
+    "random_5_symptoms": {
+      "predicted_disease": "Polycystic_Ovary_Syndrome",
+      "symptoms_used": [
+        "rare_symptom_bone_marrow_failure_rare",
+        "rare_symptom_neuropathic_pain_rare",
+        "symptom_rash_maculopapular",
+        "symptom_insomnia",
+        "rare_symptom_oral_ulcers"
+      ],
+      "top_5_predictions": [
+        {
+          "disease": "Polycystic_Ovary_Syndrome",
+          "probability": 0.077808
+        },
+        {
+          "disease": "Depression",
+          "probability": 0.06672
+        },
+        {
+          "disease": "Migraine",
+          "probability": 0.064457
+        },
+        {
+          "disease": "COVID19",
+          "probability": 0.058812
+        },
+        {
+          "disease": "Hypothyroidism",
+          "probability": 0.057503
+        }
+      ],
+      "max_probability": 0.077808
+    }
+  },
+  "findings": [
+    "All-zeros input should NOT crash the model",
+    "Single-symptom input produces predictions but with low confidence",
+    "Two classic migraine symptoms should elevate Migraine in rankings",
+    "All-ones input tests the model's behavior under contradictory signals",
+    "Random sparse input tests model behavior with minimal but real-looking input"
+  ]
+}

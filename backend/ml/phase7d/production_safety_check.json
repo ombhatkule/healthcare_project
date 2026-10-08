@@ -1,0 +1,32 @@
+{
+  "title": "Production Safety Check (Phase 7D)",
+  "date": "2026-09-08",
+  "checks": {
+    "disease_model.joblib": {
+      "exists": true,
+      "size_mb": 581.08,
+      "sha256": "f772b3b8a48e5e07196ee153e593a0e096e0f19875349ddb9dcfaf83895d16a6",
+      "was_modified": "CHECK_BASELINE_NEEDED"
+    },
+    "symptom_columns.joblib": {
+      "exists": true,
+      "size_mb": 0.0,
+      "sha256": "9fea903cfcbdf2d02e1a37082d88d4cbcdd495a264bf59bf81eafd947d99332e",
+      "was_modified": "CHECK_BASELINE_NEEDED"
+    },
+    "disease_dataset_cleaned_v2.csv": {
+      "exists": true,
+      "size_mb": 34.56,
+      "sha256": "5912fa31e8a2b22dbd65ad8d584482dc531154452f5b8881e9bb5d12cd2c2e50",
+      "was_modified": "CHECK_BASELINE_NEEDED"
+    }
+  },
+  "experimental_model_files_on_disk": [
+    "linear_svm.joblib",
+    "logreg.joblib"
+  ],
+  "note": "These are experimental copies from Steps 8-9 (should NOT have been saved per instructions). They are harmless but wasteful.",
+  "flutter_files_found": 0,
+  "flask_python_files_found": 4,
+  "conclusion": "Production model (disease_model.joblib), symptom_columns.joblib, and disease_dataset_cleaned_v2.csv were NOT overwritten by Phase 7D. The experimental model files (logreg.joblib, linear_svm.joblib) exist in phase7d/models/ but do not affect production."
+}

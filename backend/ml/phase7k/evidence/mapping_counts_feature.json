@@ -1,0 +1,13 @@
+{
+  "n_unique_symptoms": 397,
+  "by_status": {
+    "NO_MATCH": 373,
+    "HIGH_CONFIDENCE": 10,
+    "EXACT": 14
+  },
+  "feature_coverage_exact_high_pct": 6.05,
+  "feature_coverage_any_pct": 6.05,
+  "association_row_coverage_exact_high_pct": 19.97,
+  "n_vocab_features_matched": 20,
+  "n_vocab_features_covered": 20
+}

@@ -1,0 +1,30 @@
+﻿[
+    {
+        "tag":  "production_model",
+        "path":  "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\model\\disease_model.joblib",
+        "size_bytes":  609303049,
+        "sha256":  "f772b3b8a48e5e07196ee153e593a0e096e0f19875349ddb9dcfaf83895d16a6",
+        "last_write_time":  "2026-09-07T23:36:31"
+    },
+    {
+        "tag":  "production_symptom_metadata",
+        "path":  "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\model\\symptom_columns.joblib",
+        "size_bytes":  4761,
+        "sha256":  "9fea903cfcbdf2d02e1a37082d88d4cbcdd495a264bf59bf81eafd947d99332e",
+        "last_write_time":  "2026-09-07T23:36:26"
+    },
+    {
+        "tag":  "production_dataset",
+        "path":  "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\data\\disease_dataset_cleaned_v2.csv",
+        "size_bytes":  36235985,
+        "sha256":  "5912fa31e8a2b22dbd65ad8d584482dc531154452f5b8881e9bb5d12cd2c2e50",
+        "last_write_time":  "2026-09-07T23:36:26"
+    },
+    {
+        "tag":  "phase7g_symbipredict_source",
+        "path":  "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\phase7g\\acquired\\symbipredict_2022.csv",
+        "size_bytes":  1382907,
+        "sha256":  "9834c90dd48eb2fef1fa56282f8f016a6781b0e4ada878015dc34a81af8e9e1b",
+        "last_write_time":  "2026-09-09T13:02:21"
+    }
+]

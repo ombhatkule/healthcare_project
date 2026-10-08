@@ -1,0 +1,1048 @@
+{
+  "mutual_information_ranked": [
+    {
+      "symptom": "symptom_dark_stools",
+      "mutual_information": 0.061196,
+      "chi2_stat": 8627.2756,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_loss_of_appetite",
+      "mutual_information": 0.051612,
+      "chi2_stat": 8297.6896,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_melena",
+      "mutual_information": 0.041368,
+      "chi2_stat": 5951.8129,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_night_sweats",
+      "mutual_information": 0.040714,
+      "chi2_stat": 5493.7901,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_weight_gain_symptom",
+      "mutual_information": 0.040015,
+      "chi2_stat": 6079.3376,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_bitter_regurgitation",
+      "mutual_information": 0.037943,
+      "chi2_stat": 4869.5042,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_jaundice_symptom",
+      "mutual_information": 0.037632,
+      "chi2_stat": 5284.5145,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_abdominal_bloating",
+      "mutual_information": 0.036509,
+      "chi2_stat": 5365.7092,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_vomiting",
+      "mutual_information": 0.036429,
+      "chi2_stat": 5865.2679,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_heat_intolerance_symptom",
+      "mutual_information": 0.036412,
+      "chi2_stat": 4866.7127,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_constipation",
+      "mutual_information": 0.036326,
+      "chi2_stat": 5686.3098,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_hematemesis",
+      "mutual_information": 0.03599,
+      "chi2_stat": 5105.2244,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_abdominal_pain",
+      "mutual_information": 0.035467,
+      "chi2_stat": 4655.74,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_weight_loss_unintentional",
+      "mutual_information": 0.034881,
+      "chi2_stat": 4714.1444,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_polyphagia",
+      "mutual_information": 0.034872,
+      "chi2_stat": 4628.6613,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_nausea",
+      "mutual_information": 0.034851,
+      "chi2_stat": 4709.9137,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_dysphagia",
+      "mutual_information": 0.033557,
+      "chi2_stat": 4976.4017,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_headache",
+      "mutual_information": 0.03316,
+      "chi2_stat": 5428.445,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_diarrhea",
+      "mutual_information": 0.032328,
+      "chi2_stat": 4354.967,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_speech_difficulty",
+      "mutual_information": 0.031906,
+      "chi2_stat": 4727.9573,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_cold_extremities",
+      "mutual_information": 0.031731,
+      "chi2_stat": 4083.2086,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_numbness",
+      "mutual_information": 0.031429,
+      "chi2_stat": 5320.6492,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_photophobia",
+      "mutual_information": 0.031126,
+      "chi2_stat": 4948.4699,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_seizures_symptom",
+      "mutual_information": 0.031071,
+      "chi2_stat": 5038.7483,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_fever",
+      "mutual_information": 0.031047,
+      "chi2_stat": 4503.1992,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_dizziness",
+      "mutual_information": 0.030837,
+      "chi2_stat": 4309.6428,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_photosensitivity_symptom",
+      "mutual_information": 0.030771,
+      "chi2_stat": 4267.0764,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_hair_loss_symptom",
+      "mutual_information": 0.030254,
+      "chi2_stat": 3959.4434,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_double_vision",
+      "mutual_information": 0.029948,
+      "chi2_stat": 4089.3444,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_phonophobia",
+      "mutual_information": 0.029621,
+      "chi2_stat": 4093.9012,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_spasticity",
+      "mutual_information": 0.029233,
+      "chi2_stat": 4583.9175,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_muscle_cramps_symptom",
+      "mutual_information": 0.029216,
+      "chi2_stat": 4251.0598,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_exertional_chest_pain",
+      "mutual_information": 0.028788,
+      "chi2_stat": 4447.6002,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_paroxysmal_nocturnal_dyspnea",
+      "mutual_information": 0.028512,
+      "chi2_stat": 4042.1486,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_heartburn",
+      "mutual_information": 0.028499,
+      "chi2_stat": 4251.2331,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_gi_bleeding",
+      "mutual_information": 0.028487,
+      "chi2_stat": 3978.7657,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_polydipsia",
+      "mutual_information": 0.028273,
+      "chi2_stat": 4227.7323,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_polyuria",
+      "mutual_information": 0.02824,
+      "chi2_stat": 4083.4175,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_unintentional_weight_loss",
+      "mutual_information": 0.028025,
+      "chi2_stat": 3716.8715,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_gait_instability_symptom",
+      "mutual_information": 0.027953,
+      "chi2_stat": 3976.4625,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_myalgia",
+      "mutual_information": 0.02765,
+      "chi2_stat": 4234.1935,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_loss_of_taste",
+      "mutual_information": 0.027481,
+      "chi2_stat": 3724.2662,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_hot_flashes",
+      "mutual_information": 0.027195,
+      "chi2_stat": 3708.1536,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_tingling",
+      "mutual_information": 0.026702,
+      "chi2_stat": 3877.4048,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_focal_weakness",
+      "mutual_information": 0.026151,
+      "chi2_stat": 4281.4537,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_wheezing",
+      "mutual_information": 0.025904,
+      "chi2_stat": 3914.8857,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_early_satiety",
+      "mutual_information": 0.025851,
+      "chi2_stat": 4437.2572,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_muscle_weakness",
+      "mutual_information": 0.02559,
+      "chi2_stat": 3893.465,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_resting_tachycardia",
+      "mutual_information": 0.025186,
+      "chi2_stat": 3536.6811,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_peripheral_edema",
+      "mutual_information": 0.024972,
+      "chi2_stat": 3788.2761,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_memory_loss_symptom",
+      "mutual_information": 0.024719,
+      "chi2_stat": 3449.7438,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_arthralgia",
+      "mutual_information": 0.024378,
+      "chi2_stat": 3717.1241,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_chest_pain",
+      "mutual_information": 0.02435,
+      "chi2_stat": 3876.7156,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_fatigue",
+      "mutual_information": 0.024278,
+      "chi2_stat": 3648.7637,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_ataxia_symptom",
+      "mutual_information": 0.024267,
+      "chi2_stat": 4271.1308,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_cold_intolerance_symptom",
+      "mutual_information": 0.023929,
+      "chi2_stat": 3688.305,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_fatigue_on_exertion",
+      "mutual_information": 0.023783,
+      "chi2_stat": 3426.4648,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_morning_stiffness",
+      "mutual_information": 0.02358,
+      "chi2_stat": 3174.2568,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_paresthesia",
+      "mutual_information": 0.023411,
+      "chi2_stat": 3878.4661,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_facial_droop",
+      "mutual_information": 0.023318,
+      "chi2_stat": 3930.3857,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_orthopnea",
+      "mutual_information": 0.023288,
+      "chi2_stat": 3160.625,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_bradycardia",
+      "mutual_information": 0.022766,
+      "chi2_stat": 3722.9441,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_dry_cough",
+      "mutual_information": 0.022757,
+      "chi2_stat": 3113.8872,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_joint_pain_symptom",
+      "mutual_information": 0.02248,
+      "chi2_stat": 3606.2303,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_sinus_pain",
+      "mutual_information": 0.022468,
+      "chi2_stat": 2885.2802,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_vertigo",
+      "mutual_information": 0.022263,
+      "chi2_stat": 3540.7076,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_palpitations",
+      "mutual_information": 0.022233,
+      "chi2_stat": 3610.7071,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_chills",
+      "mutual_information": 0.022016,
+      "chi2_stat": 3407.2021,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_claudication",
+      "mutual_information": 0.021973,
+      "chi2_stat": 3697.1447,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_muscle_weakness_msk",
+      "mutual_information": 0.021933,
+      "chi2_stat": 2722.9148,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_confusion_symptom",
+      "mutual_information": 0.021886,
+      "chi2_stat": 3887.133,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_facial_puffiness",
+      "mutual_information": 0.021867,
+      "chi2_stat": 3278.76,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_cyanosis",
+      "mutual_information": 0.021822,
+      "chi2_stat": 3436.0162,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_loss_of_smell",
+      "mutual_information": 0.021322,
+      "chi2_stat": 3352.3473,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_pleuritic_chest_pain",
+      "mutual_information": 0.021278,
+      "chi2_stat": 3090.627,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_shortness_of_breath",
+      "mutual_information": 0.021149,
+      "chi2_stat": 3564.7001,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_syncope",
+      "mutual_information": 0.021134,
+      "chi2_stat": 3386.0827,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_vision_blur",
+      "mutual_information": 0.021118,
+      "chi2_stat": 3523.2351,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_social_withdrawal",
+      "mutual_information": 0.020876,
+      "chi2_stat": 3003.8086,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_migraine_symptom",
+      "mutual_information": 0.020747,
+      "chi2_stat": 3550.1349,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_insomnia",
+      "mutual_information": 0.020688,
+      "chi2_stat": 3102.2587,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_tremor_symptom",
+      "mutual_information": 0.020567,
+      "chi2_stat": 3239.2389,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_hemoptysis",
+      "mutual_information": 0.020076,
+      "chi2_stat": 2633.4139,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_cough",
+      "mutual_information": 0.019853,
+      "chi2_stat": 2742.6269,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_sore_throat",
+      "mutual_information": 0.019781,
+      "chi2_stat": 3520.6315,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_leg_swelling",
+      "mutual_information": 0.018879,
+      "chi2_stat": 3127.3143,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_exercise_dyspnea",
+      "mutual_information": 0.018852,
+      "chi2_stat": 3474.4095,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_ecchymosis",
+      "mutual_information": 0.018733,
+      "chi2_stat": 1920.4491,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_nasal_congestion",
+      "mutual_information": 0.018707,
+      "chi2_stat": 2925.6945,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_panic_attacks",
+      "mutual_information": 0.018247,
+      "chi2_stat": 2774.9568,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_orthopnea_symptom",
+      "mutual_information": 0.017851,
+      "chi2_stat": 3511.223,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_reduced_range_of_motion",
+      "mutual_information": 0.017784,
+      "chi2_stat": 2821.4013,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_exercise_intolerance",
+      "mutual_information": 0.017358,
+      "chi2_stat": 2900.3025,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_productive_cough",
+      "mutual_information": 0.017098,
+      "chi2_stat": 2433.2057,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_obsessions",
+      "mutual_information": 0.01679,
+      "chi2_stat": 2841.0544,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_chest_tightness",
+      "mutual_information": 0.015862,
+      "chi2_stat": 2749.2523,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_runny_nose",
+      "mutual_information": 0.015829,
+      "chi2_stat": 2389.5913,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_low_back_pain",
+      "mutual_information": 0.015617,
+      "chi2_stat": 2198.1326,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_tendon_tenderness",
+      "mutual_information": 0.015363,
+      "chi2_stat": 2270.6222,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_low_mood",
+      "mutual_information": 0.015123,
+      "chi2_stat": 2444.7511,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_anhedonia",
+      "mutual_information": 0.013909,
+      "chi2_stat": 2010.2855,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_clammy_skin",
+      "mutual_information": 0.01299,
+      "chi2_stat": 2982.7828,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_neck_pain",
+      "mutual_information": 0.012894,
+      "chi2_stat": 2299.5795,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_compulsions",
+      "mutual_information": 0.012122,
+      "chi2_stat": 2056.2959,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_digital_ulcers",
+      "mutual_information": 0.012009,
+      "chi2_stat": 2031.6113,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_rash_psoriasiform",
+      "mutual_information": 0.011951,
+      "chi2_stat": 1720.0531,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_hypersomnia",
+      "mutual_information": 0.011882,
+      "chi2_stat": 1614.583,
+      "p_value": 3.41617357236889e-309
+    },
+    {
+      "symptom": "symptom_enthesitis",
+      "mutual_information": 0.011036,
+      "chi2_stat": 1757.7988,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_bone_pain",
+      "mutual_information": 0.010931,
+      "chi2_stat": 1642.3374,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_suicidal_ideation",
+      "mutual_information": 0.010796,
+      "chi2_stat": 1910.7858,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_limp",
+      "mutual_information": 0.010423,
+      "chi2_stat": 1829.346,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_spine_rigidity",
+      "mutual_information": 0.010304,
+      "chi2_stat": 2237.8594,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_photosensitive_rash_derm",
+      "mutual_information": 0.010296,
+      "chi2_stat": 2193.0648,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_pallor",
+      "mutual_information": 0.010167,
+      "chi2_stat": 1746.9313,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_shortness_of_breath_on_exertion",
+      "mutual_information": 0.009955,
+      "chi2_stat": 1613.8603,
+      "p_value": 4.85608565103991e-309
+    },
+    {
+      "symptom": "symptom_joint_swelling",
+      "mutual_information": 0.009878,
+      "chi2_stat": 1683.3608,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_splenomegaly_symptom",
+      "mutual_information": 0.009817,
+      "chi2_stat": 1230.371,
+      "p_value": 2.693435278067651e-228
+    },
+    {
+      "symptom": "symptom_alopecia_patchy",
+      "mutual_information": 0.00976,
+      "chi2_stat": 1530.9086,
+      "p_value": 1.6104678351462264e-291
+    },
+    {
+      "symptom": "symptom_rash_maculopapular",
+      "mutual_information": 0.00974,
+      "chi2_stat": 1738.4224,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_telangiectasia",
+      "mutual_information": 0.009585,
+      "chi2_stat": 1399.1313,
+      "p_value": 9.610604765802685e-264
+    },
+    {
+      "symptom": "symptom_urticaria",
+      "mutual_information": 0.008187,
+      "chi2_stat": 1234.9794,
+      "p_value": 2.9136751650441946e-229
+    },
+    {
+      "symptom": "symptom_petechiae",
+      "mutual_information": 0.007602,
+      "chi2_stat": 1081.942,
+      "p_value": 2.904076951033249e-197
+    },
+    {
+      "symptom": "symptom_prolonged_bleeding",
+      "mutual_information": 0.007579,
+      "chi2_stat": 620.1951,
+      "p_value": 3.528289498499148e-102
+    },
+    {
+      "symptom": "symptom_anxiety_symptom",
+      "mutual_information": 0.007334,
+      "chi2_stat": 1422.1882,
+      "p_value": 1.3440758437441182e-268
+    },
+    {
+      "symptom": "symptom_hyperpigmentation",
+      "mutual_information": 0.007108,
+      "chi2_stat": 1822.6668,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_easy_bruising",
+      "mutual_information": 0.006787,
+      "chi2_stat": 1780.194,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_macroglossia_rare",
+      "mutual_information": 0.006742,
+      "chi2_stat": 40.2228,
+      "p_value": 0.6742177267378509
+    },
+    {
+      "symptom": "symptom_fatigue_anemia",
+      "mutual_information": 0.006662,
+      "chi2_stat": 871.1459,
+      "p_value": 1.650888681992812e-153
+    },
+    {
+      "symptom": "rare_symptom_digital_clubbing",
+      "mutual_information": 0.006658,
+      "chi2_stat": 59168.0796,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_frequent_nosebleeds",
+      "mutual_information": 0.006642,
+      "chi2_stat": 1046.8559,
+      "p_value": 5.951617657290415e-190
+    },
+    {
+      "symptom": "symptom_recurrent_infections",
+      "mutual_information": 0.006512,
+      "chi2_stat": 800.767,
+      "p_value": 5.196400905585453e-139
+    },
+    {
+      "symptom": "symptom_livedo_reticularis",
+      "mutual_information": 0.005686,
+      "chi2_stat": 1221.618,
+      "p_value": 1.8383579086457387e-226
+    },
+    {
+      "symptom": "rare_symptom_bronchiectasis_rare",
+      "mutual_information": 0.005679,
+      "chi2_stat": 28870.8612,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_hyperextensible_skin_rare",
+      "mutual_information": 0.005537,
+      "chi2_stat": 4816.3016,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "symptom_skin_thickening",
+      "mutual_information": 0.005459,
+      "chi2_stat": 1226.1814,
+      "p_value": 2.0335895848652297e-227
+    },
+    {
+      "symptom": "symptom_lymph_node_swelling",
+      "mutual_information": 0.00467,
+      "chi2_stat": 999.6707,
+      "p_value": 3.899578571667498e-180
+    },
+    {
+      "symptom": "symptom_pruritus",
+      "mutual_information": 0.004069,
+      "chi2_stat": 1335.9871,
+      "p_value": 1.8356867856978544e-250
+    },
+    {
+      "symptom": "symptom_night_sweats_heme",
+      "mutual_information": 0.004058,
+      "chi2_stat": 1137.7098,
+      "p_value": 6.631388679927601e-209
+    },
+    {
+      "symptom": "symptom_hypopigmentation",
+      "mutual_information": 0.00362,
+      "chi2_stat": 1563.9415,
+      "p_value": 1.7100813115218884e-298
+    },
+    {
+      "symptom": "rare_symptom_hemolytic_anemia_rare",
+      "mutual_information": 0.003203,
+      "chi2_stat": 45.4253,
+      "p_value": 0.45423132284608525
+    },
+    {
+      "symptom": "rare_symptom_hearing_loss_early_onset_rare",
+      "mutual_information": 0.002983,
+      "chi2_stat": 70.6166,
+      "p_value": 0.008698114311405769
+    },
+    {
+      "symptom": "rare_symptom_arrhythmia_persistent_rare",
+      "mutual_information": 0.002965,
+      "chi2_stat": 38.5144,
+      "p_value": 0.7416135834649032
+    },
+    {
+      "symptom": "rare_symptom_bone_marrow_failure_rare",
+      "mutual_information": 0.00256,
+      "chi2_stat": 935.6866,
+      "p_value": 7.390867555027909e-167
+    },
+    {
+      "symptom": "rare_symptom_proximal_muscle_weakness_rare",
+      "mutual_information": 0.002341,
+      "chi2_stat": 3471.0725,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_bloody_sputum_rare",
+      "mutual_information": 0.002113,
+      "chi2_stat": 34.7073,
+      "p_value": 0.866295266815349
+    },
+    {
+      "symptom": "rare_symptom_hepatosplenomegaly_rare",
+      "mutual_information": 0.001854,
+      "chi2_stat": 6267.3381,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_bulbar_symptoms_rare",
+      "mutual_information": 0.001479,
+      "chi2_stat": 2440.669,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_joint_hypermobility_rare",
+      "mutual_information": 0.001283,
+      "chi2_stat": 1859.4331,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_respiratory_failure_rare",
+      "mutual_information": 0.001271,
+      "chi2_stat": 9695.9205,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_butterfly_rash",
+      "mutual_information": 0.001075,
+      "chi2_stat": 85.7849,
+      "p_value": 0.00023772639567848345
+    },
+    {
+      "symptom": "rare_symptom_bone_fractures_pathologic_rare",
+      "mutual_information": 0.000506,
+      "chi2_stat": 9974.3866,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_malar_rash",
+      "mutual_information": 0.00043,
+      "chi2_stat": 56.0768,
+      "p_value": 0.12454202752604132
+    },
+    {
+      "symptom": "rare_symptom_developmental_delay_rare",
+      "mutual_information": 0.000189,
+      "chi2_stat": 5916.8527,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_raynaud_phenomenon",
+      "mutual_information": 0.0,
+      "chi2_stat": 30.8844,
+      "p_value": 0.9460567439322589
+    },
+    {
+      "symptom": "rare_symptom_erythema_nodosum",
+      "mutual_information": 0.0,
+      "chi2_stat": 366.3075,
+      "p_value": 6.090821082304766e-52
+    },
+    {
+      "symptom": "rare_symptom_oral_ulcers",
+      "mutual_information": 0.0,
+      "chi2_stat": 56.1591,
+      "p_value": 0.12301084453199464
+    },
+    {
+      "symptom": "rare_symptom_hematuria",
+      "mutual_information": 0.0,
+      "chi2_stat": 45.5012,
+      "p_value": 0.45108773860033397
+    },
+    {
+      "symptom": "rare_symptom_proteinuria",
+      "mutual_information": 0.0,
+      "chi2_stat": 34.7246,
+      "p_value": 0.8658271576369634
+    },
+    {
+      "symptom": "rare_symptom_neuropathic_pain_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 219.3851,
+      "p_value": 8.7385337242857e-25
+    },
+    {
+      "symptom": "rare_symptom_foot_drop_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 43.1974,
+      "p_value": 0.5485607133260302
+    },
+    {
+      "symptom": "rare_symptom_optic_neuritis_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 35.4592,
+      "p_value": 0.8450506260188143
+    },
+    {
+      "symptom": "rare_symptom_spastic_paraparesis_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 68.9848,
+      "p_value": 0.012245416935942032
+    },
+    {
+      "symptom": "rare_symptom_steatorrhea_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 90.6481,
+      "p_value": 6.533322536643345e-05
+    },
+    {
+      "symptom": "rare_symptom_massive_splenomegaly_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 1797.5271,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_portal_hypertension_signs_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 51.2873,
+      "p_value": 0.24080021592992393
+    },
+    {
+      "symptom": "rare_symptom_pancytopenia_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 438.116,
+      "p_value": 7.143005308976916e-66
+    },
+    {
+      "symptom": "rare_symptom_cardiomyopathy_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 65.7398,
+      "p_value": 0.023457368581203317
+    },
+    {
+      "symptom": "rare_symptom_dysautonomia_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 43.5053,
+      "p_value": 0.5353777123819435
+    },
+    {
+      "symptom": "rare_symptom_skin_calcifications_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 94.036,
+      "p_value": 2.56944132232762e-05
+    },
+    {
+      "symptom": "rare_symptom_angiokeratomas_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 50.8775,
+      "p_value": 0.253322747925447
+    },
+    {
+      "symptom": "rare_symptom_kyphoscoliosis_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 839.6987,
+      "p_value": 5.057472293421244e-147
+    },
+    {
+      "symptom": "rare_symptom_lens_dislocation_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 5149.735,
+      "p_value": 0.0
+    },
+    {
+      "symptom": "rare_symptom_tall_stature_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 1245.3406,
+      "p_value": 1.9607266786015613e-231
+    },
+    {
+      "symptom": "rare_symptom_renal_cysts_rare",
+      "mutual_information": 0.0,
+      "chi2_stat": 92.7202,
+      "p_value": 3.70346382578315e-05
+    }
+  ]
+}

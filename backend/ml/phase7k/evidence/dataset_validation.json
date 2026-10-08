@@ -1,0 +1,17 @@
+{
+  "path": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\phase7g\\acquired\\columbia_disease_symptom_kb.csv",
+  "sha256": "51B81B8999B072768BB0692376BE1983F15B59A77A8EB5C95AF276FCBFA73A17",
+  "rows": 1858,
+  "columns": [
+    "disease",
+    "count_of_disease_occurrence",
+    "symptom",
+    "plain_d",
+    "sym"
+  ],
+  "n_diseases_raw": 134,
+  "n_diseases_plain": 134,
+  "n_symptoms_uniq": 397,
+  "missing_pct": 0.0,
+  "duplicate_rows": 0
+}

@@ -1,0 +1,412 @@
+{
+  "AIDS": {
+    "class_name": "AIDS",
+    "sample_count": 121,
+    "unique_symptom_vectors": 5,
+    "duplicate_rows": 116,
+    "unique_symptom_associations": 5,
+    "min_active_symptoms": 3,
+    "max_active_symptoms": 4,
+    "mean_active_symptoms": 3.653
+  },
+  "Acne": {
+    "class_name": "Acne",
+    "sample_count": 121,
+    "unique_symptom_vectors": 5,
+    "duplicate_rows": 116,
+    "unique_symptom_associations": 5,
+    "min_active_symptoms": 3,
+    "max_active_symptoms": 4,
+    "mean_active_symptoms": 3.653
+  },
+  "Alcoholic Hepatitis": {
+    "class_name": "Alcoholic Hepatitis",
+    "sample_count": 121,
+    "unique_symptom_vectors": 8,
+    "duplicate_rows": 113,
+    "unique_symptom_associations": 8,
+    "min_active_symptoms": 6,
+    "max_active_symptoms": 7,
+    "mean_active_symptoms": 6.653
+  },
+  "Allergy": {
+    "class_name": "Allergy",
+    "sample_count": 121,
+    "unique_symptom_vectors": 5,
+    "duplicate_rows": 116,
+    "unique_symptom_associations": 5,
+    "min_active_symptoms": 3,
+    "max_active_symptoms": 4,
+    "mean_active_symptoms": 3.603
+  },
+  "Arthritis": {
+    "class_name": "Arthritis",
+    "sample_count": 121,
+    "unique_symptom_vectors": 6,
+    "duplicate_rows": 115,
+    "unique_symptom_associations": 6,
+    "min_active_symptoms": 4,
+    "max_active_symptoms": 5,
+    "mean_active_symptoms": 4.752
+  },
+  "Bronchial Asthma": {
+    "class_name": "Bronchial Asthma",
+    "sample_count": 121,
+    "unique_symptom_vectors": 7,
+    "duplicate_rows": 114,
+    "unique_symptom_associations": 7,
+    "min_active_symptoms": 5,
+    "max_active_symptoms": 6,
+    "mean_active_symptoms": 5.603
+  },
+  "Cervical Spondylosis": {
+    "class_name": "Cervical Spondylosis",
+    "sample_count": 121,
+    "unique_symptom_vectors": 6,
+    "duplicate_rows": 115,
+    "unique_symptom_associations": 6,
+    "min_active_symptoms": 4,
+    "max_active_symptoms": 5,
+    "mean_active_symptoms": 4.653
+  },
+  "Chickenpox": {
+    "class_name": "Chickenpox",
+    "sample_count": 121,
+    "unique_symptom_vectors": 10,
+    "duplicate_rows": 111,
+    "unique_symptom_associations": 10,
+    "min_active_symptoms": 10,
+    "max_active_symptoms": 11,
+    "mean_active_symptoms": 10.554
+  },
+  "Chronic Cholestasis": {
+    "class_name": "Chronic Cholestasis",
+    "sample_count": 121,
+    "unique_symptom_vectors": 8,
+    "duplicate_rows": 113,
+    "unique_symptom_associations": 8,
+    "min_active_symptoms": 6,
+    "max_active_symptoms": 7,
+    "mean_active_symptoms": 6.653
+  },
+  "Common Cold": {
+    "class_name": "Common Cold",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 16,
+    "max_active_symptoms": 17,
+    "mean_active_symptoms": 16.603
+  },
+  "Dengue": {
+    "class_name": "Dengue",
+    "sample_count": 121,
+    "unique_symptom_vectors": 10,
+    "duplicate_rows": 111,
+    "unique_symptom_associations": 10,
+    "min_active_symptoms": 13,
+    "max_active_symptoms": 14,
+    "mean_active_symptoms": 13.554
+  },
+  "Diabetes": {
+    "class_name": "Diabetes",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 9,
+    "max_active_symptoms": 10,
+    "mean_active_symptoms": 9.603
+  },
+  "Dimorphic Hemmorhoids (piles)": {
+    "class_name": "Dimorphic Hemmorhoids (piles)",
+    "sample_count": 121,
+    "unique_symptom_vectors": 6,
+    "duplicate_rows": 115,
+    "unique_symptom_associations": 6,
+    "min_active_symptoms": 4,
+    "max_active_symptoms": 5,
+    "mean_active_symptoms": 4.752
+  },
+  "Drug Reaction": {
+    "class_name": "Drug Reaction",
+    "sample_count": 121,
+    "unique_symptom_vectors": 6,
+    "duplicate_rows": 115,
+    "unique_symptom_associations": 6,
+    "min_active_symptoms": 4,
+    "max_active_symptoms": 5,
+    "mean_active_symptoms": 4.554
+  },
+  "Fungal Infection": {
+    "class_name": "Fungal Infection",
+    "sample_count": 121,
+    "unique_symptom_vectors": 5,
+    "duplicate_rows": 116,
+    "unique_symptom_associations": 5,
+    "min_active_symptoms": 3,
+    "max_active_symptoms": 4,
+    "mean_active_symptoms": 3.603
+  },
+  "GERD": {
+    "class_name": "GERD",
+    "sample_count": 121,
+    "unique_symptom_vectors": 7,
+    "duplicate_rows": 114,
+    "unique_symptom_associations": 7,
+    "min_active_symptoms": 5,
+    "max_active_symptoms": 6,
+    "mean_active_symptoms": 5.554
+  },
+  "Gastroenteritis": {
+    "class_name": "Gastroenteritis",
+    "sample_count": 121,
+    "unique_symptom_vectors": 5,
+    "duplicate_rows": 116,
+    "unique_symptom_associations": 5,
+    "min_active_symptoms": 3,
+    "max_active_symptoms": 4,
+    "mean_active_symptoms": 3.653
+  },
+  "Heart Attack": {
+    "class_name": "Heart Attack",
+    "sample_count": 121,
+    "unique_symptom_vectors": 5,
+    "duplicate_rows": 116,
+    "unique_symptom_associations": 5,
+    "min_active_symptoms": 3,
+    "max_active_symptoms": 4,
+    "mean_active_symptoms": 3.653
+  },
+  "Hepatitis A": {
+    "class_name": "Hepatitis A",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 10,
+    "max_active_symptoms": 11,
+    "mean_active_symptoms": 10.603
+  },
+  "Hepatitis B": {
+    "class_name": "Hepatitis B",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 11,
+    "max_active_symptoms": 12,
+    "mean_active_symptoms": 11.603
+  },
+  "Hepatitis C": {
+    "class_name": "Hepatitis C",
+    "sample_count": 121,
+    "unique_symptom_vectors": 7,
+    "duplicate_rows": 114,
+    "unique_symptom_associations": 7,
+    "min_active_symptoms": 5,
+    "max_active_symptoms": 6,
+    "mean_active_symptoms": 5.653
+  },
+  "Hepatitis D": {
+    "class_name": "Hepatitis D",
+    "sample_count": 121,
+    "unique_symptom_vectors": 10,
+    "duplicate_rows": 111,
+    "unique_symptom_associations": 10,
+    "min_active_symptoms": 8,
+    "max_active_symptoms": 9,
+    "mean_active_symptoms": 8.554
+  },
+  "Hepatitis E": {
+    "class_name": "Hepatitis E",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 12,
+    "max_active_symptoms": 13,
+    "mean_active_symptoms": 12.603
+  },
+  "Hypertension": {
+    "class_name": "Hypertension",
+    "sample_count": 121,
+    "unique_symptom_vectors": 6,
+    "duplicate_rows": 115,
+    "unique_symptom_associations": 6,
+    "min_active_symptoms": 4,
+    "max_active_symptoms": 5,
+    "mean_active_symptoms": 4.603
+  },
+  "Hyperthyroidism": {
+    "class_name": "Hyperthyroidism",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 10,
+    "max_active_symptoms": 11,
+    "mean_active_symptoms": 10.603
+  },
+  "Hypoglycemia": {
+    "class_name": "Hypoglycemia",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 11,
+    "max_active_symptoms": 12,
+    "mean_active_symptoms": 11.603
+  },
+  "Hypothyroidism": {
+    "class_name": "Hypothyroidism",
+    "sample_count": 121,
+    "unique_symptom_vectors": 8,
+    "duplicate_rows": 113,
+    "unique_symptom_associations": 8,
+    "min_active_symptoms": 12,
+    "max_active_symptoms": 13,
+    "mean_active_symptoms": 12.603
+  },
+  "Impetigo": {
+    "class_name": "Impetigo",
+    "sample_count": 121,
+    "unique_symptom_vectors": 6,
+    "duplicate_rows": 115,
+    "unique_symptom_associations": 6,
+    "min_active_symptoms": 4,
+    "max_active_symptoms": 5,
+    "mean_active_symptoms": 4.653
+  },
+  "Jaundice": {
+    "class_name": "Jaundice",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 7,
+    "max_active_symptoms": 8,
+    "mean_active_symptoms": 7.603
+  },
+  "Malaria": {
+    "class_name": "Malaria",
+    "sample_count": 121,
+    "unique_symptom_vectors": 8,
+    "duplicate_rows": 113,
+    "unique_symptom_associations": 8,
+    "min_active_symptoms": 7,
+    "max_active_symptoms": 8,
+    "mean_active_symptoms": 7.603
+  },
+  "Migraine": {
+    "class_name": "Migraine",
+    "sample_count": 121,
+    "unique_symptom_vectors": 10,
+    "duplicate_rows": 111,
+    "unique_symptom_associations": 10,
+    "min_active_symptoms": 8,
+    "max_active_symptoms": 9,
+    "mean_active_symptoms": 8.554
+  },
+  "Osteoarthritis": {
+    "class_name": "Osteoarthritis",
+    "sample_count": 121,
+    "unique_symptom_vectors": 7,
+    "duplicate_rows": 114,
+    "unique_symptom_associations": 7,
+    "min_active_symptoms": 5,
+    "max_active_symptoms": 6,
+    "mean_active_symptoms": 5.702
+  },
+  "Paralysis (brain hemorrhage)": {
+    "class_name": "Paralysis (brain hemorrhage)",
+    "sample_count": 121,
+    "unique_symptom_vectors": 5,
+    "duplicate_rows": 116,
+    "unique_symptom_associations": 5,
+    "min_active_symptoms": 3,
+    "max_active_symptoms": 4,
+    "mean_active_symptoms": 3.653
+  },
+  "Peptic Ulcer Disease": {
+    "class_name": "Peptic Ulcer Disease",
+    "sample_count": 121,
+    "unique_symptom_vectors": 7,
+    "duplicate_rows": 114,
+    "unique_symptom_associations": 7,
+    "min_active_symptoms": 5,
+    "max_active_symptoms": 6,
+    "mean_active_symptoms": 5.603
+  },
+  "Pneumonia": {
+    "class_name": "Pneumonia",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 10,
+    "max_active_symptoms": 11,
+    "mean_active_symptoms": 10.603
+  },
+  "Psoriasis": {
+    "class_name": "Psoriasis",
+    "sample_count": 121,
+    "unique_symptom_vectors": 7,
+    "duplicate_rows": 114,
+    "unique_symptom_associations": 7,
+    "min_active_symptoms": 5,
+    "max_active_symptoms": 6,
+    "mean_active_symptoms": 5.702
+  },
+  "Tuberculosis": {
+    "class_name": "Tuberculosis",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 15,
+    "max_active_symptoms": 16,
+    "mean_active_symptoms": 15.603
+  },
+  "Typhoid": {
+    "class_name": "Typhoid",
+    "sample_count": 121,
+    "unique_symptom_vectors": 9,
+    "duplicate_rows": 112,
+    "unique_symptom_associations": 9,
+    "min_active_symptoms": 10,
+    "max_active_symptoms": 11,
+    "mean_active_symptoms": 10.603
+  },
+  "Urinary Tract Infection": {
+    "class_name": "Urinary Tract Infection",
+    "sample_count": 121,
+    "unique_symptom_vectors": 5,
+    "duplicate_rows": 116,
+    "unique_symptom_associations": 5,
+    "min_active_symptoms": 3,
+    "max_active_symptoms": 4,
+    "mean_active_symptoms": 3.653
+  },
+  "Varicose Veins": {
+    "class_name": "Varicose Veins",
+    "sample_count": 121,
+    "unique_symptom_vectors": 8,
+    "duplicate_rows": 113,
+    "unique_symptom_associations": 8,
+    "min_active_symptoms": 6,
+    "max_active_symptoms": 7,
+    "mean_active_symptoms": 6.603
+  },
+  "Vertigo": {
+    "class_name": "Vertigo",
+    "sample_count": 121,
+    "unique_symptom_vectors": 7,
+    "duplicate_rows": 114,
+    "unique_symptom_associations": 7,
+    "min_active_symptoms": 5,
+    "max_active_symptoms": 6,
+    "mean_active_symptoms": 5.653
+  }
+}

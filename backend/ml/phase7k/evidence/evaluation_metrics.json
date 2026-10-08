@@ -1,0 +1,10 @@
+{
+  "phase": "7K",
+  "external_evaluation_performed": false,
+  "reason": "No valid external evaluation is possible: (1) the only independent clinically-sourced candidate (Columbia KB) is license-pending, association-count format, with 22/41 Phase 7I labels NO_MATCH, only 8 EXACT label matches, and feature coverage of 14/397 (3.53%) EXACT / 24/397 (6.05%) exact+high-confidence against the 131-feature vocabulary. Even for the 8 EXACT-label diseases the retained Columbia symptom signal would be 0-57% (1 of 8 diseases keeps 0% of its symptoms; 4 of 8 keep <=30%), so any predicted vector would represent <60% of the external evidence and results would be an artifact of mapping loss, not generalization. (2) All other documented candidates are either the same canonical KB family (mirror/leakage), synthetic (DDXPlus / generated rows), single-disease real cohorts (Dengue), or repositories without a symptom-presence matrix (MIMIC-III). Per Phase 7K rules (only EXACT mappings are automatic; HIGH_CONFIDENCE/POSSIBLE require clinician review, unavailable) and the 'do not manufacture evidence' rule, no external metrics were computed.",
+  "metrics": null,
+  "metrics_computed_for_classes": 0,
+  "predictions_made": 0,
+  "clinician_review_of_mappings": false,
+  "note": "Reporting an external accuracy/F1 here would be a mapping-coverage artifact, not external generalization evidence."
+}

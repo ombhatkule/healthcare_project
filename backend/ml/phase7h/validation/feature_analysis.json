@@ -1,0 +1,1190 @@
+{
+  "itching": {
+    "prevalence": 0.1379,
+    "n_positive_rows": 684,
+    "pct_positive": 13.7875,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.367901,
+    "classes_containing_symptom": 6
+  },
+  "skin_rash": {
+    "prevalence": 0.1598,
+    "n_positive_rows": 793,
+    "pct_positive": 15.9847,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.410656,
+    "classes_containing_symptom": 7
+  },
+  "nodal_skin_eruptions": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.086756,
+    "classes_containing_symptom": 1
+  },
+  "continuous_sneezing": {
+    "prevalence": 0.0452,
+    "n_positive_rows": 224,
+    "pct_positive": 4.5152,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.159715,
+    "classes_containing_symptom": 2
+  },
+  "shivering": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.077158,
+    "classes_containing_symptom": 1
+  },
+  "chills": {
+    "prevalence": 0.1623,
+    "n_positive_rows": 805,
+    "pct_positive": 16.2266,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.430697,
+    "classes_containing_symptom": 7
+  },
+  "joint_pain": {
+    "prevalence": 0.1391,
+    "n_positive_rows": 690,
+    "pct_positive": 13.9085,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.366499,
+    "classes_containing_symptom": 6
+  },
+  "stomach_pain": {
+    "prevalence": 0.0452,
+    "n_positive_rows": 224,
+    "pct_positive": 4.5152,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.177426,
+    "classes_containing_symptom": 2
+  },
+  "acidity": {
+    "prevalence": 0.0452,
+    "n_positive_rows": 224,
+    "pct_positive": 4.5152,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.16098,
+    "classes_containing_symptom": 2
+  },
+  "ulcers_on_tongue": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.083115,
+    "classes_containing_symptom": 1
+  },
+  "muscle_wasting": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.088162,
+    "classes_containing_symptom": 1
+  },
+  "vomiting": {
+    "prevalence": 0.3892,
+    "n_positive_rows": 1931,
+    "pct_positive": 38.9236,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.58531,
+    "classes_containing_symptom": 17
+  },
+  "burning_micturition": {
+    "prevalence": 0.0439,
+    "n_positive_rows": 218,
+    "pct_positive": 4.3943,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.163913,
+    "classes_containing_symptom": 2
+  },
+  "spotting_urination": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.101819,
+    "classes_containing_symptom": 1
+  },
+  "fatigue": {
+    "prevalence": 0.3929,
+    "n_positive_rows": 1949,
+    "pct_positive": 39.2864,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.592699,
+    "classes_containing_symptom": 17
+  },
+  "weight_gain": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.114501,
+    "classes_containing_symptom": 1
+  },
+  "anxiety": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.119886,
+    "classes_containing_symptom": 1
+  },
+  "cold_hands_and_feets": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.100199,
+    "classes_containing_symptom": 1
+  },
+  "mood_swings": {
+    "prevalence": 0.0464,
+    "n_positive_rows": 230,
+    "pct_positive": 4.6362,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.173422,
+    "classes_containing_symptom": 2
+  },
+  "weight_loss": {
+    "prevalence": 0.0927,
+    "n_positive_rows": 460,
+    "pct_positive": 9.2723,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.299003,
+    "classes_containing_symptom": 4
+  },
+  "restlessness": {
+    "prevalence": 0.0464,
+    "n_positive_rows": 230,
+    "pct_positive": 4.6362,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.172487,
+    "classes_containing_symptom": 2
+  },
+  "lethargy": {
+    "prevalence": 0.0927,
+    "n_positive_rows": 460,
+    "pct_positive": 9.2723,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.288647,
+    "classes_containing_symptom": 4
+  },
+  "patches_in_throat": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.088572,
+    "classes_containing_symptom": 1
+  },
+  "irregular_sugar_level": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.097791,
+    "classes_containing_symptom": 1
+  },
+  "cough": {
+    "prevalence": 0.1147,
+    "n_positive_rows": 569,
+    "pct_positive": 11.4695,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.318999,
+    "classes_containing_symptom": 5
+  },
+  "high_fever": {
+    "prevalence": 0.277,
+    "n_positive_rows": 1374,
+    "pct_positive": 27.696,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.527278,
+    "classes_containing_symptom": 12
+  },
+  "sunken_eyes": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.096013,
+    "classes_containing_symptom": 1
+  },
+  "breathlessness": {
+    "prevalence": 0.0915,
+    "n_positive_rows": 454,
+    "pct_positive": 9.1514,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.271579,
+    "classes_containing_symptom": 4
+  },
+  "sweating": {
+    "prevalence": 0.1379,
+    "n_positive_rows": 684,
+    "pct_positive": 13.7875,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.350205,
+    "classes_containing_symptom": 6
+  },
+  "dehydration": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.120514,
+    "classes_containing_symptom": 1
+  },
+  "indigestion": {
+    "prevalence": 0.0452,
+    "n_positive_rows": 224,
+    "pct_positive": 4.5152,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.17686,
+    "classes_containing_symptom": 2
+  },
+  "headache": {
+    "prevalence": 0.2306,
+    "n_positive_rows": 1144,
+    "pct_positive": 23.0599,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.501205,
+    "classes_containing_symptom": 10
+  },
+  "yellowish_skin": {
+    "prevalence": 0.1854,
+    "n_positive_rows": 920,
+    "pct_positive": 18.5446,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.429712,
+    "classes_containing_symptom": 8
+  },
+  "dark_urine": {
+    "prevalence": 0.1159,
+    "n_positive_rows": 575,
+    "pct_positive": 11.5904,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.343666,
+    "classes_containing_symptom": 5
+  },
+  "nausea": {
+    "prevalence": 0.233,
+    "n_positive_rows": 1156,
+    "pct_positive": 23.3018,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.489816,
+    "classes_containing_symptom": 10
+  },
+  "loss_of_appetite": {
+    "prevalence": 0.2342,
+    "n_positive_rows": 1162,
+    "pct_positive": 23.4227,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.493978,
+    "classes_containing_symptom": 10
+  },
+  "pain_behind_the_eyes": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.12223,
+    "classes_containing_symptom": 1
+  },
+  "back_pain": {
+    "prevalence": 0.0464,
+    "n_positive_rows": 230,
+    "pct_positive": 4.6362,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.196803,
+    "classes_containing_symptom": 2
+  },
+  "constipation": {
+    "prevalence": 0.0464,
+    "n_positive_rows": 230,
+    "pct_positive": 4.6362,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.179966,
+    "classes_containing_symptom": 2
+  },
+  "abdominal_pain": {
+    "prevalence": 0.2098,
+    "n_positive_rows": 1041,
+    "pct_positive": 20.9837,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.467246,
+    "classes_containing_symptom": 9
+  },
+  "diarrhoea": {
+    "prevalence": 0.1147,
+    "n_positive_rows": 569,
+    "pct_positive": 11.4695,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.307228,
+    "classes_containing_symptom": 5
+  },
+  "mild_fever": {
+    "prevalence": 0.072,
+    "n_positive_rows": 357,
+    "pct_positive": 7.1961,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.226458,
+    "classes_containing_symptom": 3
+  },
+  "yellow_urine": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.106412,
+    "classes_containing_symptom": 1
+  },
+  "yellowing_of_eyes": {
+    "prevalence": 0.1659,
+    "n_positive_rows": 823,
+    "pct_positive": 16.5894,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.450271,
+    "classes_containing_symptom": 7
+  },
+  "acute_liver_failure": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.108398,
+    "classes_containing_symptom": 1
+  },
+  "fluid_overload": {
+    "prevalence": 0.0,
+    "n_positive_rows": 0,
+    "pct_positive": 0.0,
+    "zero_variance": true,
+    "near_zero_variance": true,
+    "mi_with_target": 0.009934,
+    "classes_containing_symptom": 0
+  },
+  "swelling_of_stomach": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.105848,
+    "classes_containing_symptom": 1
+  },
+  "swelled_lymph_nodes": {
+    "prevalence": 0.0708,
+    "n_positive_rows": 351,
+    "pct_positive": 7.0752,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.241158,
+    "classes_containing_symptom": 3
+  },
+  "malaise": {
+    "prevalence": 0.1427,
+    "n_positive_rows": 708,
+    "pct_positive": 14.2713,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.383469,
+    "classes_containing_symptom": 6
+  },
+  "blurred_and_distorted_vision": {
+    "prevalence": 0.0695,
+    "n_positive_rows": 345,
+    "pct_positive": 6.9542,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.220607,
+    "classes_containing_symptom": 3
+  },
+  "phlegm": {
+    "prevalence": 0.072,
+    "n_positive_rows": 357,
+    "pct_positive": 7.1961,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.253049,
+    "classes_containing_symptom": 3
+  },
+  "throat_irritation": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.117136,
+    "classes_containing_symptom": 1
+  },
+  "redness_of_eyes": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.101032,
+    "classes_containing_symptom": 1
+  },
+  "sinus_pressure": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.117013,
+    "classes_containing_symptom": 1
+  },
+  "runny_nose": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.100233,
+    "classes_containing_symptom": 1
+  },
+  "congestion": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.116584,
+    "classes_containing_symptom": 1
+  },
+  "chest_pain": {
+    "prevalence": 0.1415,
+    "n_positive_rows": 702,
+    "pct_positive": 14.1504,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.394754,
+    "classes_containing_symptom": 6
+  },
+  "weakness_in_limbs": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.103026,
+    "classes_containing_symptom": 1
+  },
+  "fast_heart_rate": {
+    "prevalence": 0.0476,
+    "n_positive_rows": 236,
+    "pct_positive": 4.7571,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.193024,
+    "classes_containing_symptom": 2
+  },
+  "pain_during_bowel_movements": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.090079,
+    "classes_containing_symptom": 1
+  },
+  "pain_in_anal_region": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.129695,
+    "classes_containing_symptom": 1
+  },
+  "bloody_stool": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.124451,
+    "classes_containing_symptom": 1
+  },
+  "irritation_in_anus": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.089033,
+    "classes_containing_symptom": 1
+  },
+  "neck_pain": {
+    "prevalence": 0.0464,
+    "n_positive_rows": 230,
+    "pct_positive": 4.6362,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.167244,
+    "classes_containing_symptom": 2
+  },
+  "dizziness": {
+    "prevalence": 0.0683,
+    "n_positive_rows": 339,
+    "pct_positive": 6.8333,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.224846,
+    "classes_containing_symptom": 3
+  },
+  "cramps": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.088788,
+    "classes_containing_symptom": 1
+  },
+  "bruising": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.108535,
+    "classes_containing_symptom": 1
+  },
+  "obesity": {
+    "prevalence": 0.0464,
+    "n_positive_rows": 230,
+    "pct_positive": 4.6362,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.182786,
+    "classes_containing_symptom": 2
+  },
+  "swollen_legs": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.104168,
+    "classes_containing_symptom": 1
+  },
+  "swollen_blood_vessels": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.084486,
+    "classes_containing_symptom": 1
+  },
+  "puffy_face_and_eyes": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.115488,
+    "classes_containing_symptom": 1
+  },
+  "enlarged_thyroid": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.11694,
+    "classes_containing_symptom": 1
+  },
+  "brittle_nails": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.097605,
+    "classes_containing_symptom": 1
+  },
+  "swollen_extremeties": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.12062,
+    "classes_containing_symptom": 1
+  },
+  "excessive_hunger": {
+    "prevalence": 0.0939,
+    "n_positive_rows": 466,
+    "pct_positive": 9.3933,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.301055,
+    "classes_containing_symptom": 4
+  },
+  "extra_marital_contacts": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.090047,
+    "classes_containing_symptom": 1
+  },
+  "drying_and_tingling_lips": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.11385,
+    "classes_containing_symptom": 1
+  },
+  "slurred_speech": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.100233,
+    "classes_containing_symptom": 1
+  },
+  "knee_pain": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.116458,
+    "classes_containing_symptom": 1
+  },
+  "hip_joint_pain": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.122504,
+    "classes_containing_symptom": 1
+  },
+  "muscle_weakness": {
+    "prevalence": 0.0476,
+    "n_positive_rows": 236,
+    "pct_positive": 4.7571,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.185094,
+    "classes_containing_symptom": 2
+  },
+  "stiff_neck": {
+    "prevalence": 0.0464,
+    "n_positive_rows": 230,
+    "pct_positive": 4.6362,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.174497,
+    "classes_containing_symptom": 2
+  },
+  "swelling_joints": {
+    "prevalence": 0.0464,
+    "n_positive_rows": 230,
+    "pct_positive": 4.6362,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.165231,
+    "classes_containing_symptom": 2
+  },
+  "movement_stiffness": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.091537,
+    "classes_containing_symptom": 1
+  },
+  "spinning_movements": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.090985,
+    "classes_containing_symptom": 1
+  },
+  "loss_of_balance": {
+    "prevalence": 0.0695,
+    "n_positive_rows": 345,
+    "pct_positive": 6.9542,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.228419,
+    "classes_containing_symptom": 3
+  },
+  "unsteadiness": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.105644,
+    "classes_containing_symptom": 1
+  },
+  "weakness_of_one_body_side": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.107347,
+    "classes_containing_symptom": 1
+  },
+  "loss_of_smell": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.116442,
+    "classes_containing_symptom": 1
+  },
+  "bladder_discomfort": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.102991,
+    "classes_containing_symptom": 1
+  },
+  "foul_smell_of_urine": {
+    "prevalence": 0.0208,
+    "n_positive_rows": 103,
+    "pct_positive": 2.0762,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.111401,
+    "classes_containing_symptom": 1
+  },
+  "continuous_feel_of_urine": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.114073,
+    "classes_containing_symptom": 1
+  },
+  "passage_of_gases": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.112144,
+    "classes_containing_symptom": 1
+  },
+  "internal_itching": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.102583,
+    "classes_containing_symptom": 1
+  },
+  "toxic_look_typhos": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.114395,
+    "classes_containing_symptom": 1
+  },
+  "depression": {
+    "prevalence": 0.0476,
+    "n_positive_rows": 236,
+    "pct_positive": 4.7571,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.190689,
+    "classes_containing_symptom": 2
+  },
+  "irritability": {
+    "prevalence": 0.0964,
+    "n_positive_rows": 478,
+    "pct_positive": 9.6352,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.312527,
+    "classes_containing_symptom": 4
+  },
+  "muscle_pain": {
+    "prevalence": 0.0964,
+    "n_positive_rows": 478,
+    "pct_positive": 9.6352,
+    "zero_variance": false,
+    "near_zero_variance": false,
+    "mi_with_target": 0.328528,
+    "classes_containing_symptom": 4
+  },
+  "altered_sensorium": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.123255,
+    "classes_containing_symptom": 1
+  },
+  "red_spots_over_body": {
+    "prevalence": 0.0476,
+    "n_positive_rows": 236,
+    "pct_positive": 4.7571,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.191967,
+    "classes_containing_symptom": 2
+  },
+  "belly_pain": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.100707,
+    "classes_containing_symptom": 1
+  },
+  "abnormal_menstruation": {
+    "prevalence": 0.0488,
+    "n_positive_rows": 242,
+    "pct_positive": 4.878,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.21359,
+    "classes_containing_symptom": 2
+  },
+  "dischromic_patches": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.092423,
+    "classes_containing_symptom": 1
+  },
+  "watering_from_eyes": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.109151,
+    "classes_containing_symptom": 1
+  },
+  "increased_appetite": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.121284,
+    "classes_containing_symptom": 1
+  },
+  "polyuria": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.123409,
+    "classes_containing_symptom": 1
+  },
+  "family_history": {
+    "prevalence": 0.0464,
+    "n_positive_rows": 230,
+    "pct_positive": 4.6362,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.181818,
+    "classes_containing_symptom": 2
+  },
+  "mucoid_sputum": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.089307,
+    "classes_containing_symptom": 1
+  },
+  "rusty_sputum": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.133732,
+    "classes_containing_symptom": 1
+  },
+  "lack_of_concentration": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.109708,
+    "classes_containing_symptom": 1
+  },
+  "visual_disturbances": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.100477,
+    "classes_containing_symptom": 1
+  },
+  "receiving_blood_transfusion": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.115176,
+    "classes_containing_symptom": 1
+  },
+  "receiving_unsterile_injections": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.116814,
+    "classes_containing_symptom": 1
+  },
+  "coma": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.105324,
+    "classes_containing_symptom": 1
+  },
+  "stomach_bleeding": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.117383,
+    "classes_containing_symptom": 1
+  },
+  "distention_of_abdomen": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.099854,
+    "classes_containing_symptom": 1
+  },
+  "history_of_alcohol_consumption": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.100843,
+    "classes_containing_symptom": 1
+  },
+  "fluid_overload_1": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.11728,
+    "classes_containing_symptom": 1
+  },
+  "blood_in_sputum": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.092531,
+    "classes_containing_symptom": 1
+  },
+  "prominent_veins_on_calf": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.119051,
+    "classes_containing_symptom": 1
+  },
+  "palpitations": {
+    "prevalence": 0.0244,
+    "n_positive_rows": 121,
+    "pct_positive": 2.439,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.109924,
+    "classes_containing_symptom": 1
+  },
+  "painful_walking": {
+    "prevalence": 0.0464,
+    "n_positive_rows": 230,
+    "pct_positive": 4.6362,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.175742,
+    "classes_containing_symptom": 2
+  },
+  "pus_filled_pimples": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.087926,
+    "classes_containing_symptom": 1
+  },
+  "blackheads": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.10421,
+    "classes_containing_symptom": 1
+  },
+  "scurring": {
+    "prevalence": 0.022,
+    "n_positive_rows": 109,
+    "pct_positive": 2.1971,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.102949,
+    "classes_containing_symptom": 1
+  },
+  "skin_peeling": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.101572,
+    "classes_containing_symptom": 1
+  },
+  "silver_like_dusting": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.099755,
+    "classes_containing_symptom": 1
+  },
+  "small_dents_in_nails": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.116114,
+    "classes_containing_symptom": 1
+  },
+  "inflammatory_nails": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.089935,
+    "classes_containing_symptom": 1
+  },
+  "blister": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.091735,
+    "classes_containing_symptom": 1
+  },
+  "red_sore_around_nose": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.097612,
+    "classes_containing_symptom": 1
+  },
+  "yellow_crust_ooze": {
+    "prevalence": 0.0232,
+    "n_positive_rows": 115,
+    "pct_positive": 2.3181,
+    "zero_variance": false,
+    "near_zero_variance": true,
+    "mi_with_target": 0.110345,
+    "classes_containing_symptom": 1
+  }
+}

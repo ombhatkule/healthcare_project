@@ -1,0 +1,251 @@
+{
+  "raw_4961": {
+    "avg_cosine": 0.106681,
+    "median_cosine": 0.0,
+    "min_cosine": 0.0,
+    "max_cosine": 0.829611,
+    "n_pairs": 820,
+    "most_similar_pairs": [
+      {
+        "diseases": [
+          "Hepatitis D",
+          "Hepatitis E"
+        ],
+        "cosine": 0.829611
+      },
+      {
+        "diseases": [
+          "Hepatitis A",
+          "Hepatitis D"
+        ],
+        "cosine": 0.797711
+      },
+      {
+        "diseases": [
+          "Chronic Cholestasis",
+          "Hepatitis D"
+        ],
+        "cosine": 0.755929
+      },
+      {
+        "diseases": [
+          "Chronic Cholestasis",
+          "Hepatitis A"
+        ],
+        "cosine": 0.679854
+      },
+      {
+        "diseases": [
+          "Hepatitis C",
+          "Hepatitis D"
+        ],
+        "cosine": 0.679089
+      },
+      {
+        "diseases": [
+          "Tuberculosis",
+          "Pneumonia"
+        ],
+        "cosine": 0.6668
+      },
+      {
+        "diseases": [
+          "Hepatitis A",
+          "Hepatitis E"
+        ],
+        "cosine": 0.663341
+      },
+      {
+        "diseases": [
+          "Malaria",
+          "Typhoid"
+        ],
+        "cosine": 0.635729
+      }
+    ],
+    "least_similar_pairs": [
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Allergy"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "GERD"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Peptic Ulcer Disease"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "AIDS"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Diabetes"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Gastroenteritis"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Bronchial Asthma"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Hypertension"
+        ],
+        "cosine": 0.0
+      }
+    ],
+    "representation": "A_raw_4961_rows"
+  },
+  "dedup_304": {
+    "avg_cosine": 0.105753,
+    "median_cosine": 0.0,
+    "min_cosine": 0.0,
+    "max_cosine": 0.825573,
+    "n_pairs": 820,
+    "most_similar_pairs": [
+      {
+        "diseases": [
+          "Hepatitis D",
+          "Hepatitis E"
+        ],
+        "cosine": 0.825573
+      },
+      {
+        "diseases": [
+          "Hepatitis A",
+          "Hepatitis D"
+        ],
+        "cosine": 0.788531
+      },
+      {
+        "diseases": [
+          "Chronic Cholestasis",
+          "Hepatitis D"
+        ],
+        "cosine": 0.755929
+      },
+      {
+        "diseases": [
+          "Hepatitis C",
+          "Hepatitis D"
+        ],
+        "cosine": 0.680414
+      },
+      {
+        "diseases": [
+          "Chronic Cholestasis",
+          "Hepatitis A"
+        ],
+        "cosine": 0.674021
+      },
+      {
+        "diseases": [
+          "Hepatitis A",
+          "Hepatitis E"
+        ],
+        "cosine": 0.654996
+      },
+      {
+        "diseases": [
+          "Tuberculosis",
+          "Pneumonia"
+        ],
+        "cosine": 0.650751
+      },
+      {
+        "diseases": [
+          "Chronic Cholestasis",
+          "Hepatitis E"
+        ],
+        "cosine": 0.636556
+      }
+    ],
+    "least_similar_pairs": [
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Allergy"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "GERD"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Peptic Ulcer Disease"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "AIDS"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Diabetes"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Gastroenteritis"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Bronchial Asthma"
+        ],
+        "cosine": 0.0
+      },
+      {
+        "diseases": [
+          "Fungal Infection",
+          "Hypertension"
+        ],
+        "cosine": 0.0
+      }
+    ],
+    "representation": "C_dedup_304_associations"
+  },
+  "note": "Cosines are class-mean profile similarities (structural geometry), NOT clinical validity. Deduplication does not materially change separability."
+}

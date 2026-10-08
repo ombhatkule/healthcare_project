@@ -1,0 +1,24 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "heathcarelogin",
+          "appId": "1:88721084261:android:d31d430d313a0610d29b8c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "heathcarelogin",
+          "configurations": {
+            "android": "1:88721084261:android:d31d430d313a0610d29b8c"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "phase": "7I",
+  "decision": "NO_CLEAR_WINNER",
+  "dataset": "SymbiPredict Representation C",
+  "unique_associations": 304,
+  "classes": 41,
+  "features": 131,
+  "fluid_overload_removed": true,
+  "synonym_mappings_applied": false,
+  "grouped_evaluation": true,
+  "training_completed": true,
+  "production_modified": false,
+  "flask_modified": false,
+  "flutter_modified": false,
+  "api_modified": false,
+  "production_model_replaced": false,
+  "clinical_validation": false,
+  "best_model_config": "LR_class_weight_None",
+  "best_model_macro_f1": {"mean": 1.0, "std": 0.0},
+  "best_model_balanced_accuracy": {"mean": 1.0, "std": 0.0},
+  "best_model_accuracy": {"mean": 1.0, "std": 0.0},
+  "models_at_ceiling": 5,
+  "models_total_configs": 6,
+  "majority_baseline": {"accuracy": 0.032895, "balanced_accuracy": 0.02439, "macro_f1": 0.0},
+  "historical_production_context": {
+    "source": "previously documented Phase 7C production metrics",
+    "accuracy": 0.32015,
+    "macro_precision": 0.197107,
+    "macro_recall": 0.267981,
+    "macro_f1": 0.198602,
+    "weighted_f1": 0.329881,
+    "note": "different evaluation protocol and dataset (100k-row current dataset, ungrouped); NOT directly equivalent to grouped Phase 7I metrics; no 'X% better' claim is made"
+  },
+  "decision_rationale": [
+    "Evaluation is leakage-safe (grouped by unique symptom vector; 5 folds x 10 repeats of StratifiedGroupKFold) and fully reproducible.",
+    "All six model configs (logistic regression, linear SVM, random forest; class_weight None and balanced) reach essentially perfect grouped performance while the majority-class baseline is 0.033 accuracy / 0.024 balanced accuracy.",
+    "Five of six configs tie exactly at macro F1 = 1.0 with zero variance, so the evidence does not justify selecting one single experimental model (NO_CLEAR_WINNER per model-selection rule).",
+    "Near-ceiling scores are expected and partially reflect the dataset's canonical, noiseless symptom signatures (5-10 unique vectors per class, avg vector cosine ~0.106), NOT real-world patient variability.",
+    "304 unique associations are not 304 patients; generalization to real patient input variability remains unproven.",
+    "Production comparison uses a different protocol, so no superiority claim over the old production model is made.",
+    "DO NOT integrate: Phase 7J must separately perform backend integration validation."
+  ],
+  "recommendations": {
+    "phase_7j": "NOT STARTED - requires explicit approval",
+    "integration": "Do not deploy the experimental model",
+    "next_steps": [
+      "If Phase 7J proceeds, validate feature-order/inference compatibility and exact vector matching semantics first.",
+      "Retain 131-feature vocabulary; do not apply the 11 PENDING_CLINICIAN_REVIEW synonym mappings.",
+      "Expect performance on real patient variability to be lower than grouped-CV ceilings."
+    ]
+  },
+  "disclaimer": "Non-clinical research/educational evaluation; not clinically validated. This model must not be used as a medical diagnosis system."
+}

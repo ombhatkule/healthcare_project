@@ -1,0 +1,83 @@
+{
+  "phase": "7I",
+  "disclaimer": "Non-clinical research/educational evaluation; not clinically validated.",
+  "dataset": "SymbiPredict Representation C",
+  "dataset_path": "backend/ml/phase7h/cleaned/symbipredict_deduplicated.csv",
+  "dataset_sha256": "8396a6644296c43daa12df521632393265c98878c930de247b746b77c7b6e8bc",
+  "processed_dataset_path": "backend/ml/phase7i/data/symbipredict_representationC_131feat.csv",
+  "processed_dataset_sha256": "0f60f9816c9996a16d39a8845d9ff1efcdfabbdb6dbb7e3bf78efd795aef69e4",
+  "unique_associations": 304,
+  "unique_feature_vectors": 304,
+  "classes": 41,
+  "features_input": 132,
+  "features_output": 131,
+  "fluid_overload_removed": true,
+  "other_constant_features": {},
+  "synonym_mappings_applied": false,
+  "all_features_binary": true,
+  "missing_values": 0,
+  "nan_values": 0,
+  "inf_values": 0,
+  "contradictory_vectors": 0,
+  "min_support": 5,
+  "max_support": 10,
+  "imbalance_ratio_max_over_min": 2.0,
+  "active_symptoms_per_vector": {"min": 3, "max": 17, "mean": 7.648, "median": 7.0},
+  "evaluation": {
+    "grouped": true,
+    "grouping_unit": "unique symptom vector",
+    "cv": "Repeated Stratified Group K-Fold",
+    "n_splits": 5,
+    "n_repeats": 10,
+    "repeat_seeds": [42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+    "feasibility_note": "each class has >=5 groups; every fold retains all 41 classes",
+    "leakage_control": "same vector never split across train/test"
+  },
+  "models_benchmarked": [
+    "MAJORITY_BASELINE",
+    "LR_class_weight_None",
+    "LR_class_weight_balanced",
+    "LinearSVC_class_weight_None",
+    "LinearSVC_class_weight_balanced",
+    "RF_class_weight_None",
+    "RF_class_weight_balanced"
+  ],
+  "ablation": {
+    "name": "ABLATION_LR_balanced_SelectKBest70",
+    "method": "fold-internal SelectKBest(chi2, k=70) inside Pipeline",
+    "leakage_safe": true,
+    "result": {
+      "accuracy_mean": 0.669129,
+      "balanced_accuracy_mean": 0.606098,
+      "macro_f1_mean": 0.583248,
+      "weighted_f1_mean": 0.653472
+    }
+  },
+  "best_model_config": "LR_class_weight_None",
+  "best_model_metrics": {
+    "accuracy_mean": 1.0,
+    "accuracy_std": 0.0,
+    "balanced_accuracy_mean": 1.0,
+    "balanced_accuracy_std": 0.0,
+    "macro_precision_mean": 1.0,
+    "macro_recall_mean": 1.0,
+    "macro_f1_mean": 1.0,
+    "macro_f1_std": 0.0,
+    "weighted_f1_mean": 1.0,
+    "weighted_f1_std": 0.0
+  },
+  "majority_baseline": {
+    "accuracy": 0.032895,
+    "balanced_accuracy": 0.02439,
+    "macro_f1": 0.0,
+    "majority_class": "Migraine"
+  },
+  "production_safety": {
+    "all_matched": true,
+    "baseline_file": "backend/ml/phase7i/evidence/production_baseline_hashes.txt",
+    "final_check": "backend/ml/phase7i/evidence/production_final_hashes.txt"
+  },
+  "training_completed": true,
+  "data_augmentation_used": false,
+  "generated_at": "2026-09-10T00:00:00"
+}

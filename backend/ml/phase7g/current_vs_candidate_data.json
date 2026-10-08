@@ -1,0 +1,42 @@
+{
+  "current": {
+    "rows": 100000,
+    "columns": 175,
+    "n_classes": 46,
+    "min_class_size": 1,
+    "max_class_size": 21295,
+    "imbalance_ratio": 21295.0,
+    "classes_below_10": 9,
+    "classes_below_20": 16,
+    "classes_below_50": 19,
+    "classes_below_100": 23,
+    "missing_value_percent": 0.0,
+    "duplicate_rows": 0,
+    "unique_rows_percent": 100.0,
+    "n_symptom_features": 174
+  },
+  "candidate": {
+    "rows": 4961,
+    "columns": 133,
+    "n_classes": 41,
+    "min_class_size": 121,
+    "max_class_size": 121,
+    "imbalance_ratio": 1.0,
+    "classes_below_10": 0,
+    "classes_below_20": 0,
+    "classes_below_50": 0,
+    "classes_below_100": 0,
+    "missing_value_percent": 0.0,
+    "duplicate_rows": 4657,
+    "unique_rows_percent": 6.127796815158234,
+    "n_symptom_features": 132
+  },
+  "current_separability_avg_cosine": 0.69420665172694,
+  "candidate_separability_avg_cosine": 0.10668055220333184,
+  "current_n_classes_sep": 46,
+  "candidate_n_classes_sep": 41,
+  "current_mean_mi": 0.01639422247296919,
+  "candidate_mean_mi": 0.17769214817653514,
+  "current_mi_gt_0p01": 113,
+  "candidate_mi_gt_0p01": 131
+}

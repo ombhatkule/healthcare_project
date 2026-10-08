@@ -1,0 +1,58 @@
+{
+  "A_original_4961": {
+    "name": "A_original_4961",
+    "rows": 4961,
+    "unique_vectors": 304,
+    "classes": 41,
+    "class_min": 121,
+    "class_max": 121,
+    "class_mean": 121.0,
+    "imbalance_ratio": 1.0,
+    "interpretation": "Association rows repeated to uniform 121/class; rows are NOT independent patient samples.",
+    "leakage_risk": "HIGH if row-split naively: identical vectors span train/test.",
+    "independent_samples_valid": false,
+    "suitability_ml": "Acceptable source for class-conditional statistics but misleading as i.i.d. samples."
+  },
+  "B_exact_duplicates_removed": {
+    "name": "B_exact_duplicates_removed",
+    "rows": 304,
+    "unique_vectors": 304,
+    "classes": 41,
+    "class_min": 121,
+    "class_max": 121,
+    "class_mean": 121.0,
+    "imbalance_ratio": 1.0,
+    "interpretation": "Row-level dedup; here equals unique vector+label pairs (no contradictions).",
+    "leakage_risk": "Low if used as association table; still group-split by vector for evaluation.",
+    "independent_samples_valid": false,
+    "suitability_ml": "Deduplicates repeated formatting; preferred base."
+  },
+  "C_unique_vector_disease_associations": {
+    "name": "C_unique_vector_disease_associations",
+    "rows": 304,
+    "unique_vectors": 304,
+    "classes": 41,
+    "class_min": 5,
+    "class_max": 10,
+    "class_mean": 7.41,
+    "imbalance_ratio": 2.0,
+    "interpretation": "One row per unique disease->symptom association (304 rows). Honest information-bearing set.",
+    "leakage_risk": "None from duplicates; split must be stratified/grouped by vector.",
+    "independent_samples_valid": true,
+    "suitability_ml": "Recommended for Phase 7I training/evaluation."
+  },
+  "D_unique_vectors_multilabel": {
+    "name": "D_unique_vectors_multilabel",
+    "rows": 304,
+    "unique_vectors": 304,
+    "classes": 41,
+    "class_min": 121,
+    "class_max": 121,
+    "class_mean": 121.0,
+    "imbalance_ratio": 1.0,
+    "interpretation": "Only if contradictions existed; here 0 contradictions so D == B == C structurally.",
+    "leakage_risk": "Not applicable (no multilabel vectors).",
+    "independent_samples_valid": true,
+    "suitability_ml": "Not needed; documented for completeness."
+  }
+}

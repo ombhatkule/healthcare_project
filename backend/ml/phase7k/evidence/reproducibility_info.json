@@ -1,0 +1,14 @@
+{
+  "phase": "7K",
+  "analysis_script": "backend/ml/phase7k/scripts/phase7k_analysis.py",
+  "python": "venv Python (3.11.9)",
+  "env": "pandas 3.0.5, numpy 2.4.6, scikit-learn 1.8.0 (analysis only: no model fitted)",
+  "non_deterministic_steps": "difflib.get_close_matches cutoff=0.88 produces identical output on fixed input (no RNG used)",
+  "outputs": [
+    "validation/phase7k_mapping_analysis.json",
+    "evidence/*.json",
+    "mappings/label_mapping_full.csv",
+    "mappings/feature_mapping_full.csv"
+  ],
+  "model_used": "Phase 7I experimental model NOT invoked (no valid evaluation set)."
+}

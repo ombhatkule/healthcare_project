@@ -1,0 +1,9 @@
+model,rank,folds,repeats,accuracy_mean,accuracy_std,balanced_accuracy_mean,balanced_accuracy_std,macro_precision_mean,macro_recall_mean,macro_f1_mean,macro_f1_std,weighted_f1_mean,weighted_f1_std
+LR_class_weight_None,1.0,5,10,1.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0
+LR_class_weight_balanced,2.0,5,10,1.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0
+LinearSVC_class_weight_None,3.0,5,10,1.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0
+LinearSVC_class_weight_balanced,4.0,5,10,1.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0
+RF_class_weight_None,5.0,5,10,1.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0
+RF_class_weight_balanced,6.0,5,10,0.999022,0.003872,0.999024,0.00411,0.999024,0.999024,0.998894,0.004762,0.998849,0.004594
+ABLATION_LR_balanced_SelectKBest70,7.0,5,10,0.669129,0.032613,0.606098,0.039423,0.589823,0.606098,0.583248,0.041222,0.653472,0.035388
+MAJORITY_BASELINE,,none,none,0.032895,0.0,0.02439,0.0,0.0,0.0,0.0,0.0,0.032895,0.0

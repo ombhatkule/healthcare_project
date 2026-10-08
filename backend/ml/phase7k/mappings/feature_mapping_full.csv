@@ -1,0 +1,398 @@
+columbia_symptom,phase7i_feature,status
+Heberden's node,,NO_MATCH
+Murphy's sign,,NO_MATCH
+Stahli's line,,NO_MATCH
+UMLS:C0032739_,,NO_MATCH
+abdomen acute,,NO_MATCH
+abdominal bloating,,NO_MATCH
+abdominal tenderness,,NO_MATCH
+abnormal sensation,,NO_MATCH
+abnormally hard consistency,,NO_MATCH
+abortion,,NO_MATCH
+abscess bacterial,,NO_MATCH
+absences finding,,NO_MATCH
+achalasia,,NO_MATCH
+ache,,NO_MATCH
+adverse reaction,,NO_MATCH
+agitation,,NO_MATCH
+air fluid level,,NO_MATCH
+alcohol binge episode,,NO_MATCH
+alcoholic withdrawal symptoms,,NO_MATCH
+ambidexterity,,NO_MATCH
+angina pectoris,,NO_MATCH
+anorexia,loss_of_appetite,HIGH_CONFIDENCE
+anosmia,,NO_MATCH
+aphagia,,NO_MATCH
+apyrexial,,NO_MATCH
+arthralgia,,NO_MATCH
+ascites,,NO_MATCH
+asterixis,,NO_MATCH
+asthenia,fatigue,HIGH_CONFIDENCE
+asymptomatic,,NO_MATCH
+ataxia,,NO_MATCH
+atypia,,NO_MATCH
+aura,,NO_MATCH
+awakening early,,NO_MATCH
+barking cough,,NO_MATCH
+bedridden,,NO_MATCH
+behavior hyperactive,,NO_MATCH
+behavior showing increased motor activity,,NO_MATCH
+blackout,,NO_MATCH
+blanch,,NO_MATCH
+bleeding of vagina,,NO_MATCH
+bowel sounds decreased,,NO_MATCH
+bradycardia,,NO_MATCH
+bradykinesia,,NO_MATCH
+breakthrough pain,,NO_MATCH
+breath sounds decreased,,NO_MATCH
+breath-holding spell,,NO_MATCH
+breech presentation,,NO_MATCH
+bruit,,NO_MATCH
+burning sensation,,NO_MATCH
+cachexia,,NO_MATCH
+cardiomegaly,,NO_MATCH
+cardiovascular finding,,NO_MATCH
+catatonia,,NO_MATCH
+catching breath,,NO_MATCH
+charleyhorse,,NO_MATCH
+chest discomfort,,NO_MATCH
+chest tightness,,NO_MATCH
+chill,chills,EXACT
+choke,,NO_MATCH
+cicatrisation,,NO_MATCH
+clammy skin,,NO_MATCH
+clonus,,NO_MATCH
+clumsiness,,NO_MATCH
+colic abdominal,,NO_MATCH
+consciousness clear,,NO_MATCH
+constipation,constipation,EXACT
+coordination abnormal,,NO_MATCH
+cough,cough,EXACT
+cushingoid facies,,NO_MATCH
+cyanosis,,NO_MATCH
+cystic lesion,,NO_MATCH
+debilitation,,NO_MATCH
+decompensation,,NO_MATCH
+decreased body weight,,NO_MATCH
+decreased stool caliber,,NO_MATCH
+decreased translucency,,NO_MATCH
+diarrhea,diarrhoea,HIGH_CONFIDENCE
+difficulty,,NO_MATCH
+difficulty passing urine,,NO_MATCH
+disequilibrium,,NO_MATCH
+distended abdomen,,NO_MATCH
+distress respiratory,,NO_MATCH
+disturbed family,,NO_MATCH
+dizziness,dizziness,EXACT
+dizzy spells,,NO_MATCH
+drool,,NO_MATCH
+drowsiness,,NO_MATCH
+dullness,,NO_MATCH
+dysarthria,,NO_MATCH
+dysdiadochokinesia,,NO_MATCH
+dysesthesia,,NO_MATCH
+dyspareunia,,NO_MATCH
+dyspnea,breathlessness,HIGH_CONFIDENCE
+dyspnea on exertion,,NO_MATCH
+dysuria,,NO_MATCH
+ecchymosis,,NO_MATCH
+egophony,,NO_MATCH
+elation,,NO_MATCH
+emphysematous change,,NO_MATCH
+energy increased,,NO_MATCH
+enuresis,,NO_MATCH
+erythema,,NO_MATCH
+estrogen use,,NO_MATCH
+excruciating pain,,NO_MATCH
+exhaustion,,NO_MATCH
+extrapyramidal sign,,NO_MATCH
+extreme exhaustion,,NO_MATCH
+facial paresis,,NO_MATCH
+fall,,NO_MATCH
+fatigability,,NO_MATCH
+fatigue,fatigue,EXACT
+fear of falling,,NO_MATCH
+fecaluria,,NO_MATCH
+feces in rectum,,NO_MATCH
+feeling hopeless,,NO_MATCH
+feeling strange,,NO_MATCH
+feeling suicidal,,NO_MATCH
+feels hot/feverish,,NO_MATCH
+fever,high_fever,HIGH_CONFIDENCE
+flare,,NO_MATCH
+flatulence,,NO_MATCH
+floppy,,NO_MATCH
+flushing,,NO_MATCH
+focal seizures,,NO_MATCH
+food intolerance,,NO_MATCH
+formication,,NO_MATCH
+frail,,NO_MATCH
+fremitus,,NO_MATCH
+frothy sputum,,NO_MATCH
+gag,,NO_MATCH
+gasping for breath,,NO_MATCH
+general discomfort,,NO_MATCH
+general unsteadiness,,NO_MATCH
+giddy mood,,NO_MATCH
+gravida 0,,NO_MATCH
+gravida 10,,NO_MATCH
+green sputum,,NO_MATCH
+groggy,,NO_MATCH
+guaiac positive,,NO_MATCH
+gurgle,,NO_MATCH
+hacking cough,,NO_MATCH
+haemoptysis,,NO_MATCH
+haemorrhage,,NO_MATCH
+hallucinations auditory,,NO_MATCH
+hallucinations visual,,NO_MATCH
+has religious belief,,NO_MATCH
+headache,headache,EXACT
+heartburn,,NO_MATCH
+heavy feeling,,NO_MATCH
+heavy legs,,NO_MATCH
+hematochezia,,NO_MATCH
+hematocrit decreased,,NO_MATCH
+hematuria,,NO_MATCH
+heme positive,,NO_MATCH
+hemianopsia homonymous,,NO_MATCH
+hemiplegia,,NO_MATCH
+hemodynamically stable,,NO_MATCH
+hepatomegaly,,NO_MATCH
+hepatosplenomegaly,,NO_MATCH
+hirsutism,,NO_MATCH
+hoard,,NO_MATCH
+hoarseness,,NO_MATCH
+homelessness,,NO_MATCH
+homicidal thoughts,,NO_MATCH
+hot flush,,NO_MATCH
+hunger,,NO_MATCH
+hydropneumothorax,,NO_MATCH
+hyperacusis,,NO_MATCH
+hypercapnia,,NO_MATCH
+hyperemesis,,NO_MATCH
+hyperhidrosis disorder,,NO_MATCH
+hyperkalemia,,NO_MATCH
+hypersomnia,,NO_MATCH
+hypersomnolence,,NO_MATCH
+hypertonicity,,NO_MATCH
+hyperventilation,,NO_MATCH
+hypesthesia,,NO_MATCH
+hypoalbuminemia,,NO_MATCH
+hypocalcemia result,,NO_MATCH
+hypokalemia,,NO_MATCH
+hypokinesia,,NO_MATCH
+hypometabolism,,NO_MATCH
+hyponatremia,,NO_MATCH
+hypoproteinemia,,NO_MATCH
+hypotension,,NO_MATCH
+"hypothermia, natural",,NO_MATCH
+hypoxemia,,NO_MATCH
+immobile,,NO_MATCH
+impaired cognition,,NO_MATCH
+inappropriate affect,,NO_MATCH
+incoherent,,NO_MATCH
+indifferent mood,,NO_MATCH
+intermenstrual heavy bleeding,,NO_MATCH
+intoxication,,NO_MATCH
+irritable mood,,NO_MATCH
+jugular venous distention,,NO_MATCH
+labored breathing,,NO_MATCH
+lameness,,NO_MATCH
+large-for-dates fetus,,NO_MATCH
+left atrial hypertrophy,,NO_MATCH
+lesion,,NO_MATCH
+lethargy,lethargy,EXACT
+lightheadedness,,NO_MATCH
+lip smacking,,NO_MATCH
+loose associations,,NO_MATCH
+low back pain,,NO_MATCH
+lung nodule,,NO_MATCH
+macerated skin,,NO_MATCH
+macule,,NO_MATCH
+malaise,malaise,EXACT
+mass in breast,,NO_MATCH
+mass of body structure,,NO_MATCH
+mediastinal shift,,NO_MATCH
+mental status changes,,NO_MATCH
+metastatic lesion,,NO_MATCH
+milky,,NO_MATCH
+moan,,NO_MATCH
+monoclonal,,NO_MATCH
+monocytosis,,NO_MATCH
+mood depressed,,NO_MATCH
+moody,,NO_MATCH
+motor retardation,,NO_MATCH
+muscle hypotonia,,NO_MATCH
+muscle twitch,,NO_MATCH
+myalgia,,NO_MATCH
+mydriasis,,NO_MATCH
+myoclonus,,NO_MATCH
+nasal discharge present,,NO_MATCH
+nasal flaring,,NO_MATCH
+nausea,nausea,EXACT
+nausea and vomiting,,NO_MATCH
+neck stiffness,,NO_MATCH
+neologism,,NO_MATCH
+nervousness,,NO_MATCH
+night sweat,,NO_MATCH
+nightmare,,NO_MATCH
+no known drug allergies,,NO_MATCH
+no status change,,NO_MATCH
+noisy respiration,,NO_MATCH
+non-productive cough,,NO_MATCH
+nonsmoker,,NO_MATCH
+numbness,,NO_MATCH
+numbness of hand,,NO_MATCH
+oliguria,,NO_MATCH
+orthopnea,,NO_MATCH
+orthostasis,,NO_MATCH
+out of breath,,NO_MATCH
+overweight,,NO_MATCH
+pain,,NO_MATCH
+pain abdominal,,NO_MATCH
+pain back,,NO_MATCH
+pain chest,chest_pain,HIGH_CONFIDENCE
+pain foot,,NO_MATCH
+pain in lower limb,,NO_MATCH
+pain neck,,NO_MATCH
+painful swallowing,,NO_MATCH
+pallor,,NO_MATCH
+palpitation,palpitations,EXACT
+panic,,NO_MATCH
+pansystolic murmur,,NO_MATCH
+para 1,,NO_MATCH
+para 2,,NO_MATCH
+paralyse,,NO_MATCH
+paraparesis,,NO_MATCH
+paresis,,NO_MATCH
+paresthesia,,NO_MATCH
+passed stones,,NO_MATCH
+patient non compliance,,NO_MATCH
+pericardial friction rub,,NO_MATCH
+phonophobia,,NO_MATCH
+photophobia,,NO_MATCH
+photopsia,,NO_MATCH
+pin-point pupils,,NO_MATCH
+pleuritic pain,,NO_MATCH
+pneumatouria,,NO_MATCH
+polydypsia,,NO_MATCH
+polymyalgia,,NO_MATCH
+polyuria,polyuria,EXACT
+poor dentition,,NO_MATCH
+poor feeding,,NO_MATCH
+posterior rhinorrhea,,NO_MATCH
+posturing,,NO_MATCH
+presence of q wave,,NO_MATCH
+pressure chest,,NO_MATCH
+previous pregnancies 2,,NO_MATCH
+primigravida,,NO_MATCH
+prodrome,,NO_MATCH
+productive cough,,NO_MATCH
+projectile vomiting,,NO_MATCH
+prostate tender,,NO_MATCH
+prostatism,,NO_MATCH
+proteinemia,,NO_MATCH
+pruritus,itching,HIGH_CONFIDENCE
+pulse absent,,NO_MATCH
+pulsus paradoxus,,NO_MATCH
+pustule,,NO_MATCH
+qt interval prolonged,,NO_MATCH
+r wave feature,,NO_MATCH
+rale,,NO_MATCH
+rambling speech,,NO_MATCH
+rapid shallow breathing,,NO_MATCH
+red blotches,,NO_MATCH
+redness,,NO_MATCH
+regurgitates after swallowing,,NO_MATCH
+renal angle tenderness,,NO_MATCH
+rest pain,,NO_MATCH
+retch,,NO_MATCH
+retropulsion,,NO_MATCH
+rhd positive,,NO_MATCH
+rhonchus,,NO_MATCH
+rigor - temperature-associated observation,,NO_MATCH
+rolling of eyes,,NO_MATCH
+room spinning,,NO_MATCH
+satiety early,,NO_MATCH
+scar tissue,,NO_MATCH
+sciatica,,NO_MATCH
+scleral icterus,,NO_MATCH
+scratch marks,,NO_MATCH
+sedentary,,NO_MATCH
+seizure,,NO_MATCH
+sensory discomfort,,NO_MATCH
+shooting pain,,NO_MATCH
+shortness of breath,breathlessness,HIGH_CONFIDENCE
+side pain,,NO_MATCH
+sinus rhythm,,NO_MATCH
+sleeplessness,,NO_MATCH
+sleepy,,NO_MATCH
+slowing of urinary stream,,NO_MATCH
+sneeze,,NO_MATCH
+sniffle,,NO_MATCH
+snore,,NO_MATCH
+snuffle,,NO_MATCH
+soft tissue swelling,,NO_MATCH
+sore to touch,,NO_MATCH
+spasm,,NO_MATCH
+speech slurred,,NO_MATCH
+splenomegaly,,NO_MATCH
+spontaneous rupture of membranes,,NO_MATCH
+sputum purulent,,NO_MATCH
+st segment depression,,NO_MATCH
+st segment elevation,,NO_MATCH
+stiffness,,NO_MATCH
+stinging sensation,,NO_MATCH
+stool color yellow,,NO_MATCH
+stridor,,NO_MATCH
+stuffy nose,,NO_MATCH
+stupor,,NO_MATCH
+suicidal,,NO_MATCH
+superimposition,,NO_MATCH
+sweat,sweating,EXACT
+swelling,,NO_MATCH
+symptom aggravating factors,,NO_MATCH
+syncope,dizziness,HIGH_CONFIDENCE
+systolic ejection murmur,,NO_MATCH
+systolic murmur,,NO_MATCH
+t wave inverted,,NO_MATCH
+tachypnea,,NO_MATCH
+tenesmus,,NO_MATCH
+terrify,,NO_MATCH
+thicken,,NO_MATCH
+throat sore,,NO_MATCH
+throbbing sensation quality,,NO_MATCH
+tinnitus,,NO_MATCH
+titubation,,NO_MATCH
+todd paralysis,,NO_MATCH
+tonic seizures,,NO_MATCH
+transaminitis,,NO_MATCH
+transsexual,,NO_MATCH
+tremor,,NO_MATCH
+tremor resting,,NO_MATCH
+tumor cell invasion,,NO_MATCH
+unable to concentrate,,NO_MATCH
+unconscious state,,NO_MATCH
+uncoordination,,NO_MATCH
+underweight,,NO_MATCH
+unhappy,,NO_MATCH
+unresponsiveness,,NO_MATCH
+unsteady gait,,NO_MATCH
+unwell,,NO_MATCH
+urge incontinence,,NO_MATCH
+urgency of micturition,,NO_MATCH
+urinary hesitation,,NO_MATCH
+urinoma,,NO_MATCH
+verbal auditory hallucinations,,NO_MATCH
+verbally abusive behavior,,NO_MATCH
+vertigo,dizziness,HIGH_CONFIDENCE
+vision blurred,,NO_MATCH
+vomiting,vomiting,EXACT
+weepiness,,NO_MATCH
+weight gain,weight_gain,EXACT
+welt,,NO_MATCH
+wheelchair bound,,NO_MATCH
+wheezing,,NO_MATCH
+withdraw,,NO_MATCH
+worry,,NO_MATCH
+yellow sputum,,NO_MATCH

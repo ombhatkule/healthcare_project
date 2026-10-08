@@ -1,0 +1,832 @@
+{
+  "method": "candidate-centric: 132 candidate symptoms classified against current v2 vocab (normalized). Current vocab is NOT authoritative; used only for intersection analysis.",
+  "high_confidence_synonyms_considered_for_candidate_vocab": [
+    "stomach_pain",
+    "belly_pain",
+    "breathlessness"
+  ],
+  "possible_synonyms_requiring_manual_confirmation": [
+    "joint_pain",
+    "weight_gain",
+    "anxiety",
+    "weight_loss",
+    "high_fever",
+    "back_pain",
+    "mild_fever",
+    "congestion",
+    "cramps",
+    "bruising",
+    "drying_and_tingling_lips"
+  ],
+  "summary": {
+    "NO_MATCH": 101,
+    "EXACT": 20,
+    "HIGH_CONFIDENCE_SYNONYM": 3,
+    "POSSIBLE_SYNONYM": 8
+  },
+  "items": [
+    {
+      "candidate_symptom": "itching",
+      "normalized": "itching",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "skin_rash",
+      "normalized": "skin_rash",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "nodal_skin_eruptions",
+      "normalized": "nodal_skin_eruptions",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "continuous_sneezing",
+      "normalized": "continuous_sneezing",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "shivering",
+      "normalized": "shivering",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "chills",
+      "normalized": "chills",
+      "classification": "EXACT",
+      "current_term": "chills"
+    },
+    {
+      "candidate_symptom": "joint_pain",
+      "normalized": "joint_pain",
+      "classification": "EXACT",
+      "current_term": "joint_pain"
+    },
+    {
+      "candidate_symptom": "stomach_pain",
+      "normalized": "stomach_pain",
+      "classification": "HIGH_CONFIDENCE_SYNONYM",
+      "proposed_synonym": "abdominal_pain",
+      "in_current_vocab": true
+    },
+    {
+      "candidate_symptom": "acidity",
+      "normalized": "acidity",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "ulcers_on_tongue",
+      "normalized": "ulcers_on_tongue",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "muscle_wasting",
+      "normalized": "muscle_wasting",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "vomiting",
+      "normalized": "vomiting",
+      "classification": "EXACT",
+      "current_term": "vomiting"
+    },
+    {
+      "candidate_symptom": "burning_micturition",
+      "normalized": "burning_micturition",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "spotting_urination",
+      "normalized": "spotting_urination",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "fatigue",
+      "normalized": "fatigue",
+      "classification": "EXACT",
+      "current_term": "fatigue"
+    },
+    {
+      "candidate_symptom": "weight_gain",
+      "normalized": "weight_gain",
+      "classification": "EXACT",
+      "current_term": "weight_gain"
+    },
+    {
+      "candidate_symptom": "anxiety",
+      "normalized": "anxiety",
+      "classification": "EXACT",
+      "current_term": "anxiety"
+    },
+    {
+      "candidate_symptom": "cold_hands_and_feets",
+      "normalized": "cold_hands_and_feets",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "mood_swings",
+      "normalized": "mood_swings",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "weight_loss",
+      "normalized": "weight_loss",
+      "classification": "POSSIBLE_SYNONYM",
+      "candidate_synonym": "unintentional_weight_loss",
+      "in_current_vocab": true
+    },
+    {
+      "candidate_symptom": "restlessness",
+      "normalized": "restlessness",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "lethargy",
+      "normalized": "lethargy",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "patches_in_throat",
+      "normalized": "patches_in_throat",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "irregular_sugar_level",
+      "normalized": "irregular_sugar_level",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "cough",
+      "normalized": "cough",
+      "classification": "EXACT",
+      "current_term": "cough"
+    },
+    {
+      "candidate_symptom": "high_fever",
+      "normalized": "high_fever",
+      "classification": "POSSIBLE_SYNONYM",
+      "candidate_synonym": "fever",
+      "in_current_vocab": true
+    },
+    {
+      "candidate_symptom": "sunken_eyes",
+      "normalized": "sunken_eyes",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "breathlessness",
+      "normalized": "breathlessness",
+      "classification": "HIGH_CONFIDENCE_SYNONYM",
+      "proposed_synonym": "shortness_of_breath",
+      "in_current_vocab": true
+    },
+    {
+      "candidate_symptom": "sweating",
+      "normalized": "sweating",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "dehydration",
+      "normalized": "dehydration",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "indigestion",
+      "normalized": "indigestion",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "headache",
+      "normalized": "headache",
+      "classification": "EXACT",
+      "current_term": "headache"
+    },
+    {
+      "candidate_symptom": "yellowish_skin",
+      "normalized": "yellowish_skin",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "dark_urine",
+      "normalized": "dark_urine",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "nausea",
+      "normalized": "nausea",
+      "classification": "EXACT",
+      "current_term": "nausea"
+    },
+    {
+      "candidate_symptom": "loss_of_appetite",
+      "normalized": "loss_of_appetite",
+      "classification": "EXACT",
+      "current_term": "loss_of_appetite"
+    },
+    {
+      "candidate_symptom": "pain_behind_the_eyes",
+      "normalized": "pain_behind_the_eyes",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "back_pain",
+      "normalized": "back_pain",
+      "classification": "POSSIBLE_SYNONYM",
+      "candidate_synonym": "low_back_pain",
+      "in_current_vocab": true
+    },
+    {
+      "candidate_symptom": "constipation",
+      "normalized": "constipation",
+      "classification": "EXACT",
+      "current_term": "constipation"
+    },
+    {
+      "candidate_symptom": "abdominal_pain",
+      "normalized": "abdominal_pain",
+      "classification": "EXACT",
+      "current_term": "abdominal_pain"
+    },
+    {
+      "candidate_symptom": "diarrhoea",
+      "normalized": "diarrhoea",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "mild_fever",
+      "normalized": "mild_fever",
+      "classification": "POSSIBLE_SYNONYM",
+      "candidate_synonym": "fever",
+      "in_current_vocab": true
+    },
+    {
+      "candidate_symptom": "yellow_urine",
+      "normalized": "yellow_urine",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "yellowing_of_eyes",
+      "normalized": "yellowing_of_eyes",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "acute_liver_failure",
+      "normalized": "acute_liver_failure",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "fluid_overload",
+      "normalized": "fluid_overload",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "swelling_of_stomach",
+      "normalized": "swelling_of_stomach",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "swelled_lymph_nodes",
+      "normalized": "swelled_lymph_nodes",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "malaise",
+      "normalized": "malaise",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "blurred_and_distorted_vision",
+      "normalized": "blurred_and_distorted_vision",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "phlegm",
+      "normalized": "phlegm",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "throat_irritation",
+      "normalized": "throat_irritation",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "redness_of_eyes",
+      "normalized": "redness_of_eyes",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "sinus_pressure",
+      "normalized": "sinus_pressure",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "runny_nose",
+      "normalized": "runny_nose",
+      "classification": "EXACT",
+      "current_term": "runny_nose"
+    },
+    {
+      "candidate_symptom": "congestion",
+      "normalized": "congestion",
+      "classification": "POSSIBLE_SYNONYM",
+      "candidate_synonym": "nasal_congestion",
+      "in_current_vocab": true
+    },
+    {
+      "candidate_symptom": "chest_pain",
+      "normalized": "chest_pain",
+      "classification": "EXACT",
+      "current_term": "chest_pain"
+    },
+    {
+      "candidate_symptom": "weakness_in_limbs",
+      "normalized": "weakness_in_limbs",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "fast_heart_rate",
+      "normalized": "fast_heart_rate",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "pain_during_bowel_movements",
+      "normalized": "pain_during_bowel_movements",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "pain_in_anal_region",
+      "normalized": "pain_in_anal_region",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "bloody_stool",
+      "normalized": "bloody_stool",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "irritation_in_anus",
+      "normalized": "irritation_in_anus",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "neck_pain",
+      "normalized": "neck_pain",
+      "classification": "EXACT",
+      "current_term": "neck_pain"
+    },
+    {
+      "candidate_symptom": "dizziness",
+      "normalized": "dizziness",
+      "classification": "EXACT",
+      "current_term": "dizziness"
+    },
+    {
+      "candidate_symptom": "cramps",
+      "normalized": "cramps",
+      "classification": "POSSIBLE_SYNONYM",
+      "candidate_synonym": "muscle_cramps_symptom",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "bruising",
+      "normalized": "bruising",
+      "classification": "POSSIBLE_SYNONYM",
+      "candidate_synonym": "easy_bruising",
+      "in_current_vocab": true
+    },
+    {
+      "candidate_symptom": "obesity",
+      "normalized": "obesity",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "swollen_legs",
+      "normalized": "swollen_legs",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "swollen_blood_vessels",
+      "normalized": "swollen_blood_vessels",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "puffy_face_and_eyes",
+      "normalized": "puffy_face_and_eyes",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "enlarged_thyroid",
+      "normalized": "enlarged_thyroid",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "brittle_nails",
+      "normalized": "brittle_nails",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "swollen_extremeties",
+      "normalized": "swollen_extremeties",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "excessive_hunger",
+      "normalized": "excessive_hunger",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "extra_marital_contacts",
+      "normalized": "extra_marital_contacts",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "drying_and_tingling_lips",
+      "normalized": "drying_and_tingling_lips",
+      "classification": "POSSIBLE_SYNONYM",
+      "candidate_synonym": "tingling",
+      "in_current_vocab": true
+    },
+    {
+      "candidate_symptom": "slurred_speech",
+      "normalized": "slurred_speech",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "knee_pain",
+      "normalized": "knee_pain",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "hip_joint_pain",
+      "normalized": "hip_joint_pain",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "muscle_weakness",
+      "normalized": "muscle_weakness",
+      "classification": "EXACT",
+      "current_term": "muscle_weakness"
+    },
+    {
+      "candidate_symptom": "stiff_neck",
+      "normalized": "stiff_neck",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "swelling_joints",
+      "normalized": "swelling_joints",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "movement_stiffness",
+      "normalized": "movement_stiffness",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "spinning_movements",
+      "normalized": "spinning_movements",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "loss_of_balance",
+      "normalized": "loss_of_balance",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "unsteadiness",
+      "normalized": "unsteadiness",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "weakness_of_one_body_side",
+      "normalized": "weakness_of_one_body_side",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "loss_of_smell",
+      "normalized": "loss_of_smell",
+      "classification": "EXACT",
+      "current_term": "loss_of_smell"
+    },
+    {
+      "candidate_symptom": "bladder_discomfort",
+      "normalized": "bladder_discomfort",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "foul_smell_of_urine",
+      "normalized": "foul_smell_of_urine",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "continuous_feel_of_urine",
+      "normalized": "continuous_feel_of_urine",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "passage_of_gases",
+      "normalized": "passage_of_gases",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "internal_itching",
+      "normalized": "internal_itching",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "toxic_look_typhos",
+      "normalized": "toxic_look_typhos",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "depression",
+      "normalized": "depression",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "irritability",
+      "normalized": "irritability",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "muscle_pain",
+      "normalized": "muscle_pain",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "altered_sensorium",
+      "normalized": "altered_sensorium",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "red_spots_over_body",
+      "normalized": "red_spots_over_body",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "belly_pain",
+      "normalized": "belly_pain",
+      "classification": "HIGH_CONFIDENCE_SYNONYM",
+      "proposed_synonym": "abdominal_pain",
+      "in_current_vocab": true
+    },
+    {
+      "candidate_symptom": "abnormal_menstruation",
+      "normalized": "abnormal_menstruation",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "dischromic_patches",
+      "normalized": "dischromic_patches",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "watering_from_eyes",
+      "normalized": "watering_from_eyes",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "increased_appetite",
+      "normalized": "increased_appetite",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "polyuria",
+      "normalized": "polyuria",
+      "classification": "EXACT",
+      "current_term": "polyuria"
+    },
+    {
+      "candidate_symptom": "family_history",
+      "normalized": "family_history",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "mucoid_sputum",
+      "normalized": "mucoid_sputum",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "rusty_sputum",
+      "normalized": "rusty_sputum",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "lack_of_concentration",
+      "normalized": "lack_of_concentration",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "visual_disturbances",
+      "normalized": "visual_disturbances",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "receiving_blood_transfusion",
+      "normalized": "receiving_blood_transfusion",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "receiving_unsterile_injections",
+      "normalized": "receiving_unsterile_injections",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "coma",
+      "normalized": "coma",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "stomach_bleeding",
+      "normalized": "stomach_bleeding",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "distention_of_abdomen",
+      "normalized": "distention_of_abdomen",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "history_of_alcohol_consumption",
+      "normalized": "history_of_alcohol_consumption",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "fluid_overload_1",
+      "normalized": "fluid_overload_1",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "blood_in_sputum",
+      "normalized": "blood_in_sputum",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "prominent_veins_on_calf",
+      "normalized": "prominent_veins_on_calf",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "palpitations",
+      "normalized": "palpitations",
+      "classification": "EXACT",
+      "current_term": "palpitations"
+    },
+    {
+      "candidate_symptom": "painful_walking",
+      "normalized": "painful_walking",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "pus_filled_pimples",
+      "normalized": "pus_filled_pimples",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "blackheads",
+      "normalized": "blackheads",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "scurring",
+      "normalized": "scurring",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "skin_peeling",
+      "normalized": "skin_peeling",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "silver_like_dusting",
+      "normalized": "silver_like_dusting",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "small_dents_in_nails",
+      "normalized": "small_dents_in_nails",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "inflammatory_nails",
+      "normalized": "inflammatory_nails",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "blister",
+      "normalized": "blister",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "red_sore_around_nose",
+      "normalized": "red_sore_around_nose",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    },
+    {
+      "candidate_symptom": "yellow_crust_ooze",
+      "normalized": "yellow_crust_ooze",
+      "classification": "NO_MATCH",
+      "in_current_vocab": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Phase 7E Baseline Check",
+  "production_files": {
+    "disease_model.joblib": {
+      "exists": true,
+      "size_mb": 581.08,
+      "sha256": "f772b3b8a48e5e07196ee153e593a0e096e0f19875349ddb9dcfaf83895d16a6",
+      "last_modified": "1788804391.7692337"
+    },
+    "symptom_columns.joblib": {
+      "exists": true,
+      "size_mb": 0.0,
+      "sha256": "9fea903cfcbdf2d02e1a37082d88d4cbcdd495a264bf59bf81eafd947d99332e"
+    },
+    "disease_dataset_cleaned_v2.csv": {
+      "exists": true,
+      "size_mb": 34.56,
+      "sha256": "5912fa31e8a2b22dbd65ad8d584482dc531154452f5b8881e9bb5d12cd2c2e50"
+    }
+  },
+  "phase7d_outputs_present": {
+    "model_comparison.json": true,
+    "migraine_bias_test.json": true,
+    "empty_input_test.json": true,
+    "per_class_metrics.csv": true,
+    "confusion_matrix.csv": true,
+    "random_forest_feature_importance.csv": true,
+    "class_weight_effect.json": true,
+    "phase7d_report.md": true
+  }
+}

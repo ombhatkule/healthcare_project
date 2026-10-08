@@ -1,0 +1,311 @@
+{
+  "A_exact_duplicate_full_rows": 4657,
+  "B_duplicate_vectors_same_prognosis": 304,
+  "C_duplicate_vectors_different_prognosis": 0,
+  "D_unique_symptom_vectors": 304,
+  "E_unique_vector_disease_pairs": 304,
+  "F_diseases_per_repeated_vector_distribution": {
+    "1": 304
+  },
+  "G_repeated_vector_frequency_distribution": {
+    "91": 2,
+    "85": 2,
+    "79": 12,
+    "73": 19,
+    "67": 6,
+    "18": 2,
+    "12": 45,
+    "6": 216
+  },
+  "H_per_disease_repetition": {
+    "AIDS": {
+      "rows": 121,
+      "unique_vectors": 5,
+      "rows_that_are_repeats": 116,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Acne": {
+      "rows": 121,
+      "unique_vectors": 5,
+      "rows_that_are_repeats": 116,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Alcoholic Hepatitis": {
+      "rows": 121,
+      "unique_vectors": 8,
+      "rows_that_are_repeats": 113,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Allergy": {
+      "rows": 121,
+      "unique_vectors": 5,
+      "rows_that_are_repeats": 116,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Arthritis": {
+      "rows": 121,
+      "unique_vectors": 6,
+      "rows_that_are_repeats": 115,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Bronchial Asthma": {
+      "rows": 121,
+      "unique_vectors": 7,
+      "rows_that_are_repeats": 114,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Cervical Spondylosis": {
+      "rows": 121,
+      "unique_vectors": 6,
+      "rows_that_are_repeats": 115,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Chickenpox": {
+      "rows": 121,
+      "unique_vectors": 10,
+      "rows_that_are_repeats": 111,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Chronic Cholestasis": {
+      "rows": 121,
+      "unique_vectors": 8,
+      "rows_that_are_repeats": 113,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Common Cold": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Dengue": {
+      "rows": 121,
+      "unique_vectors": 10,
+      "rows_that_are_repeats": 111,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Diabetes ": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Dimorphic Hemmorhoids (piles)": {
+      "rows": 121,
+      "unique_vectors": 6,
+      "rows_that_are_repeats": 115,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Drug Reaction": {
+      "rows": 121,
+      "unique_vectors": 6,
+      "rows_that_are_repeats": 115,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Fungal Infection": {
+      "rows": 121,
+      "unique_vectors": 5,
+      "rows_that_are_repeats": 116,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "GERD": {
+      "rows": 121,
+      "unique_vectors": 7,
+      "rows_that_are_repeats": 114,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Gastroenteritis": {
+      "rows": 121,
+      "unique_vectors": 5,
+      "rows_that_are_repeats": 116,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Heart Attack": {
+      "rows": 121,
+      "unique_vectors": 5,
+      "rows_that_are_repeats": 116,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Hepatitis A": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Hepatitis B": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Hepatitis C": {
+      "rows": 121,
+      "unique_vectors": 7,
+      "rows_that_are_repeats": 114,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Hepatitis D": {
+      "rows": 121,
+      "unique_vectors": 10,
+      "rows_that_are_repeats": 111,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Hepatitis E": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Hypertension ": {
+      "rows": 121,
+      "unique_vectors": 6,
+      "rows_that_are_repeats": 115,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Hyperthyroidism": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Hypoglycemia": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Hypothyroidism": {
+      "rows": 121,
+      "unique_vectors": 8,
+      "rows_that_are_repeats": 113,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Impetigo": {
+      "rows": 121,
+      "unique_vectors": 6,
+      "rows_that_are_repeats": 115,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Jaundice": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Malaria": {
+      "rows": 121,
+      "unique_vectors": 8,
+      "rows_that_are_repeats": 113,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Migraine": {
+      "rows": 121,
+      "unique_vectors": 10,
+      "rows_that_are_repeats": 111,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Osteoarthritis": {
+      "rows": 121,
+      "unique_vectors": 7,
+      "rows_that_are_repeats": 114,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Paralysis (brain hemorrhage)": {
+      "rows": 121,
+      "unique_vectors": 5,
+      "rows_that_are_repeats": 116,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Peptic Ulcer Disease": {
+      "rows": 121,
+      "unique_vectors": 7,
+      "rows_that_are_repeats": 114,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Pneumonia": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Psoriasis": {
+      "rows": 121,
+      "unique_vectors": 7,
+      "rows_that_are_repeats": 114,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Tuberculosis": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Typhoid": {
+      "rows": 121,
+      "unique_vectors": 9,
+      "rows_that_are_repeats": 112,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Urinary Tract Infection": {
+      "rows": 121,
+      "unique_vectors": 5,
+      "rows_that_are_repeats": 116,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Varicose Veins": {
+      "rows": 121,
+      "unique_vectors": 8,
+      "rows_that_are_repeats": 113,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    },
+    "Vertigo": {
+      "rows": 121,
+      "unique_vectors": 7,
+      "rows_that_are_repeats": 114,
+      "single_use_vectors": 0,
+      "polysemic_only_not_checked": false
+    }
+  },
+  "conclusion": "LEGITIMATE association-format repetition: each disease repeats a small set of canonical symptom vectors many times to reach 121 rows class (5-10 unique vectors per disease, 111-116 repeat rows each). Every repeated symptom vector maps to exactly ONE disease (0 contradictions). Repeated rows are therefore NOT independent patient observations; the underlying information is a disease->symptom association table. No accidental duplication or polysemy is evidenced.",
+  "interpretation": "None of the repeated rows are independent patient samples a priori; they are structured repeats of disease->symptom association vectors."
+}

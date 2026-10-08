@@ -1,0 +1,17 @@
+{
+  "title": "Phase 7E Step 8 \u00e2\u20ac\u201d Small Sample Inspection",
+  "date": "2026-09-08",
+  "status": "NOT_PERFORMED",
+  "reason": "No candidate dataset was downloaded or accessed. All candidates require Kaggle/IEEE/UCI access, and per Phase 7E instructions, NO dataset was downloaded automatically or without credentials. Candidate info comes exclusively from web documentation (data cards, UCI variable tables, IEEE metadata). Direct inspection is deferred to the approval/integration phase.",
+  "candidates_not_inspected": [
+    "UCI 'Early Stage Diabetes Risk Prediction' (ID 529)",
+    "UCI 'CDC Diabetes Health Indicators' (ID 891)",
+    "Kaggle 'Disease Prediction Using Machine Learning' (Kaushil268)",
+    "IEEE DataPort 'Disease Prediction Dataset' (Ayush Nautiyal et al.)",
+    "Kaggle 'Symptom2Disease' (Niyarr Barman)",
+    "Kaggle 'Community Healthcare MultiSymptoms-Disease Dataset' (arjunnairedu)",
+    "Kaggle 'Symptom to Disease Descriptions (820_Cleaned)'",
+    "Kaggle 'Disease and Symptoms dataset' (Mohamed Medhat AZZAZY)"
+  ],
+  "note": "Deferred small-sample inspection is a REQUIREMENT before any candidate is selected for integration."
+}

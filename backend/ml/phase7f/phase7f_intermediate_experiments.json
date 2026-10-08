@@ -1,0 +1,582 @@
+{
+  "tiers": {
+    "Tier A (>=500)": {
+      "n_classes": 19,
+      "total_samples": 98338,
+      "pct_of_classes": 41.3,
+      "pct_of_dataset": 98.34,
+      "diseases": [
+        "Hyperthyroidism",
+        "Coronary_Artery_Disease",
+        "Irritable_Bowel_Syndrome",
+        "Obesity",
+        "Asthma",
+        "Osteoarthritis",
+        "Pneumonia",
+        "Chronic_Kidney_Disease",
+        "Polycystic_Ovary_Syndrome",
+        "Gastritis",
+        "Flu",
+        "Peptic_Ulcer_Disease",
+        "Hypothyroidism",
+        "Type2_Diabetes",
+        "Common_Cold",
+        "Hypertension",
+        "COVID19",
+        "Depression",
+        "COPD"
+      ]
+    },
+    "Tier B (100-499)": {
+      "n_classes": 4,
+      "total_samples": 1153,
+      "pct_of_classes": 8.7,
+      "pct_of_dataset": 1.15,
+      "diseases": [
+        "Migraine",
+        "Cystic_Fibrosis",
+        "Epilepsy",
+        "Systemic_Lupus_Erythematosus"
+      ]
+    },
+    "Tier C (50-99)": {
+      "n_classes": 4,
+      "total_samples": 276,
+      "pct_of_classes": 8.7,
+      "pct_of_dataset": 0.28,
+      "diseases": [
+        "Generalized_Anxiety_Disorder",
+        "Stroke",
+        "Amyotrophic_Lateral_Sclerosis",
+        "Tuberculosis"
+      ]
+    },
+    "Tier D (20-49)": {
+      "n_classes": 3,
+      "total_samples": 99,
+      "pct_of_classes": 6.52,
+      "pct_of_dataset": 0.1,
+      "diseases": [
+        "Ehlers_Danlos_Syndrome",
+        "Osteopetrosis",
+        "Marfan_Syndrome"
+      ]
+    },
+    "Tier E (10-19)": {
+      "n_classes": 7,
+      "total_samples": 104,
+      "pct_of_classes": 15.22,
+      "pct_of_dataset": 0.1,
+      "diseases": [
+        "Inflammatory_Bowel_Disease",
+        "Spinal_Muscular_Atrophy",
+        "Cirrhosis",
+        "Gaucher_Disease",
+        "Niemann_Pick_Disease",
+        "Dengue",
+        "Multiple_Sclerosis"
+      ]
+    },
+    "Tier F (<10)": {
+      "n_classes": 9,
+      "total_samples": 30,
+      "pct_of_classes": 19.57,
+      "pct_of_dataset": 0.03,
+      "diseases": [
+        "Chronic_Liver_Disease",
+        "Ulcerative_Colitis",
+        "Typhoid_Fever",
+        "Crohn_Disease",
+        "Acute_Gastroenteritis",
+        "Fanconi_Anemia",
+        "Psoriasis",
+        "Metabolic_Syndrome",
+        "Urinary_Tract_Infection"
+      ]
+    }
+  },
+  "threshold_results": {
+    "10": {
+      "n_classes_retained": 37,
+      "pct_classes_retained": 80.43,
+      "rows_retained": 99970,
+      "pct_dataset_retained": 99.97,
+      "min_samples_per_class": 12,
+      "max_samples_per_class": 21295,
+      "imbalance_ratio": 1774.6,
+      "expected_test_support_min_20pct": 2.4,
+      "expected_test_support_max_20pct": 4259.0,
+      "diseases_retained": [
+        "Hyperthyroidism",
+        "Coronary_Artery_Disease",
+        "Irritable_Bowel_Syndrome",
+        "Obesity",
+        "Asthma",
+        "Osteoarthritis",
+        "Pneumonia",
+        "Chronic_Kidney_Disease",
+        "Polycystic_Ovary_Syndrome",
+        "Gastritis",
+        "Flu",
+        "Peptic_Ulcer_Disease",
+        "Hypothyroidism",
+        "Type2_Diabetes",
+        "Common_Cold",
+        "Hypertension",
+        "COVID19",
+        "Depression",
+        "Migraine",
+        "COPD",
+        "Ehlers_Danlos_Syndrome",
+        "Cystic_Fibrosis",
+        "Epilepsy",
+        "Generalized_Anxiety_Disorder",
+        "Systemic_Lupus_Erythematosus",
+        "Stroke",
+        "Osteopetrosis",
+        "Amyotrophic_Lateral_Sclerosis",
+        "Inflammatory_Bowel_Disease",
+        "Tuberculosis",
+        "Marfan_Syndrome",
+        "Spinal_Muscular_Atrophy",
+        "Cirrhosis",
+        "Gaucher_Disease",
+        "Niemann_Pick_Disease",
+        "Dengue",
+        "Multiple_Sclerosis"
+      ]
+    },
+    "20": {
+      "n_classes_retained": 30,
+      "pct_classes_retained": 65.22,
+      "rows_retained": 99866,
+      "pct_dataset_retained": 99.87,
+      "min_samples_per_class": 24,
+      "max_samples_per_class": 21295,
+      "imbalance_ratio": 887.3,
+      "expected_test_support_min_20pct": 4.8,
+      "expected_test_support_max_20pct": 4259.0,
+      "diseases_retained": [
+        "Hyperthyroidism",
+        "Coronary_Artery_Disease",
+        "Irritable_Bowel_Syndrome",
+        "Obesity",
+        "Asthma",
+        "Osteoarthritis",
+        "Pneumonia",
+        "Chronic_Kidney_Disease",
+        "Polycystic_Ovary_Syndrome",
+        "Gastritis",
+        "Flu",
+        "Peptic_Ulcer_Disease",
+        "Hypothyroidism",
+        "Type2_Diabetes",
+        "Common_Cold",
+        "Hypertension",
+        "COVID19",
+        "Depression",
+        "Migraine",
+        "COPD",
+        "Ehlers_Danlos_Syndrome",
+        "Cystic_Fibrosis",
+        "Epilepsy",
+        "Generalized_Anxiety_Disorder",
+        "Systemic_Lupus_Erythematosus",
+        "Stroke",
+        "Osteopetrosis",
+        "Amyotrophic_Lateral_Sclerosis",
+        "Tuberculosis",
+        "Marfan_Syndrome"
+      ]
+    },
+    "50": {
+      "n_classes_retained": 27,
+      "pct_classes_retained": 58.7,
+      "rows_retained": 99767,
+      "pct_dataset_retained": 99.77,
+      "min_samples_per_class": 50,
+      "max_samples_per_class": 21295,
+      "imbalance_ratio": 425.9,
+      "expected_test_support_min_20pct": 10.0,
+      "expected_test_support_max_20pct": 4259.0,
+      "diseases_retained": [
+        "Hyperthyroidism",
+        "Coronary_Artery_Disease",
+        "Irritable_Bowel_Syndrome",
+        "Obesity",
+        "Asthma",
+        "Osteoarthritis",
+        "Pneumonia",
+        "Chronic_Kidney_Disease",
+        "Polycystic_Ovary_Syndrome",
+        "Gastritis",
+        "Flu",
+        "Peptic_Ulcer_Disease",
+        "Hypothyroidism",
+        "Type2_Diabetes",
+        "Common_Cold",
+        "Hypertension",
+        "COVID19",
+        "Depression",
+        "Migraine",
+        "COPD",
+        "Cystic_Fibrosis",
+        "Epilepsy",
+        "Generalized_Anxiety_Disorder",
+        "Systemic_Lupus_Erythematosus",
+        "Stroke",
+        "Amyotrophic_Lateral_Sclerosis",
+        "Tuberculosis"
+      ]
+    },
+    "100": {
+      "n_classes_retained": 23,
+      "pct_classes_retained": 50.0,
+      "rows_retained": 99491,
+      "pct_dataset_retained": 99.49,
+      "min_samples_per_class": 156,
+      "max_samples_per_class": 21295,
+      "imbalance_ratio": 136.5,
+      "expected_test_support_min_20pct": 31.2,
+      "expected_test_support_max_20pct": 4259.0,
+      "diseases_retained": [
+        "Hyperthyroidism",
+        "Coronary_Artery_Disease",
+        "Irritable_Bowel_Syndrome",
+        "Obesity",
+        "Asthma",
+        "Osteoarthritis",
+        "Pneumonia",
+        "Chronic_Kidney_Disease",
+        "Polycystic_Ovary_Syndrome",
+        "Gastritis",
+        "Flu",
+        "Peptic_Ulcer_Disease",
+        "Hypothyroidism",
+        "Type2_Diabetes",
+        "Common_Cold",
+        "Hypertension",
+        "COVID19",
+        "Depression",
+        "Migraine",
+        "COPD",
+        "Cystic_Fibrosis",
+        "Epilepsy",
+        "Systemic_Lupus_Erythematosus"
+      ]
+    },
+    "500": {
+      "n_classes_retained": 19,
+      "pct_classes_retained": 41.3,
+      "rows_retained": 98338,
+      "pct_dataset_retained": 98.34,
+      "min_samples_per_class": 922,
+      "max_samples_per_class": 21295,
+      "imbalance_ratio": 23.1,
+      "expected_test_support_min_20pct": 184.4,
+      "expected_test_support_max_20pct": 4259.0,
+      "diseases_retained": [
+        "Hyperthyroidism",
+        "Coronary_Artery_Disease",
+        "Irritable_Bowel_Syndrome",
+        "Obesity",
+        "Asthma",
+        "Osteoarthritis",
+        "Pneumonia",
+        "Chronic_Kidney_Disease",
+        "Polycystic_Ovary_Syndrome",
+        "Gastritis",
+        "Flu",
+        "Peptic_Ulcer_Disease",
+        "Hypothyroidism",
+        "Type2_Diabetes",
+        "Common_Cold",
+        "Hypertension",
+        "COVID19",
+        "Depression",
+        "COPD"
+      ]
+    }
+  },
+  "separability_by_threshold": {
+    "full_46_class": {
+      "n_classes": 46,
+      "average_similarity": 0.694207,
+      "max_similarity": 0.959759,
+      "min_similarity": 0.20806,
+      "std_similarity": 0.144585
+    },
+    "by_threshold": {
+      "10": {
+        "n_classes": 37,
+        "average_similarity": 0.766532,
+        "max_similarity": 0.959759,
+        "min_similarity": 0.437921,
+        "std_similarity": 0.099721
+      },
+      "20": {
+        "n_classes": 30,
+        "average_similarity": 0.797853,
+        "max_similarity": 0.959759,
+        "min_similarity": 0.525987,
+        "std_similarity": 0.080535
+      },
+      "50": {
+        "n_classes": 27,
+        "average_similarity": 0.806544,
+        "max_similarity": 0.959759,
+        "min_similarity": 0.525987,
+        "std_similarity": 0.079741
+      },
+      "100": {
+        "n_classes": 23,
+        "average_similarity": 0.807674,
+        "max_similarity": 0.950191,
+        "min_similarity": 0.528347,
+        "std_similarity": 0.081741
+      },
+      "500": {
+        "n_classes": 19,
+        "average_similarity": 0.824329,
+        "max_similarity": 0.950191,
+        "min_similarity": 0.655099,
+        "std_similarity": 0.070905
+      }
+    }
+  },
+  "one_vs_rest_feasible_count": 27,
+  "low_information_input": {
+    "1": {
+      "avg_max_score": 0.102534,
+      "avg_top1_top2_gap": 0.019966,
+      "avg_top5_diversity": 5.0,
+      "migraine_frequency": 87.5,
+      "top1_distribution_count_classes": 7,
+      "most_common_top1": [
+        [
+          "Migraine",
+          175
+        ],
+        [
+          "Coronary_Artery_Disease",
+          19
+        ],
+        [
+          "Cystic_Fibrosis",
+          2
+        ],
+        [
+          "Polycystic_Ovary_Syndrome",
+          1
+        ],
+        [
+          "Marfan_Syndrome",
+          1
+        ]
+      ]
+    },
+    "2": {
+      "avg_max_score": 0.128198,
+      "avg_top1_top2_gap": 0.049516,
+      "avg_top5_diversity": 5.0,
+      "migraine_frequency": 73.5,
+      "top1_distribution_count_classes": 12,
+      "most_common_top1": [
+        [
+          "Migraine",
+          147
+        ],
+        [
+          "Coronary_Artery_Disease",
+          25
+        ],
+        [
+          "Cystic_Fibrosis",
+          6
+        ],
+        [
+          "Spinal_Muscular_Atrophy",
+          5
+        ],
+        [
+          "Polycystic_Ovary_Syndrome",
+          4
+        ]
+      ]
+    },
+    "3": {
+      "avg_max_score": 0.14497,
+      "avg_top1_top2_gap": 0.067099,
+      "avg_top5_diversity": 5.0,
+      "migraine_frequency": 58.0,
+      "top1_distribution_count_classes": 14,
+      "most_common_top1": [
+        [
+          "Migraine",
+          116
+        ],
+        [
+          "Coronary_Artery_Disease",
+          38
+        ],
+        [
+          "Amyotrophic_Lateral_Sclerosis",
+          10
+        ],
+        [
+          "Osteopetrosis",
+          7
+        ],
+        [
+          "Marfan_Syndrome",
+          6
+        ]
+      ]
+    },
+    "5": {
+      "avg_max_score": 0.157365,
+      "avg_top1_top2_gap": 0.079966,
+      "avg_top5_diversity": 5.0,
+      "migraine_frequency": 39.0,
+      "top1_distribution_count_classes": 15,
+      "most_common_top1": [
+        [
+          "Migraine",
+          78
+        ],
+        [
+          "Coronary_Artery_Disease",
+          58
+        ],
+        [
+          "Cystic_Fibrosis",
+          9
+        ],
+        [
+          "Osteopetrosis",
+          9
+        ],
+        [
+          "Ehlers_Danlos_Syndrome",
+          8
+        ]
+      ]
+    },
+    "10": {
+      "avg_max_score": 0.177527,
+      "avg_top1_top2_gap": 0.095924,
+      "avg_top5_diversity": 5.0,
+      "migraine_frequency": 14.0,
+      "top1_distribution_count_classes": 23,
+      "most_common_top1": [
+        [
+          "Coronary_Artery_Disease",
+          41
+        ],
+        [
+          "Migraine",
+          28
+        ],
+        [
+          "Cystic_Fibrosis",
+          21
+        ],
+        [
+          "Osteopetrosis",
+          15
+        ],
+        [
+          "Ehlers_Danlos_Syndrome",
+          15
+        ]
+      ]
+    },
+    "15": {
+      "avg_max_score": 0.156953,
+      "avg_top1_top2_gap": 0.073054,
+      "avg_top5_diversity": 5.0,
+      "migraine_frequency": 5.0,
+      "top1_distribution_count_classes": 27,
+      "most_common_top1": [
+        [
+          "Cystic_Fibrosis",
+          34
+        ],
+        [
+          "Amyotrophic_Lateral_Sclerosis",
+          22
+        ],
+        [
+          "Spinal_Muscular_Atrophy",
+          20
+        ],
+        [
+          "Coronary_Artery_Disease",
+          18
+        ],
+        [
+          "Osteopetrosis",
+          16
+        ]
+      ]
+    },
+    "20": {
+      "avg_max_score": 0.152275,
+      "avg_top1_top2_gap": 0.07267,
+      "avg_top5_diversity": 5.0,
+      "migraine_frequency": 4.5,
+      "top1_distribution_count_classes": 26,
+      "most_common_top1": [
+        [
+          "Cystic_Fibrosis",
+          31
+        ],
+        [
+          "Amyotrophic_Lateral_Sclerosis",
+          27
+        ],
+        [
+          "Spinal_Muscular_Atrophy",
+          19
+        ],
+        [
+          "Osteopetrosis",
+          17
+        ],
+        [
+          "Gaucher_Disease",
+          13
+        ]
+      ]
+    },
+    "30": {
+      "avg_max_score": 0.125344,
+      "avg_top1_top2_gap": 0.047572,
+      "avg_top5_diversity": 5.0,
+      "migraine_frequency": 1.5,
+      "top1_distribution_count_classes": 28,
+      "most_common_top1": [
+        [
+          "Cystic_Fibrosis",
+          44
+        ],
+        [
+          "Osteopetrosis",
+          23
+        ],
+        [
+          "Asthma",
+          17
+        ],
+        [
+          "Peptic_Ulcer_Disease",
+          11
+        ],
+        [
+          "Amyotrophic_Lateral_Sclerosis",
+          11
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "phase": "7G",
+  "checked_at": "2026-09-10 (final reconciliation)",
+  "governance": {
+    "no_production_changes": true,
+    "no_training": true,
+    "no_deployment": true,
+    "all_candidate_data_stored_in": "backend/ml/phase7g/acquired"
+  },
+  "production_files_unchanged": [
+    {
+      "path": "backend/ml/model/disease_model.joblib",
+      "sha256": "f772b3b8a48e5e07196ee153e593a0e096e0f19875349ddb9dcfaf83895d16a6",
+      "bytes": 609303049,
+      "status": "MATCH (unchanged vs Phase 7E/7F)"
+    },
+    {
+      "path": "backend/ml/model/symptom_columns.joblib",
+      "sha256": "9fea903cfcbdf2d02e1a37082d88d4cbcdd495a264bf59bf81eafd947d99332e",
+      "bytes": 4761,
+      "status": "MATCH (unchanged vs Phase 7E/7F)"
+    },
+    {
+      "path": "backend/data/disease_dataset_cleaned_v2.csv",
+      "sha256": "5912fa31e8a2b22dbd65ad8d584482dc531154452f5b8881e9bb5d12cd2c2e50",
+      "bytes": 36235985,
+      "status": "MATCH (unchanged vs Phase 7E/7F)"
+    }
+  ],
+  "acquired_files_in_scope_phase7g": [
+    {
+      "path": "backend/ml/phase7g/acquired/symbipredict_2022.csv",
+      "sha256": "9834c90dd48eb2fef1fa56282f8f016a6781b0e4ada878015dc34a81af8e9e1b",
+      "bytes": 1382907,
+      "role": "PRIMARY approved candidate (B)"
+    },
+    {
+      "path": "backend/ml/phase7g/acquired/columbia_disease_symptom_kb.csv",
+      "sha256": "51b81b8999b072768bb0692376be1983f15b59a77a8eb5c95af276fcbfa73a17",
+      "bytes": 124473,
+      "role": "ALTERNATIVE candidate (license pending)"
+    },
+    {
+      "path": "backend/ml/phase7g/acquired/kaushil268_disease_prediction.csv",
+      "sha256": "ebbd391c4ba4d64f57a00eb3d0a55f0ca9b920b0c5de6b9af4234e72519c9618",
+      "bytes": 632202,
+      "role": "REJECTED as primary (same-family mirror; cross-check only)"
+    }
+  ],
+  "unchanged_checks": {
+    "flask_api": "UNCHANGED",
+    "flutter_app": "UNCHANGED",
+    "model_runtime_dependencies": "UNCHANGED",
+    "no_model_training_started": true,
+    "no_deployment_started": true,
+    "phase8_or_7h_not_started": true
+  }
+}

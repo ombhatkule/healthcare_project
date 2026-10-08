@@ -1,0 +1,216 @@
+{
+  "n_p7i_labels": 41,
+  "by_status": {
+    "HIGH_CONFIDENCE": 8,
+    "NO_MATCH": 22,
+    "POSSIBLE": 3,
+    "EXACT": 8
+  },
+  "details": {
+    "AIDS": {
+      "columbia_label": "acquired immuno-deficiency syndrome^UMLS:C0019682_HIV^UMLS:C0019693_hiv infections",
+      "status": "HIGH_CONFIDENCE",
+      "found": true
+    },
+    "Acne": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Alcoholic Hepatitis": {
+      "columbia_label": "chronic alcoholic intoxication",
+      "status": "POSSIBLE",
+      "found": true
+    },
+    "Allergy": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Arthritis": {
+      "columbia_label": "arthritis",
+      "status": "EXACT",
+      "found": true
+    },
+    "Bronchial Asthma": {
+      "columbia_label": "asthma",
+      "status": "HIGH_CONFIDENCE",
+      "found": true
+    },
+    "Cervical Spondylosis": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Chickenpox": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Chronic Cholestasis": {
+      "columbia_label": "biliary calculus",
+      "status": "POSSIBLE",
+      "found": true
+    },
+    "Common Cold": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Dengue": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Diabetes": {
+      "columbia_label": "diabetes",
+      "status": "EXACT",
+      "found": true
+    },
+    "Dimorphic Hemmorhoids (piles)": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Drug Reaction": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Fungal Infection": {
+      "columbia_label": "oral candidiasis",
+      "status": "POSSIBLE",
+      "found": true
+    },
+    "GERD": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Gastroenteritis": {
+      "columbia_label": "gastroenteritis",
+      "status": "EXACT",
+      "found": true
+    },
+    "Heart Attack": {
+      "columbia_label": "myocardial infarction",
+      "status": "HIGH_CONFIDENCE",
+      "found": true
+    },
+    "Hepatitis A": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Hepatitis B": {
+      "columbia_label": "hepatitis B",
+      "status": "EXACT",
+      "found": true
+    },
+    "Hepatitis C": {
+      "columbia_label": "hepatitis C",
+      "status": "EXACT",
+      "found": true
+    },
+    "Hepatitis D": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Hepatitis E": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Hypertension": {
+      "columbia_label": "hypertensive disease",
+      "status": "HIGH_CONFIDENCE",
+      "found": true
+    },
+    "Hyperthyroidism": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Hypoglycemia": {
+      "columbia_label": "hypoglycemia",
+      "status": "EXACT",
+      "found": true
+    },
+    "Hypothyroidism": {
+      "columbia_label": "hypothyroidism",
+      "status": "EXACT",
+      "found": true
+    },
+    "Impetigo": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Jaundice": {
+      "columbia_label": "hyperbilirubinemia",
+      "status": "HIGH_CONFIDENCE",
+      "found": true
+    },
+    "Malaria": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Migraine": {
+      "columbia_label": "migraine disorders",
+      "status": "HIGH_CONFIDENCE",
+      "found": true
+    },
+    "Osteoarthritis": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Paralysis (brain hemorrhage)": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Peptic Ulcer Disease": {
+      "columbia_label": "ulcer peptic",
+      "status": "HIGH_CONFIDENCE",
+      "found": true
+    },
+    "Pneumonia": {
+      "columbia_label": "pneumonia",
+      "status": "EXACT",
+      "found": true
+    },
+    "Psoriasis": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Tuberculosis": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Typhoid": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Urinary Tract Infection": {
+      "columbia_label": "infection urinary tract",
+      "status": "HIGH_CONFIDENCE",
+      "found": true
+    },
+    "Varicose Veins": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    },
+    "Vertigo": {
+      "columbia_label": null,
+      "status": "NO_MATCH",
+      "found": false
+    }
+  }
+}

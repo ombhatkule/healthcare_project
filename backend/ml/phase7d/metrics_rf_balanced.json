@@ -1,0 +1,326 @@
+{
+  "model": "rf_balanced",
+  "accuracy": 0.315534,
+  "balanced_accuracy": 0.248731,
+  "macro_precision": 0.172965,
+  "macro_recall": 0.227102,
+  "macro_f1": 0.172667,
+  "weighted_precision": 0.394564,
+  "weighted_recall": 0.315534,
+  "weighted_f1": 0.325526,
+  "train_time_s": 11.6,
+  "predict_time_s": 0.3567,
+  "per_class": {
+    "Acute_Gastroenteritis": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    },
+    "Amyotrophic_Lateral_Sclerosis": {
+      "precision": 0.208333,
+      "recall": 0.5,
+      "f1": 0.294118,
+      "support": 10
+    },
+    "Asthma": {
+      "precision": 0.579439,
+      "recall": 0.378493,
+      "f1": 0.45789,
+      "support": 4259
+    },
+    "COPD": {
+      "precision": 0.251037,
+      "recall": 0.293689,
+      "f1": 0.270694,
+      "support": 412
+    },
+    "COVID19": {
+      "precision": 0.336538,
+      "recall": 0.257985,
+      "f1": 0.292072,
+      "support": 407
+    },
+    "Chronic_Kidney_Disease": {
+      "precision": 0.375,
+      "recall": 0.243243,
+      "f1": 0.295082,
+      "support": 999
+    },
+    "Chronic_Liver_Disease": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    },
+    "Cirrhosis": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 4
+    },
+    "Common_Cold": {
+      "precision": 0.265651,
+      "recall": 0.35123,
+      "f1": 0.302505,
+      "support": 447
+    },
+    "Coronary_Artery_Disease": {
+      "precision": 0.091403,
+      "recall": 0.548913,
+      "f1": 0.156711,
+      "support": 184
+    },
+    "Crohn_Disease": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    },
+    "Cystic_Fibrosis": {
+      "precision": 0.935484,
+      "recall": 0.878788,
+      "f1": 0.90625,
+      "support": 33
+    },
+    "Dengue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "Depression": {
+      "precision": 0.214929,
+      "recall": 0.359914,
+      "f1": 0.269138,
+      "support": 464
+    },
+    "Ehlers_Danlos_Syndrome": {
+      "precision": 0.052632,
+      "recall": 0.2,
+      "f1": 0.083333,
+      "support": 5
+    },
+    "Epilepsy": {
+      "precision": 0.146006,
+      "recall": 0.726027,
+      "f1": 0.243119,
+      "support": 73
+    },
+    "Fanconi_Anemia": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    },
+    "Flu": {
+      "precision": 0.231844,
+      "recall": 0.361393,
+      "f1": 0.282473,
+      "support": 689
+    },
+    "Gastritis": {
+      "precision": 0.259063,
+      "recall": 0.387133,
+      "f1": 0.310407,
+      "support": 886
+    },
+    "Gaucher_Disease": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    "Generalized_Anxiety_Disorder": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 19
+    },
+    "Hypertension": {
+      "precision": 0.224176,
+      "recall": 0.309091,
+      "f1": 0.259873,
+      "support": 330
+    },
+    "Hyperthyroidism": {
+      "precision": 0.469921,
+      "recall": 0.192558,
+      "f1": 0.273177,
+      "support": 2150
+    },
+    "Hypothyroidism": {
+      "precision": 0.123794,
+      "recall": 0.456973,
+      "f1": 0.194813,
+      "support": 337
+    },
+    "Inflammatory_Bowel_Disease": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "Irritable_Bowel_Syndrome": {
+      "precision": 0.438182,
+      "recall": 0.133518,
+      "f1": 0.204671,
+      "support": 1805
+    },
+    "Marfan_Syndrome": {
+      "precision": 0.142857,
+      "recall": 0.333333,
+      "f1": 0.2,
+      "support": 6
+    },
+    "Metabolic_Syndrome": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "Migraine": {
+      "precision": 0.061327,
+      "recall": 0.526882,
+      "f1": 0.109865,
+      "support": 93
+    },
+    "Multiple_Sclerosis": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    "Niemann_Pick_Disease": {
+      "precision": 0.125,
+      "recall": 0.333333,
+      "f1": 0.181818,
+      "support": 3
+    },
+    "Obesity": {
+      "precision": 0.382671,
+      "recall": 0.404838,
+      "f1": 0.393443,
+      "support": 1571
+    },
+    "Osteoarthritis": {
+      "precision": 0.343511,
+      "recall": 0.21102,
+      "f1": 0.261438,
+      "support": 853
+    },
+    "Osteopetrosis": {
+      "precision": 0.153846,
+      "recall": 0.444444,
+      "f1": 0.228571,
+      "support": 9
+    },
+    "Peptic_Ulcer_Disease": {
+      "precision": 0.315761,
+      "recall": 0.502999,
+      "f1": 0.387971,
+      "support": 1167
+    },
+    "Pneumonia": {
+      "precision": 0.375691,
+      "recall": 0.26174,
+      "f1": 0.30853,
+      "support": 1299
+    },
+    "Polycystic_Ovary_Syndrome": {
+      "precision": 0.196273,
+      "recall": 0.434066,
+      "f1": 0.270317,
+      "support": 364
+    },
+    "Psoriasis": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "Spinal_Muscular_Atrophy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "Stroke": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 13
+    },
+    "Systemic_Lupus_Erythematosus": {
+      "precision": 0.12,
+      "recall": 0.096774,
+      "f1": 0.107143,
+      "support": 31
+    },
+    "Tuberculosis": {
+      "precision": 0.166667,
+      "recall": 0.076923,
+      "f1": 0.105263,
+      "support": 13
+    },
+    "Type2_Diabetes": {
+      "precision": 0.369343,
+      "recall": 0.241412,
+      "f1": 0.291979,
+      "support": 1048
+    },
+    "Typhoid_Fever": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "Ulcerative_Colitis": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    },
+    "Urinary_Tract_Infection": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    }
+  },
+  "prediction_distribution": {
+    "Amyotrophic_Lateral_Sclerosis": 24,
+    "Asthma": 2782,
+    "COPD": 482,
+    "COVID19": 312,
+    "Chronic_Kidney_Disease": 648,
+    "Chronic_Liver_Disease": 1,
+    "Common_Cold": 591,
+    "Coronary_Artery_Disease": 1105,
+    "Cystic_Fibrosis": 31,
+    "Depression": 777,
+    "Ehlers_Danlos_Syndrome": 19,
+    "Epilepsy": 363,
+    "Flu": 1074,
+    "Gastritis": 1324,
+    "Gaucher_Disease": 6,
+    "Generalized_Anxiety_Disorder": 2,
+    "Hypertension": 455,
+    "Hyperthyroidism": 881,
+    "Hypothyroidism": 1244,
+    "Irritable_Bowel_Syndrome": 550,
+    "Marfan_Syndrome": 14,
+    "Migraine": 799,
+    "Niemann_Pick_Disease": 8,
+    "Obesity": 1662,
+    "Osteoarthritis": 524,
+    "Osteopetrosis": 26,
+    "Peptic_Ulcer_Disease": 1859,
+    "Pneumonia": 905,
+    "Polycystic_Ovary_Syndrome": 805,
+    "Spinal_Muscular_Atrophy": 12,
+    "Systemic_Lupus_Erythematosus": 25,
+    "Tuberculosis": 6,
+    "Type2_Diabetes": 685
+  }
+}

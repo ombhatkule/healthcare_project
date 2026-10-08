@@ -1,0 +1,164 @@
+{
+  "phase": "7G",
+  "governance": {
+    "no_production_changes": true,
+    "no_training": true,
+    "no_deployment": true,
+    "storage": "backend/ml/phase7g/acquired"
+  },
+  "summary": "11 datasets investigated. Primary acquisition and decision B (CONDITIONALLY APPROVED) = SymbiPredict (SDPD). Supplementary: Columbia KB (alternative, license pending) and kaushil268 mirror (same family, undocumented).",
+  "investigated": 11,
+  "primary_recommendation": "SymbiPredict (Symptom-Disease Prediction Dataset, SDPD)",
+  "candidates": [
+    {
+      "id": 1,
+      "name": "SymbiPredict (SDPD)",
+      "source": "Mendeley Data - dataset (DOI, 2024); documented in peer-reviewed MDPI Electronics paper",
+      "url": "https://data.mendeley.com/datasets/dv5z3v2xyd/1",
+      "license": "CC BY 4.0",
+      "one_line": "41-class / 132-symptom binary symptom-disease matrix, 121 instances per class; symptoms from medical literature, clinical observations, expert consensus; cited in peer-reviewed work.",
+      "format": "binary matrix: 132 symptom columns (0/1) + prognosis target",
+      "classes": 41,
+      "rows": 4961,
+      "min_class": 121,
+      "max_class": 121,
+      "imbalance_ratio": 1.0,
+      "classes_below_100": 0,
+      "missing_pct": 0.0,
+      "documented_citation": true,
+      "license_clear": true,
+      "readily_downloadable": true,
+      "status": "ACQUIRED",
+      "verdict": "B. CONDITIONALLY APPROVED - MANUAL REVIEW REQUIRED (primary)",
+      "sha256": "9834c90dd48eb2fef1fa56282f8f016a6781b0e4ada878015dc34a81af8e9e1b",
+      "local": "backend/ml/phase7g/acquired/symbipredict_2022.csv",
+      "notes": "Measured: mean MI 0.178 (vs 0.016 current, ~10.8x), avg cosine separability 0.107 (vs 0.694), MI>0.01 in 131/132 features. 94% duplicate rows (association-format redundancy) - Phase 7H must decide representation/deduplication. 3 synonym mappings need manual confirmation."
+    },
+    {
+      "id": 2,
+      "name": "Columbia University Disease-Symptom Knowledge Database",
+      "source": "Columbia DBMI (Prof. Carol Friedman), derived from 25,074 NYP discharge summaries via MedLEE NLP; AMIA 2008 paper PMC2656103",
+      "url": "https://impact.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html",
+      "license": "UNKNOWN - no explicit license (manual review required)",
+      "one_line": "Real clinical knowledge base: 134 diseases, 401 UMLS-coded symptoms, 1,858 associations with counts from real hospital notes.",
+      "format": "association rows: disease, count_of_disease_occurrence, symptom",
+      "classes": 134,
+      "rows": 1858,
+      "min_class": 3,
+      "max_class": 28,
+      "imbalance_ratio": 80.07,
+      "classes_below_100": 0,
+      "missing_pct": 0.0,
+      "documented_citation": true,
+      "license_clear": false,
+      "readily_downloadable": true,
+      "status": "ACQUIRED",
+      "verdict": "ALTERNATIVE - CONDITIONALLY APPROVED, license manual review required; real-clinical provenance but association format + unclear license",
+      "sha256": "51b81b8999b072768bb0692376be1983f15b59a77a8eb5c95af276fcbfa73a17",
+      "local": "backend/ml/phase7g/acquired/columbia_disease_symptom_kb.csv",
+      "notes": "Strongest provenance (actual patient records, UMLS codes, ~90% recall / ~92% precision). Association-count format (3-28 assoc per disease) requires weighting/scoring adaptation. 33/401 symptoms exact-match current vocabulary; ~250 unmapped; ~10 non-symptom at high threshold.",
+      "contact": "friedman@dbmi.columbia.edu"
+    },
+    {
+      "id": 3,
+      "name": "Kaushil268 - Disease Prediction using Machine Learning (Kaggle)",
+      "source": "Kaggle dataset 'Disease Prediction Using Machine Learning' (kaushil268); downloaded via public GitHub raw mirror of the archive; Apache 2.0",
+      "url": "https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning",
+      "license": "Apache 2.0",
+      "one_line": "Undocumented mirror/derivative of the same 41-class / 131-symptom family already covered by SymbiPredict; long-format with missing cells.",
+      "format": "long format: Disease + Symptom_1..Symptom_17 (missing cells)",
+      "classes": 41,
+      "rows": 4920,
+      "min_class": 120,
+      "max_class": 120,
+      "imbalance_ratio": 1.0,
+      "classes_below_100": 0,
+      "missing_pct": 53.06,
+      "documented_citation": false,
+      "license_clear": true,
+      "readily_downloadable": true,
+      "status": "ACQUIRED",
+      "verdict": "REJECTED as materially-better candidate - redundant with documented SymbiPredict; retained as cross-check",
+      "sha256": "ebbd391c4ba4d64f57a00eb3d0a55f0ca9b920b0c5de6b9af4234e72519c9618",
+      "local": "backend/ml/phase7g/acquired/kaushil268_disease_prediction.csv",
+      "notes": "93.8% duplicate rows, 304 unique vector patterns (synthetic-expression concern). Same disease family as SymbiPredict; prefer the documented, licensed, peer-reviewed version."
+    },
+    {
+      "id": 4,
+      "name": "Al Shafi et al. (Mendeley rjgjh8hgrt)",
+      "source": "Mendeley Data rjgjh8hgrt/6",
+      "url": "https://data.mendeley.com/datasets/rjgjh8hgrt/6",
+      "license": "CC BY 4.0",
+      "status": "REJECTED at shortlist stage",
+      "verdict": "Reference-only: 85 rows, one per disease; useful symptom list, insufficient training samples.",
+      "notes": "Not downloaded."
+    },
+    {
+      "id": 5,
+      "name": "Mendeley synthetic (2cxccsxydc/1)",
+      "source": "Mendeley Data 2cxccsxydc/1",
+      "url": "https://data.mendeley.com/datasets/2cxccsxydc/1",
+      "license": "CC BY 4.0",
+      "status": "REJECTED",
+      "verdict": "Explicitly synthetic; does not resolve the synthetic-data concern."
+    },
+    {
+      "id": 6,
+      "name": "Milton, Yuan, rjanice, PedroAcacia, dianap8, sublimation (Kaggle)",
+      "source": "Kaggle (various disease-symptom datasets)",
+      "license": "varies",
+      "status": "REJECTED",
+      "verdict": "Publicly available mirrors/derivations of the same community disease-symptom family (generally 41-class or 24-class with incomplete provenance / no indexed citation). Redundant with SymbiPredict."
+    },
+    {
+      "id": 7,
+      "name": "Macgyver'milton_dataset - Disease Prediction",
+      "source": "Kaggle",
+      "license": "CC0",
+      "status": "REJECTED",
+      "verdict": "Small (~4k rows), undocumented derivation of the same family."
+    },
+    {
+      "id": 8,
+      "name": "Kundan Bedmutha Disease-Symptoms",
+      "source": "Kaggle",
+      "status": "REJECTED",
+      "verdict": "Same community family; no independent citation."
+    },
+    {
+      "id": 9,
+      "name": "marslinoedward - Disease-Symptoms (mirror)",
+      "source": "Kaggle",
+      "status": "REJECTED",
+      "verdict": "Mirror of the same family."
+    },
+    {
+      "id": 10,
+      "name": "Zenodo infectious-disease dataset (12,090 classes)",
+      "source": "Zenodo",
+      "status": "REJECTED",
+      "verdict": "12,090-class infectious-disease dataset; domain mismatch (excluded infectious diseases by scope)."
+    },
+    {
+      "id": 11,
+      "name": "uom190346a - Disease-Symptom Knowledge",
+      "source": "GitHub",
+      "status": "REJECTED",
+      "verdict": "Small community knowledge table (24 diseases); insufficient classes/samples."
+    },
+    {
+      "id": 12,
+      "name": "DDXPlus (marked not-acquired by scope)",
+      "source": "Public dataset (research)",
+      "status": "NOT ACQUIRED - synthetic",
+      "verdict": "Well-documented but explicitly synthetic patient generation; does not resolve synthetic-data concern."
+    },
+    {
+      "id": 13,
+      "name": "MIMIC-SR-ICD11 (marked not-acquired by scope)",
+      "source": "PhysioNet",
+      "status": "NOT ACQUIRED - requires credentialed access",
+      "verdict": "Best real-clinical provenance but requires PhysioNet credentialed access; per governance rules not bypassed; requires manual authorization before consideration."
+    }
+  ]
+}

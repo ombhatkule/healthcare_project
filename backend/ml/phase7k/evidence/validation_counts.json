@@ -1,0 +1,13 @@
+{
+  "duplicate_feature_vectors": 1,
+  "contradictory_observations": "N/A (association-count format, single mapping per row)",
+  "all_zero_rows": 0,
+  "class_support_min": 3,
+  "class_support_max": 28,
+  "n_diseases_under_5_assoc": 3,
+  "count_stats": {
+    "min": 42,
+    "median": 141,
+    "max": 3363
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Phase 7E Production Safety Check",
+  "date": "2026-09-08",
+  "checks": {
+    "disease_model.joblib": {
+      "size_mb": 581.08,
+      "sha256": "f772b3b8a48e5e07196ee153e593a0e096e0f19875349ddb9dcfaf83895d16a6",
+      "unchanged_since_phase7e_start": true
+    },
+    "symptom_columns.joblib": {
+      "size_mb": 0.0,
+      "sha256": "9fea903cfcbdf2d02e1a37082d88d4cbcdd495a264bf59bf81eafd947d99332e",
+      "unchanged_since_phase7e_start": true
+    },
+    "disease_dataset_cleaned_v2.csv": {
+      "size_mb": 34.56,
+      "sha256": "5912fa31e8a2b22dbd65ad8d584482dc531154452f5b8881e9bb5d12cd2c2e50",
+      "unchanged_since_phase7e_start": true
+    }
+  },
+  "flutter": {
+    "modified": false,
+    "note": "No Flutter files were written by Phase 7E"
+  },
+  "flask": {
+    "modified": false,
+    "note": "No Flask files were written by Phase 7E; only new phase7e/ files created"
+  },
+  "phase7e_files_created": [
+    "candidate_dataset_comparison.json",
+    "candidate_dataset_comparison.md",
+    "compatibility_analysis.md",
+    "current_dataset_scorecard.json",
+    "current_dataset_scorecard.md",
+    "dataset_requirements.md",
+    "decision_matrix.md",
+    "phase7e_analysis.py",
+    "phase7e_baseline_check.json",
+    "phase7e_finish.py",
+    "small_sample_inspection.json",
+    "step2_dataset_analysis.json"
+  ],
+  "new_production_model_trained": false,
+  "production_model_deployed": false,
+  "candidate_dataset_replaced_current": false,
+  "phase_8_started": false
+}

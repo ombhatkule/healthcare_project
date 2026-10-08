@@ -1,0 +1,24 @@
+{
+  "phase7k_analysis_inputs": [
+    {
+      "file": "columbia_disease_symptom_kb.csv",
+      "path": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\phase7g\\acquired\\columbia_disease_symptom_kb.csv",
+      "sha256": "51B81B8999B072768BB0692376BE1983F15B59A77A8EB5C95AF276FCBFA73A17"
+    },
+    {
+      "file": "symbipredict_2022.csv (Phase 7I training source - NOT used)",
+      "path": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\phase7g\\acquired\\symbipredict_2022.csv",
+      "sha256": "9834C90DD48EB2FEF1FA56282F8F016A6781B0E4ADA878015DC34A81AF8E9E1B"
+    },
+    {
+      "file": "kaushil268_disease_prediction.csv (mirror, NOT used)",
+      "path": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\phase7g\\acquired\\kaushil268_disease_prediction.csv",
+      "sha256": "EBBD391C4BA4D64F57A00EB3D0A55F0CA9B920B0C5DE6B9AF4234E72519C9618"
+    },
+    {
+      "file": "symbipredict_representationC_131feat.csv (Phase 7I experimental data - reference only)",
+      "path": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\phase7i\\data\\symbipredict_representationC_131feat.csv",
+      "sha256": "0F60F9816C9996A16D39A8845D9FF1EFCDFABBDB6DBB7E3BF78EFD795AEF69E4"
+    }
+  ]
+}

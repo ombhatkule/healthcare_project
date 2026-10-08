@@ -1,0 +1,32 @@
+PHASE 7J FILES MODIFIED RECORD
+Date: 2026-09-10
+
+BACKEND (Flask) MODIFIED FILES:
+  backend/app.py                                      - model loading at startup
+  backend/config/config.py                            - low confidence threshold config
+  backend/routes/health_routes.py                     - health endpoint with model metadata
+  backend/routes/prediction_routes.py                 - /api/symptoms + /api/predict updates
+  backend/services/prediction_service.py              - load experimental model (131feat/41cl)
+
+BACKEND NEW FILES:
+  backend/test_phase7j.py                             - Phase 7J integration tests
+  backend/ml/model/experimental_disease_model.joblib  - Phase 7I model artifact
+  backend/ml/model/experimental_symptom_columns.joblib- 131-feature vocabulary
+
+FLUTTER MODIFIED FILES (disease prediction flow only):
+  lib/core/constants/app_strings.dart
+  lib/features/disease_prediction/models/mock_symptoms.dart
+  lib/features/disease_prediction/models/prediction_result.dart
+  lib/features/disease_prediction/presentation/disease_prediction_screen.dart
+  lib/features/disease_prediction/presentation/providers/disease_prediction_controller.dart
+  lib/features/disease_prediction/services/disease_prediction_service.dart
+  lib/features/disease_prediction/services/flask_disease_prediction_service.dart
+  lib/features/disease_prediction/services/mock_prediction_service.dart
+  lib/features/disease_prediction/services/symptom_backend_mapping.dart
+
+CONFIRMATION:
+  - No unrelated backend functionality modified.
+  - No unrelated Flutter screens modified.
+  - No dataset modified.
+  - No model retrained or tuned.
+  - Original production model (disease_model.joblib) untouched (hash-verified).

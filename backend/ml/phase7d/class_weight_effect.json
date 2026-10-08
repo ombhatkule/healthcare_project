@@ -1,0 +1,64 @@
+{
+  "title": "Class Weight Effect Analysis (Phase 7D)",
+  "date": "2026-09-08",
+  "comparison": "rf_balanced (class_weight='balanced') vs rf_none (class_weight=None)",
+  "overall_metrics": {
+    "rf_balanced": {
+      "accuracy": 0.315534,
+      "balanced_accuracy": 0.248731,
+      "macro_f1": 0.172667,
+      "weighted_f1": 0.325526,
+      "macro_precision": 0.172965,
+      "macro_recall": 0.227102
+    },
+    "rf_none": {
+      "accuracy": 0.40418,
+      "balanced_accuracy": 0.102857,
+      "macro_f1": 0.102795,
+      "weighted_f1": 0.351681,
+      "macro_precision": 0.263019,
+      "macro_recall": 0.093913
+    }
+  },
+  "deltas": {
+    "accuracy": 0.088646,
+    "balanced_accuracy": -0.145874,
+    "macro_f1": -0.069872,
+    "weighted_f1": 0.026155,
+    "macro_precision": 0.090054,
+    "macro_recall": -0.133189
+  },
+  "migraine_impact": {
+    "rf_balanced": {
+      "precision": 0.061327,
+      "recall": 0.526882,
+      "f1": 0.109865,
+      "predicted_count": 799
+    },
+    "rf_none": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "predicted_count": 0
+    }
+  },
+  "prediction_concentration": {
+    "rf_balanced": {
+      "n_classes_predicted": 33,
+      "top_class": "Asthma",
+      "top_class_pct": 13.91
+    },
+    "rf_none": {
+      "n_classes_predicted": 20,
+      "top_class": "Asthma",
+      "top_class_pct": 50.26
+    }
+  },
+  "interpretation": [
+    "Without class weights, accuracy is HIGHER (40.4% vs 31.6%) because the model defaults to majority classes",
+    "Without class weights, balanced accuracy is LOWER (10.3% vs 24.9%) because minority classes are ignored",
+    "Without class weights, Migraine gets ZERO predictions \u2014 completely ignored",
+    "Class weights trade overall accuracy for minority class representation",
+    "The production model uses 'balanced' weights, which is the correct approach for this imbalanced dataset"
+  ]
+}

@@ -1,0 +1,2818 @@
+{
+  "phase": "7H",
+  "generated_at": "2026-09-09T19:54:52.365473Z",
+  "source_dataset": "backend/ml/phase7g/acquired/symbipredict_2022.csv",
+  "raw_profile": {
+    "source": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\healthcareapp\\backend\\ml\\phase7g\\acquired\\symbipredict_2022.csv",
+    "source_sha256_expected": "9834c90dd48eb2fef1fa56282f8f016a6781b0e4ada878015dc34a81af8e9e1b",
+    "rows": 4961,
+    "columns_total": 133,
+    "feature_columns": 132,
+    "target_column": "prognosis",
+    "target_dtype": "str",
+    "feature_dtype": "int64",
+    "all_features_binary": true,
+    "missing_cells_features": 0,
+    "missing_cells_target": 0,
+    "inf_cells": 0,
+    "rows_with_inf": 0,
+    "duplicate_rows_exact": 4657,
+    "duplicate_vectors_when_ignoring_label": 4657,
+    "unique_symptom_vectors": 304,
+    "unique_vector_label_pairs": 304,
+    "unique_labels": 41,
+    "class_counts": {
+      "Fungal Infection": 121,
+      "Allergy": 121,
+      "GERD": 121,
+      "Chronic Cholestasis": 121,
+      "Drug Reaction": 121,
+      "Peptic Ulcer Disease": 121,
+      "AIDS": 121,
+      "Diabetes ": 121,
+      "Gastroenteritis": 121,
+      "Bronchial Asthma": 121,
+      "Hypertension ": 121,
+      "Migraine": 121,
+      "Cervical Spondylosis": 121,
+      "Paralysis (brain hemorrhage)": 121,
+      "Jaundice": 121,
+      "Malaria": 121,
+      "Chickenpox": 121,
+      "Dengue": 121,
+      "Typhoid": 121,
+      "Hepatitis A": 121,
+      "Hepatitis B": 121,
+      "Hepatitis C": 121,
+      "Hepatitis D": 121,
+      "Hepatitis E": 121,
+      "Alcoholic Hepatitis": 121,
+      "Tuberculosis": 121,
+      "Common Cold": 121,
+      "Pneumonia": 121,
+      "Dimorphic Hemmorhoids (piles)": 121,
+      "Heart Attack": 121,
+      "Varicose Veins": 121,
+      "Hypothyroidism": 121,
+      "Hyperthyroidism": 121,
+      "Hypoglycemia": 121,
+      "Osteoarthritis": 121,
+      "Arthritis": 121,
+      "Vertigo": 121,
+      "Acne": 121,
+      "Urinary Tract Infection": 121,
+      "Psoriasis": 121,
+      "Impetigo": 121
+    },
+    "class_min": 121,
+    "class_max": 121,
+    "active_symptoms_per_row": {
+      "min": 3,
+      "max": 17,
+      "mean": 7.4519,
+      "median": 6.0
+    },
+    "all_zero_rows": 0,
+    "all_one_rows": 0,
+    "nunique_per_feature_min": 1,
+    "nunique_per_feature_max": 2,
+    "invalid_feature_values": {},
+    "column_names": [
+      "itching",
+      "skin_rash",
+      "nodal_skin_eruptions",
+      "continuous_sneezing",
+      "shivering",
+      "chills",
+      "joint_pain",
+      "stomach_pain",
+      "acidity",
+      "ulcers_on_tongue",
+      "muscle_wasting",
+      "vomiting",
+      "burning_micturition",
+      "spotting_ urination",
+      "fatigue",
+      "weight_gain",
+      "anxiety",
+      "cold_hands_and_feets",
+      "mood_swings",
+      "weight_loss",
+      "restlessness",
+      "lethargy",
+      "patches_in_throat",
+      "irregular_sugar_level",
+      "cough",
+      "high_fever",
+      "sunken_eyes",
+      "breathlessness",
+      "sweating",
+      "dehydration",
+      "indigestion",
+      "headache",
+      "yellowish_skin",
+      "dark_urine",
+      "nausea",
+      "loss_of_appetite",
+      "pain_behind_the_eyes",
+      "back_pain",
+      "constipation",
+      "abdominal_pain",
+      "diarrhoea",
+      "mild_fever",
+      "yellow_urine",
+      "yellowing_of_eyes",
+      "acute_liver_failure",
+      "fluid_overload",
+      "swelling_of_stomach",
+      "swelled_lymph_nodes",
+      "malaise",
+      "blurred_and_distorted_vision",
+      "phlegm",
+      "throat_irritation",
+      "redness_of_eyes",
+      "sinus_pressure",
+      "runny_nose",
+      "congestion",
+      "chest_pain",
+      "weakness_in_limbs",
+      "fast_heart_rate",
+      "pain_during_bowel_movements",
+      "pain_in_anal_region",
+      "bloody_stool",
+      "irritation_in_anus",
+      "neck_pain",
+      "dizziness",
+      "cramps",
+      "bruising",
+      "obesity",
+      "swollen_legs",
+      "swollen_blood_vessels",
+      "puffy_face_and_eyes",
+      "enlarged_thyroid",
+      "brittle_nails",
+      "swollen_extremeties",
+      "excessive_hunger",
+      "extra_marital_contacts",
+      "drying_and_tingling_lips",
+      "slurred_speech",
+      "knee_pain",
+      "hip_joint_pain",
+      "muscle_weakness",
+      "stiff_neck",
+      "swelling_joints",
+      "movement_stiffness",
+      "spinning_movements",
+      "loss_of_balance",
+      "unsteadiness",
+      "weakness_of_one_body_side",
+      "loss_of_smell",
+      "bladder_discomfort",
+      "foul_smell_of urine",
+      "continuous_feel_of_urine",
+      "passage_of_gases",
+      "internal_itching",
+      "toxic_look_(typhos)",
+      "depression",
+      "irritability",
+      "muscle_pain",
+      "altered_sensorium",
+      "red_spots_over_body",
+      "belly_pain",
+      "abnormal_menstruation",
+      "dischromic _patches",
+      "watering_from_eyes",
+      "increased_appetite",
+      "polyuria",
+      "family_history",
+      "mucoid_sputum",
+      "rusty_sputum",
+      "lack_of_concentration",
+      "visual_disturbances",
+      "receiving_blood_transfusion",
+      "receiving_unsterile_injections",
+      "coma",
+      "stomach_bleeding",
+      "distention_of_abdomen",
+      "history_of_alcohol_consumption",
+      "fluid_overload.1",
+      "blood_in_sputum",
+      "prominent_veins_on_calf",
+      "palpitations",
+      "painful_walking",
+      "pus_filled_pimples",
+      "blackheads",
+      "scurring",
+      "skin_peeling",
+      "silver_like_dusting",
+      "small_dents_in_nails",
+      "inflammatory_nails",
+      "blister",
+      "red_sore_around_nose",
+      "yellow_crust_ooze",
+      "prognosis"
+    ]
+  },
+  "normalized_profile": {
+    "cleaned_rows": 4961,
+    "cleaned_columns": 133,
+    "cleaned_unique_vectors": 304,
+    "normalized_feature_count": 132,
+    "normalization_collisions": [],
+    "label_count": 41,
+    "label_collisions": [],
+    "ambiguous_labels": [],
+    "symptom_mapping_review": {
+      "NO_MATCH": 101,
+      "EXACT": 20,
+      "HIGH_CONFIDENCE_SYNONYM": 3,
+      "POSSIBLE_SYNONYM": 8
+    }
+  },
+  "duplicate_analysis": {
+    "A_exact_duplicate_full_rows": 4657,
+    "B_duplicate_vectors_same_prognosis": 304,
+    "C_duplicate_vectors_different_prognosis": 0,
+    "D_unique_symptom_vectors": 304,
+    "E_unique_vector_disease_pairs": 304,
+    "F_diseases_per_repeated_vector_distribution": {
+      "1": 304
+    },
+    "G_repeated_vector_frequency_distribution": {
+      "91": 2,
+      "85": 2,
+      "79": 12,
+      "73": 19,
+      "67": 6,
+      "18": 2,
+      "12": 45,
+      "6": 216
+    },
+    "H_per_disease_repetition": {
+      "AIDS": {
+        "rows": 121,
+        "unique_vectors": 5,
+        "rows_that_are_repeats": 116,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Acne": {
+        "rows": 121,
+        "unique_vectors": 5,
+        "rows_that_are_repeats": 116,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Alcoholic Hepatitis": {
+        "rows": 121,
+        "unique_vectors": 8,
+        "rows_that_are_repeats": 113,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Allergy": {
+        "rows": 121,
+        "unique_vectors": 5,
+        "rows_that_are_repeats": 116,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Arthritis": {
+        "rows": 121,
+        "unique_vectors": 6,
+        "rows_that_are_repeats": 115,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Bronchial Asthma": {
+        "rows": 121,
+        "unique_vectors": 7,
+        "rows_that_are_repeats": 114,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Cervical Spondylosis": {
+        "rows": 121,
+        "unique_vectors": 6,
+        "rows_that_are_repeats": 115,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Chickenpox": {
+        "rows": 121,
+        "unique_vectors": 10,
+        "rows_that_are_repeats": 111,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Chronic Cholestasis": {
+        "rows": 121,
+        "unique_vectors": 8,
+        "rows_that_are_repeats": 113,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Common Cold": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Dengue": {
+        "rows": 121,
+        "unique_vectors": 10,
+        "rows_that_are_repeats": 111,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Diabetes ": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Dimorphic Hemmorhoids (piles)": {
+        "rows": 121,
+        "unique_vectors": 6,
+        "rows_that_are_repeats": 115,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Drug Reaction": {
+        "rows": 121,
+        "unique_vectors": 6,
+        "rows_that_are_repeats": 115,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Fungal Infection": {
+        "rows": 121,
+        "unique_vectors": 5,
+        "rows_that_are_repeats": 116,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "GERD": {
+        "rows": 121,
+        "unique_vectors": 7,
+        "rows_that_are_repeats": 114,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Gastroenteritis": {
+        "rows": 121,
+        "unique_vectors": 5,
+        "rows_that_are_repeats": 116,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Heart Attack": {
+        "rows": 121,
+        "unique_vectors": 5,
+        "rows_that_are_repeats": 116,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Hepatitis A": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Hepatitis B": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Hepatitis C": {
+        "rows": 121,
+        "unique_vectors": 7,
+        "rows_that_are_repeats": 114,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Hepatitis D": {
+        "rows": 121,
+        "unique_vectors": 10,
+        "rows_that_are_repeats": 111,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Hepatitis E": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Hypertension ": {
+        "rows": 121,
+        "unique_vectors": 6,
+        "rows_that_are_repeats": 115,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Hyperthyroidism": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Hypoglycemia": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Hypothyroidism": {
+        "rows": 121,
+        "unique_vectors": 8,
+        "rows_that_are_repeats": 113,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Impetigo": {
+        "rows": 121,
+        "unique_vectors": 6,
+        "rows_that_are_repeats": 115,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Jaundice": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Malaria": {
+        "rows": 121,
+        "unique_vectors": 8,
+        "rows_that_are_repeats": 113,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Migraine": {
+        "rows": 121,
+        "unique_vectors": 10,
+        "rows_that_are_repeats": 111,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Osteoarthritis": {
+        "rows": 121,
+        "unique_vectors": 7,
+        "rows_that_are_repeats": 114,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Paralysis (brain hemorrhage)": {
+        "rows": 121,
+        "unique_vectors": 5,
+        "rows_that_are_repeats": 116,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Peptic Ulcer Disease": {
+        "rows": 121,
+        "unique_vectors": 7,
+        "rows_that_are_repeats": 114,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Pneumonia": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Psoriasis": {
+        "rows": 121,
+        "unique_vectors": 7,
+        "rows_that_are_repeats": 114,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Tuberculosis": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Typhoid": {
+        "rows": 121,
+        "unique_vectors": 9,
+        "rows_that_are_repeats": 112,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Urinary Tract Infection": {
+        "rows": 121,
+        "unique_vectors": 5,
+        "rows_that_are_repeats": 116,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Varicose Veins": {
+        "rows": 121,
+        "unique_vectors": 8,
+        "rows_that_are_repeats": 113,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      },
+      "Vertigo": {
+        "rows": 121,
+        "unique_vectors": 7,
+        "rows_that_are_repeats": 114,
+        "single_use_vectors": 0,
+        "polysemic_only_not_checked": false
+      }
+    },
+    "conclusion": "LEGITIMATE association-format repetition: each disease repeats a small set of canonical symptom vectors many times to reach 121 rows class (5-10 unique vectors per disease, 111-116 repeat rows each). Every repeated symptom vector maps to exactly ONE disease (0 contradictions). Repeated rows are therefore NOT independent patient observations; the underlying information is a disease->symptom association table. No accidental duplication or polysemy is evidenced.",
+    "interpretation": "None of the repeated rows are independent patient samples a priori; they are structured repeats of disease->symptom association vectors."
+  },
+  "contradiction_analysis": {
+    "contradictory_vectors_total": 0,
+    "affected_rows": 0,
+    "affected_diseases_count": 0,
+    "affected_diseases": [],
+    "percentage_of_unique_vectors_affected": 0.0,
+    "examples": [
+      {
+        "vector": "0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
+        "diseases": [
+          "Dimorphic Hemmorhoids (piles)"
+        ]
+      },
+      {
+        "vector": "0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0",
+        "diseases": [
+          "Arthritis"
+        ]
+      },
+      {
+        "vector": "0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0",
+        "diseases": [
+          "Osteoarthritis"
+        ]
+      },
+      {
+        "vector": "0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|1|1|0|0|0",
+        "diseases": [
+          "Psoriasis"
+        ]
+      },
+      {
+        "vector": "1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
+        "diseases": [
+          "Chronic Cholestasis"
+        ]
+      },
+      {
+        "vector": "0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
+        "diseases": [
+          "AIDS"
+        ]
+      },
+      {
+        "vector": "0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
+        "diseases": [
+          "Gastroenteritis"
+        ]
+      },
+      {
+        "vector": "0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
+        "diseases": [
+          "Cervical Spondylosis"
+        ]
+      }
+    ],
+    "note": "Contradictions documented for Phase 7I; not resolved by guessing in this phase."
+  },
+  "label_analysis": {
+    "target": "prognosis",
+    "original_label_count": 41,
+    "normalization_rules": [
+      "strip",
+      "collapse internal whitespace"
+    ],
+    "mapping": {
+      "AIDS": "AIDS",
+      "Acne": "Acne",
+      "Alcoholic Hepatitis": "Alcoholic Hepatitis",
+      "Allergy": "Allergy",
+      "Arthritis": "Arthritis",
+      "Bronchial Asthma": "Bronchial Asthma",
+      "Cervical Spondylosis": "Cervical Spondylosis",
+      "Chickenpox": "Chickenpox",
+      "Chronic Cholestasis": "Chronic Cholestasis",
+      "Common Cold": "Common Cold",
+      "Dengue": "Dengue",
+      "Diabetes ": "Diabetes",
+      "Dimorphic Hemmorhoids (piles)": "Dimorphic Hemmorhoids (piles)",
+      "Drug Reaction": "Drug Reaction",
+      "Fungal Infection": "Fungal Infection",
+      "GERD": "GERD",
+      "Gastroenteritis": "Gastroenteritis",
+      "Heart Attack": "Heart Attack",
+      "Hepatitis A": "Hepatitis A",
+      "Hepatitis B": "Hepatitis B",
+      "Hepatitis C": "Hepatitis C",
+      "Hepatitis D": "Hepatitis D",
+      "Hepatitis E": "Hepatitis E",
+      "Hypertension ": "Hypertension",
+      "Hyperthyroidism": "Hyperthyroidism",
+      "Hypoglycemia": "Hypoglycemia",
+      "Hypothyroidism": "Hypothyroidism",
+      "Impetigo": "Impetigo",
+      "Jaundice": "Jaundice",
+      "Malaria": "Malaria",
+      "Migraine": "Migraine",
+      "Osteoarthritis": "Osteoarthritis",
+      "Paralysis (brain hemorrhage)": "Paralysis (brain hemorrhage)",
+      "Peptic Ulcer Disease": "Peptic Ulcer Disease",
+      "Pneumonia": "Pneumonia",
+      "Psoriasis": "Psoriasis",
+      "Tuberculosis": "Tuberculosis",
+      "Typhoid": "Typhoid",
+      "Urinary Tract Infection": "Urinary Tract Infection",
+      "Varicose Veins": "Varicose Veins",
+      "Vertigo": "Vertigo"
+    },
+    "collisions": {},
+    "ambiguous_labels_for_manual_review": []
+  },
+  "feature_analysis": {
+    "count_constant_or_zero_variance": 1,
+    "constant_features": [
+      "fluid_overload"
+    ],
+    "count_near_zero_variance": 101,
+    "rare_features_pct_lt_5": [
+      "nodal_skin_eruptions",
+      "continuous_sneezing",
+      "shivering",
+      "stomach_pain",
+      "acidity",
+      "ulcers_on_tongue",
+      "muscle_wasting",
+      "burning_micturition",
+      "spotting_urination",
+      "weight_gain",
+      "anxiety",
+      "cold_hands_and_feets",
+      "mood_swings",
+      "restlessness",
+      "patches_in_throat",
+      "irregular_sugar_level",
+      "sunken_eyes",
+      "dehydration",
+      "indigestion",
+      "pain_behind_the_eyes",
+      "back_pain",
+      "constipation",
+      "yellow_urine",
+      "acute_liver_failure",
+      "fluid_overload",
+      "swelling_of_stomach",
+      "throat_irritation",
+      "redness_of_eyes",
+      "sinus_pressure",
+      "runny_nose",
+      "congestion",
+      "weakness_in_limbs",
+      "fast_heart_rate",
+      "pain_during_bowel_movements",
+      "pain_in_anal_region",
+      "bloody_stool",
+      "irritation_in_anus",
+      "neck_pain",
+      "cramps",
+      "bruising",
+      "obesity",
+      "swollen_legs",
+      "swollen_blood_vessels",
+      "puffy_face_and_eyes",
+      "enlarged_thyroid",
+      "brittle_nails",
+      "swollen_extremeties",
+      "extra_marital_contacts",
+      "drying_and_tingling_lips",
+      "slurred_speech",
+      "knee_pain",
+      "hip_joint_pain",
+      "muscle_weakness",
+      "stiff_neck",
+      "swelling_joints",
+      "movement_stiffness",
+      "spinning_movements",
+      "unsteadiness",
+      "weakness_of_one_body_side",
+      "loss_of_smell",
+      "bladder_discomfort",
+      "foul_smell_of_urine",
+      "continuous_feel_of_urine",
+      "passage_of_gases",
+      "internal_itching",
+      "toxic_look_typhos",
+      "depression",
+      "altered_sensorium",
+      "red_spots_over_body",
+      "belly_pain",
+      "abnormal_menstruation",
+      "dischromic_patches",
+      "watering_from_eyes",
+      "increased_appetite",
+      "polyuria",
+      "family_history",
+      "mucoid_sputum",
+      "rusty_sputum",
+      "lack_of_concentration",
+      "visual_disturbances",
+      "receiving_blood_transfusion",
+      "receiving_unsterile_injections",
+      "coma",
+      "stomach_bleeding",
+      "distention_of_abdomen",
+      "history_of_alcohol_consumption",
+      "fluid_overload_1",
+      "blood_in_sputum",
+      "prominent_veins_on_calf",
+      "palpitations",
+      "painful_walking",
+      "pus_filled_pimples",
+      "blackheads",
+      "scurring",
+      "skin_peeling",
+      "silver_like_dusting",
+      "small_dents_in_nails",
+      "inflammatory_nails",
+      "blister",
+      "red_sore_around_nose",
+      "yellow_crust_ooze"
+    ],
+    "mean_mi_raw_rows": 0.177692,
+    "n_features_mi_gt_0p01": 131,
+    "per_feature": {
+      "itching": {
+        "prevalence": 0.1379,
+        "n_positive_rows": 684,
+        "pct_positive": 13.7875,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.367901,
+        "classes_containing_symptom": 6
+      },
+      "skin_rash": {
+        "prevalence": 0.1598,
+        "n_positive_rows": 793,
+        "pct_positive": 15.9847,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.410656,
+        "classes_containing_symptom": 7
+      },
+      "nodal_skin_eruptions": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.086756,
+        "classes_containing_symptom": 1
+      },
+      "continuous_sneezing": {
+        "prevalence": 0.0452,
+        "n_positive_rows": 224,
+        "pct_positive": 4.5152,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.159715,
+        "classes_containing_symptom": 2
+      },
+      "shivering": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.077158,
+        "classes_containing_symptom": 1
+      },
+      "chills": {
+        "prevalence": 0.1623,
+        "n_positive_rows": 805,
+        "pct_positive": 16.2266,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.430697,
+        "classes_containing_symptom": 7
+      },
+      "joint_pain": {
+        "prevalence": 0.1391,
+        "n_positive_rows": 690,
+        "pct_positive": 13.9085,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.366499,
+        "classes_containing_symptom": 6
+      },
+      "stomach_pain": {
+        "prevalence": 0.0452,
+        "n_positive_rows": 224,
+        "pct_positive": 4.5152,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.177426,
+        "classes_containing_symptom": 2
+      },
+      "acidity": {
+        "prevalence": 0.0452,
+        "n_positive_rows": 224,
+        "pct_positive": 4.5152,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.16098,
+        "classes_containing_symptom": 2
+      },
+      "ulcers_on_tongue": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.083115,
+        "classes_containing_symptom": 1
+      },
+      "muscle_wasting": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.088162,
+        "classes_containing_symptom": 1
+      },
+      "vomiting": {
+        "prevalence": 0.3892,
+        "n_positive_rows": 1931,
+        "pct_positive": 38.9236,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.58531,
+        "classes_containing_symptom": 17
+      },
+      "burning_micturition": {
+        "prevalence": 0.0439,
+        "n_positive_rows": 218,
+        "pct_positive": 4.3943,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.163913,
+        "classes_containing_symptom": 2
+      },
+      "spotting_urination": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.101819,
+        "classes_containing_symptom": 1
+      },
+      "fatigue": {
+        "prevalence": 0.3929,
+        "n_positive_rows": 1949,
+        "pct_positive": 39.2864,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.592699,
+        "classes_containing_symptom": 17
+      },
+      "weight_gain": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.114501,
+        "classes_containing_symptom": 1
+      },
+      "anxiety": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.119886,
+        "classes_containing_symptom": 1
+      },
+      "cold_hands_and_feets": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.100199,
+        "classes_containing_symptom": 1
+      },
+      "mood_swings": {
+        "prevalence": 0.0464,
+        "n_positive_rows": 230,
+        "pct_positive": 4.6362,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.173422,
+        "classes_containing_symptom": 2
+      },
+      "weight_loss": {
+        "prevalence": 0.0927,
+        "n_positive_rows": 460,
+        "pct_positive": 9.2723,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.299003,
+        "classes_containing_symptom": 4
+      },
+      "restlessness": {
+        "prevalence": 0.0464,
+        "n_positive_rows": 230,
+        "pct_positive": 4.6362,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.172487,
+        "classes_containing_symptom": 2
+      },
+      "lethargy": {
+        "prevalence": 0.0927,
+        "n_positive_rows": 460,
+        "pct_positive": 9.2723,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.288647,
+        "classes_containing_symptom": 4
+      },
+      "patches_in_throat": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.088572,
+        "classes_containing_symptom": 1
+      },
+      "irregular_sugar_level": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.097791,
+        "classes_containing_symptom": 1
+      },
+      "cough": {
+        "prevalence": 0.1147,
+        "n_positive_rows": 569,
+        "pct_positive": 11.4695,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.318999,
+        "classes_containing_symptom": 5
+      },
+      "high_fever": {
+        "prevalence": 0.277,
+        "n_positive_rows": 1374,
+        "pct_positive": 27.696,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.527278,
+        "classes_containing_symptom": 12
+      },
+      "sunken_eyes": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.096013,
+        "classes_containing_symptom": 1
+      },
+      "breathlessness": {
+        "prevalence": 0.0915,
+        "n_positive_rows": 454,
+        "pct_positive": 9.1514,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.271579,
+        "classes_containing_symptom": 4
+      },
+      "sweating": {
+        "prevalence": 0.1379,
+        "n_positive_rows": 684,
+        "pct_positive": 13.7875,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.350205,
+        "classes_containing_symptom": 6
+      },
+      "dehydration": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.120514,
+        "classes_containing_symptom": 1
+      },
+      "indigestion": {
+        "prevalence": 0.0452,
+        "n_positive_rows": 224,
+        "pct_positive": 4.5152,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.17686,
+        "classes_containing_symptom": 2
+      },
+      "headache": {
+        "prevalence": 0.2306,
+        "n_positive_rows": 1144,
+        "pct_positive": 23.0599,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.501205,
+        "classes_containing_symptom": 10
+      },
+      "yellowish_skin": {
+        "prevalence": 0.1854,
+        "n_positive_rows": 920,
+        "pct_positive": 18.5446,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.429712,
+        "classes_containing_symptom": 8
+      },
+      "dark_urine": {
+        "prevalence": 0.1159,
+        "n_positive_rows": 575,
+        "pct_positive": 11.5904,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.343666,
+        "classes_containing_symptom": 5
+      },
+      "nausea": {
+        "prevalence": 0.233,
+        "n_positive_rows": 1156,
+        "pct_positive": 23.3018,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.489816,
+        "classes_containing_symptom": 10
+      },
+      "loss_of_appetite": {
+        "prevalence": 0.2342,
+        "n_positive_rows": 1162,
+        "pct_positive": 23.4227,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.493978,
+        "classes_containing_symptom": 10
+      },
+      "pain_behind_the_eyes": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.12223,
+        "classes_containing_symptom": 1
+      },
+      "back_pain": {
+        "prevalence": 0.0464,
+        "n_positive_rows": 230,
+        "pct_positive": 4.6362,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.196803,
+        "classes_containing_symptom": 2
+      },
+      "constipation": {
+        "prevalence": 0.0464,
+        "n_positive_rows": 230,
+        "pct_positive": 4.6362,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.179966,
+        "classes_containing_symptom": 2
+      },
+      "abdominal_pain": {
+        "prevalence": 0.2098,
+        "n_positive_rows": 1041,
+        "pct_positive": 20.9837,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.467246,
+        "classes_containing_symptom": 9
+      },
+      "diarrhoea": {
+        "prevalence": 0.1147,
+        "n_positive_rows": 569,
+        "pct_positive": 11.4695,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.307228,
+        "classes_containing_symptom": 5
+      },
+      "mild_fever": {
+        "prevalence": 0.072,
+        "n_positive_rows": 357,
+        "pct_positive": 7.1961,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.226458,
+        "classes_containing_symptom": 3
+      },
+      "yellow_urine": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.106412,
+        "classes_containing_symptom": 1
+      },
+      "yellowing_of_eyes": {
+        "prevalence": 0.1659,
+        "n_positive_rows": 823,
+        "pct_positive": 16.5894,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.450271,
+        "classes_containing_symptom": 7
+      },
+      "acute_liver_failure": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.108398,
+        "classes_containing_symptom": 1
+      },
+      "fluid_overload": {
+        "prevalence": 0.0,
+        "n_positive_rows": 0,
+        "pct_positive": 0.0,
+        "zero_variance": true,
+        "near_zero_variance": true,
+        "mi_with_target": 0.009934,
+        "classes_containing_symptom": 0
+      },
+      "swelling_of_stomach": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.105848,
+        "classes_containing_symptom": 1
+      },
+      "swelled_lymph_nodes": {
+        "prevalence": 0.0708,
+        "n_positive_rows": 351,
+        "pct_positive": 7.0752,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.241158,
+        "classes_containing_symptom": 3
+      },
+      "malaise": {
+        "prevalence": 0.1427,
+        "n_positive_rows": 708,
+        "pct_positive": 14.2713,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.383469,
+        "classes_containing_symptom": 6
+      },
+      "blurred_and_distorted_vision": {
+        "prevalence": 0.0695,
+        "n_positive_rows": 345,
+        "pct_positive": 6.9542,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.220607,
+        "classes_containing_symptom": 3
+      },
+      "phlegm": {
+        "prevalence": 0.072,
+        "n_positive_rows": 357,
+        "pct_positive": 7.1961,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.253049,
+        "classes_containing_symptom": 3
+      },
+      "throat_irritation": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.117136,
+        "classes_containing_symptom": 1
+      },
+      "redness_of_eyes": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.101032,
+        "classes_containing_symptom": 1
+      },
+      "sinus_pressure": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.117013,
+        "classes_containing_symptom": 1
+      },
+      "runny_nose": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.100233,
+        "classes_containing_symptom": 1
+      },
+      "congestion": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.116584,
+        "classes_containing_symptom": 1
+      },
+      "chest_pain": {
+        "prevalence": 0.1415,
+        "n_positive_rows": 702,
+        "pct_positive": 14.1504,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.394754,
+        "classes_containing_symptom": 6
+      },
+      "weakness_in_limbs": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.103026,
+        "classes_containing_symptom": 1
+      },
+      "fast_heart_rate": {
+        "prevalence": 0.0476,
+        "n_positive_rows": 236,
+        "pct_positive": 4.7571,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.193024,
+        "classes_containing_symptom": 2
+      },
+      "pain_during_bowel_movements": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.090079,
+        "classes_containing_symptom": 1
+      },
+      "pain_in_anal_region": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.129695,
+        "classes_containing_symptom": 1
+      },
+      "bloody_stool": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.124451,
+        "classes_containing_symptom": 1
+      },
+      "irritation_in_anus": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.089033,
+        "classes_containing_symptom": 1
+      },
+      "neck_pain": {
+        "prevalence": 0.0464,
+        "n_positive_rows": 230,
+        "pct_positive": 4.6362,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.167244,
+        "classes_containing_symptom": 2
+      },
+      "dizziness": {
+        "prevalence": 0.0683,
+        "n_positive_rows": 339,
+        "pct_positive": 6.8333,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.224846,
+        "classes_containing_symptom": 3
+      },
+      "cramps": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.088788,
+        "classes_containing_symptom": 1
+      },
+      "bruising": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.108535,
+        "classes_containing_symptom": 1
+      },
+      "obesity": {
+        "prevalence": 0.0464,
+        "n_positive_rows": 230,
+        "pct_positive": 4.6362,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.182786,
+        "classes_containing_symptom": 2
+      },
+      "swollen_legs": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.104168,
+        "classes_containing_symptom": 1
+      },
+      "swollen_blood_vessels": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.084486,
+        "classes_containing_symptom": 1
+      },
+      "puffy_face_and_eyes": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.115488,
+        "classes_containing_symptom": 1
+      },
+      "enlarged_thyroid": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.11694,
+        "classes_containing_symptom": 1
+      },
+      "brittle_nails": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.097605,
+        "classes_containing_symptom": 1
+      },
+      "swollen_extremeties": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.12062,
+        "classes_containing_symptom": 1
+      },
+      "excessive_hunger": {
+        "prevalence": 0.0939,
+        "n_positive_rows": 466,
+        "pct_positive": 9.3933,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.301055,
+        "classes_containing_symptom": 4
+      },
+      "extra_marital_contacts": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.090047,
+        "classes_containing_symptom": 1
+      },
+      "drying_and_tingling_lips": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.11385,
+        "classes_containing_symptom": 1
+      },
+      "slurred_speech": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.100233,
+        "classes_containing_symptom": 1
+      },
+      "knee_pain": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.116458,
+        "classes_containing_symptom": 1
+      },
+      "hip_joint_pain": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.122504,
+        "classes_containing_symptom": 1
+      },
+      "muscle_weakness": {
+        "prevalence": 0.0476,
+        "n_positive_rows": 236,
+        "pct_positive": 4.7571,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.185094,
+        "classes_containing_symptom": 2
+      },
+      "stiff_neck": {
+        "prevalence": 0.0464,
+        "n_positive_rows": 230,
+        "pct_positive": 4.6362,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.174497,
+        "classes_containing_symptom": 2
+      },
+      "swelling_joints": {
+        "prevalence": 0.0464,
+        "n_positive_rows": 230,
+        "pct_positive": 4.6362,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.165231,
+        "classes_containing_symptom": 2
+      },
+      "movement_stiffness": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.091537,
+        "classes_containing_symptom": 1
+      },
+      "spinning_movements": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.090985,
+        "classes_containing_symptom": 1
+      },
+      "loss_of_balance": {
+        "prevalence": 0.0695,
+        "n_positive_rows": 345,
+        "pct_positive": 6.9542,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.228419,
+        "classes_containing_symptom": 3
+      },
+      "unsteadiness": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.105644,
+        "classes_containing_symptom": 1
+      },
+      "weakness_of_one_body_side": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.107347,
+        "classes_containing_symptom": 1
+      },
+      "loss_of_smell": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.116442,
+        "classes_containing_symptom": 1
+      },
+      "bladder_discomfort": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.102991,
+        "classes_containing_symptom": 1
+      },
+      "foul_smell_of_urine": {
+        "prevalence": 0.0208,
+        "n_positive_rows": 103,
+        "pct_positive": 2.0762,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.111401,
+        "classes_containing_symptom": 1
+      },
+      "continuous_feel_of_urine": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.114073,
+        "classes_containing_symptom": 1
+      },
+      "passage_of_gases": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.112144,
+        "classes_containing_symptom": 1
+      },
+      "internal_itching": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.102583,
+        "classes_containing_symptom": 1
+      },
+      "toxic_look_typhos": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.114395,
+        "classes_containing_symptom": 1
+      },
+      "depression": {
+        "prevalence": 0.0476,
+        "n_positive_rows": 236,
+        "pct_positive": 4.7571,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.190689,
+        "classes_containing_symptom": 2
+      },
+      "irritability": {
+        "prevalence": 0.0964,
+        "n_positive_rows": 478,
+        "pct_positive": 9.6352,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.312527,
+        "classes_containing_symptom": 4
+      },
+      "muscle_pain": {
+        "prevalence": 0.0964,
+        "n_positive_rows": 478,
+        "pct_positive": 9.6352,
+        "zero_variance": false,
+        "near_zero_variance": false,
+        "mi_with_target": 0.328528,
+        "classes_containing_symptom": 4
+      },
+      "altered_sensorium": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.123255,
+        "classes_containing_symptom": 1
+      },
+      "red_spots_over_body": {
+        "prevalence": 0.0476,
+        "n_positive_rows": 236,
+        "pct_positive": 4.7571,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.191967,
+        "classes_containing_symptom": 2
+      },
+      "belly_pain": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.100707,
+        "classes_containing_symptom": 1
+      },
+      "abnormal_menstruation": {
+        "prevalence": 0.0488,
+        "n_positive_rows": 242,
+        "pct_positive": 4.878,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.21359,
+        "classes_containing_symptom": 2
+      },
+      "dischromic_patches": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.092423,
+        "classes_containing_symptom": 1
+      },
+      "watering_from_eyes": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.109151,
+        "classes_containing_symptom": 1
+      },
+      "increased_appetite": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.121284,
+        "classes_containing_symptom": 1
+      },
+      "polyuria": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.123409,
+        "classes_containing_symptom": 1
+      },
+      "family_history": {
+        "prevalence": 0.0464,
+        "n_positive_rows": 230,
+        "pct_positive": 4.6362,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.181818,
+        "classes_containing_symptom": 2
+      },
+      "mucoid_sputum": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.089307,
+        "classes_containing_symptom": 1
+      },
+      "rusty_sputum": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.133732,
+        "classes_containing_symptom": 1
+      },
+      "lack_of_concentration": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.109708,
+        "classes_containing_symptom": 1
+      },
+      "visual_disturbances": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.100477,
+        "classes_containing_symptom": 1
+      },
+      "receiving_blood_transfusion": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.115176,
+        "classes_containing_symptom": 1
+      },
+      "receiving_unsterile_injections": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.116814,
+        "classes_containing_symptom": 1
+      },
+      "coma": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.105324,
+        "classes_containing_symptom": 1
+      },
+      "stomach_bleeding": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.117383,
+        "classes_containing_symptom": 1
+      },
+      "distention_of_abdomen": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.099854,
+        "classes_containing_symptom": 1
+      },
+      "history_of_alcohol_consumption": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.100843,
+        "classes_containing_symptom": 1
+      },
+      "fluid_overload_1": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.11728,
+        "classes_containing_symptom": 1
+      },
+      "blood_in_sputum": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.092531,
+        "classes_containing_symptom": 1
+      },
+      "prominent_veins_on_calf": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.119051,
+        "classes_containing_symptom": 1
+      },
+      "palpitations": {
+        "prevalence": 0.0244,
+        "n_positive_rows": 121,
+        "pct_positive": 2.439,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.109924,
+        "classes_containing_symptom": 1
+      },
+      "painful_walking": {
+        "prevalence": 0.0464,
+        "n_positive_rows": 230,
+        "pct_positive": 4.6362,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.175742,
+        "classes_containing_symptom": 2
+      },
+      "pus_filled_pimples": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.087926,
+        "classes_containing_symptom": 1
+      },
+      "blackheads": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.10421,
+        "classes_containing_symptom": 1
+      },
+      "scurring": {
+        "prevalence": 0.022,
+        "n_positive_rows": 109,
+        "pct_positive": 2.1971,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.102949,
+        "classes_containing_symptom": 1
+      },
+      "skin_peeling": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.101572,
+        "classes_containing_symptom": 1
+      },
+      "silver_like_dusting": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.099755,
+        "classes_containing_symptom": 1
+      },
+      "small_dents_in_nails": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.116114,
+        "classes_containing_symptom": 1
+      },
+      "inflammatory_nails": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.089935,
+        "classes_containing_symptom": 1
+      },
+      "blister": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.091735,
+        "classes_containing_symptom": 1
+      },
+      "red_sore_around_nose": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.097612,
+        "classes_containing_symptom": 1
+      },
+      "yellow_crust_ooze": {
+        "prevalence": 0.0232,
+        "n_positive_rows": 115,
+        "pct_positive": 2.3181,
+        "zero_variance": false,
+        "near_zero_variance": true,
+        "mi_with_target": 0.110345,
+        "classes_containing_symptom": 1
+      }
+    }
+  },
+  "class_analysis": {
+    "n_classes": 41,
+    "per_class": {
+      "AIDS": {
+        "class_name": "AIDS",
+        "sample_count": 121,
+        "unique_symptom_vectors": 5,
+        "duplicate_rows": 116,
+        "unique_symptom_associations": 5,
+        "min_active_symptoms": 3,
+        "max_active_symptoms": 4,
+        "mean_active_symptoms": 3.653
+      },
+      "Acne": {
+        "class_name": "Acne",
+        "sample_count": 121,
+        "unique_symptom_vectors": 5,
+        "duplicate_rows": 116,
+        "unique_symptom_associations": 5,
+        "min_active_symptoms": 3,
+        "max_active_symptoms": 4,
+        "mean_active_symptoms": 3.653
+      },
+      "Alcoholic Hepatitis": {
+        "class_name": "Alcoholic Hepatitis",
+        "sample_count": 121,
+        "unique_symptom_vectors": 8,
+        "duplicate_rows": 113,
+        "unique_symptom_associations": 8,
+        "min_active_symptoms": 6,
+        "max_active_symptoms": 7,
+        "mean_active_symptoms": 6.653
+      },
+      "Allergy": {
+        "class_name": "Allergy",
+        "sample_count": 121,
+        "unique_symptom_vectors": 5,
+        "duplicate_rows": 116,
+        "unique_symptom_associations": 5,
+        "min_active_symptoms": 3,
+        "max_active_symptoms": 4,
+        "mean_active_symptoms": 3.603
+      },
+      "Arthritis": {
+        "class_name": "Arthritis",
+        "sample_count": 121,
+        "unique_symptom_vectors": 6,
+        "duplicate_rows": 115,
+        "unique_symptom_associations": 6,
+        "min_active_symptoms": 4,
+        "max_active_symptoms": 5,
+        "mean_active_symptoms": 4.752
+      },
+      "Bronchial Asthma": {
+        "class_name": "Bronchial Asthma",
+        "sample_count": 121,
+        "unique_symptom_vectors": 7,
+        "duplicate_rows": 114,
+        "unique_symptom_associations": 7,
+        "min_active_symptoms": 5,
+        "max_active_symptoms": 6,
+        "mean_active_symptoms": 5.603
+      },
+      "Cervical Spondylosis": {
+        "class_name": "Cervical Spondylosis",
+        "sample_count": 121,
+        "unique_symptom_vectors": 6,
+        "duplicate_rows": 115,
+        "unique_symptom_associations": 6,
+        "min_active_symptoms": 4,
+        "max_active_symptoms": 5,
+        "mean_active_symptoms": 4.653
+      },
+      "Chickenpox": {
+        "class_name": "Chickenpox",
+        "sample_count": 121,
+        "unique_symptom_vectors": 10,
+        "duplicate_rows": 111,
+        "unique_symptom_associations": 10,
+        "min_active_symptoms": 10,
+        "max_active_symptoms": 11,
+        "mean_active_symptoms": 10.554
+      },
+      "Chronic Cholestasis": {
+        "class_name": "Chronic Cholestasis",
+        "sample_count": 121,
+        "unique_symptom_vectors": 8,
+        "duplicate_rows": 113,
+        "unique_symptom_associations": 8,
+        "min_active_symptoms": 6,
+        "max_active_symptoms": 7,
+        "mean_active_symptoms": 6.653
+      },
+      "Common Cold": {
+        "class_name": "Common Cold",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 16,
+        "max_active_symptoms": 17,
+        "mean_active_symptoms": 16.603
+      },
+      "Dengue": {
+        "class_name": "Dengue",
+        "sample_count": 121,
+        "unique_symptom_vectors": 10,
+        "duplicate_rows": 111,
+        "unique_symptom_associations": 10,
+        "min_active_symptoms": 13,
+        "max_active_symptoms": 14,
+        "mean_active_symptoms": 13.554
+      },
+      "Diabetes": {
+        "class_name": "Diabetes",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 9,
+        "max_active_symptoms": 10,
+        "mean_active_symptoms": 9.603
+      },
+      "Dimorphic Hemmorhoids (piles)": {
+        "class_name": "Dimorphic Hemmorhoids (piles)",
+        "sample_count": 121,
+        "unique_symptom_vectors": 6,
+        "duplicate_rows": 115,
+        "unique_symptom_associations": 6,
+        "min_active_symptoms": 4,
+        "max_active_symptoms": 5,
+        "mean_active_symptoms": 4.752
+      },
+      "Drug Reaction": {
+        "class_name": "Drug Reaction",
+        "sample_count": 121,
+        "unique_symptom_vectors": 6,
+        "duplicate_rows": 115,
+        "unique_symptom_associations": 6,
+        "min_active_symptoms": 4,
+        "max_active_symptoms": 5,
+        "mean_active_symptoms": 4.554
+      },
+      "Fungal Infection": {
+        "class_name": "Fungal Infection",
+        "sample_count": 121,
+        "unique_symptom_vectors": 5,
+        "duplicate_rows": 116,
+        "unique_symptom_associations": 5,
+        "min_active_symptoms": 3,
+        "max_active_symptoms": 4,
+        "mean_active_symptoms": 3.603
+      },
+      "GERD": {
+        "class_name": "GERD",
+        "sample_count": 121,
+        "unique_symptom_vectors": 7,
+        "duplicate_rows": 114,
+        "unique_symptom_associations": 7,
+        "min_active_symptoms": 5,
+        "max_active_symptoms": 6,
+        "mean_active_symptoms": 5.554
+      },
+      "Gastroenteritis": {
+        "class_name": "Gastroenteritis",
+        "sample_count": 121,
+        "unique_symptom_vectors": 5,
+        "duplicate_rows": 116,
+        "unique_symptom_associations": 5,
+        "min_active_symptoms": 3,
+        "max_active_symptoms": 4,
+        "mean_active_symptoms": 3.653
+      },
+      "Heart Attack": {
+        "class_name": "Heart Attack",
+        "sample_count": 121,
+        "unique_symptom_vectors": 5,
+        "duplicate_rows": 116,
+        "unique_symptom_associations": 5,
+        "min_active_symptoms": 3,
+        "max_active_symptoms": 4,
+        "mean_active_symptoms": 3.653
+      },
+      "Hepatitis A": {
+        "class_name": "Hepatitis A",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 10,
+        "max_active_symptoms": 11,
+        "mean_active_symptoms": 10.603
+      },
+      "Hepatitis B": {
+        "class_name": "Hepatitis B",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 11,
+        "max_active_symptoms": 12,
+        "mean_active_symptoms": 11.603
+      },
+      "Hepatitis C": {
+        "class_name": "Hepatitis C",
+        "sample_count": 121,
+        "unique_symptom_vectors": 7,
+        "duplicate_rows": 114,
+        "unique_symptom_associations": 7,
+        "min_active_symptoms": 5,
+        "max_active_symptoms": 6,
+        "mean_active_symptoms": 5.653
+      },
+      "Hepatitis D": {
+        "class_name": "Hepatitis D",
+        "sample_count": 121,
+        "unique_symptom_vectors": 10,
+        "duplicate_rows": 111,
+        "unique_symptom_associations": 10,
+        "min_active_symptoms": 8,
+        "max_active_symptoms": 9,
+        "mean_active_symptoms": 8.554
+      },
+      "Hepatitis E": {
+        "class_name": "Hepatitis E",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 12,
+        "max_active_symptoms": 13,
+        "mean_active_symptoms": 12.603
+      },
+      "Hypertension": {
+        "class_name": "Hypertension",
+        "sample_count": 121,
+        "unique_symptom_vectors": 6,
+        "duplicate_rows": 115,
+        "unique_symptom_associations": 6,
+        "min_active_symptoms": 4,
+        "max_active_symptoms": 5,
+        "mean_active_symptoms": 4.603
+      },
+      "Hyperthyroidism": {
+        "class_name": "Hyperthyroidism",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 10,
+        "max_active_symptoms": 11,
+        "mean_active_symptoms": 10.603
+      },
+      "Hypoglycemia": {
+        "class_name": "Hypoglycemia",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 11,
+        "max_active_symptoms": 12,
+        "mean_active_symptoms": 11.603
+      },
+      "Hypothyroidism": {
+        "class_name": "Hypothyroidism",
+        "sample_count": 121,
+        "unique_symptom_vectors": 8,
+        "duplicate_rows": 113,
+        "unique_symptom_associations": 8,
+        "min_active_symptoms": 12,
+        "max_active_symptoms": 13,
+        "mean_active_symptoms": 12.603
+      },
+      "Impetigo": {
+        "class_name": "Impetigo",
+        "sample_count": 121,
+        "unique_symptom_vectors": 6,
+        "duplicate_rows": 115,
+        "unique_symptom_associations": 6,
+        "min_active_symptoms": 4,
+        "max_active_symptoms": 5,
+        "mean_active_symptoms": 4.653
+      },
+      "Jaundice": {
+        "class_name": "Jaundice",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 7,
+        "max_active_symptoms": 8,
+        "mean_active_symptoms": 7.603
+      },
+      "Malaria": {
+        "class_name": "Malaria",
+        "sample_count": 121,
+        "unique_symptom_vectors": 8,
+        "duplicate_rows": 113,
+        "unique_symptom_associations": 8,
+        "min_active_symptoms": 7,
+        "max_active_symptoms": 8,
+        "mean_active_symptoms": 7.603
+      },
+      "Migraine": {
+        "class_name": "Migraine",
+        "sample_count": 121,
+        "unique_symptom_vectors": 10,
+        "duplicate_rows": 111,
+        "unique_symptom_associations": 10,
+        "min_active_symptoms": 8,
+        "max_active_symptoms": 9,
+        "mean_active_symptoms": 8.554
+      },
+      "Osteoarthritis": {
+        "class_name": "Osteoarthritis",
+        "sample_count": 121,
+        "unique_symptom_vectors": 7,
+        "duplicate_rows": 114,
+        "unique_symptom_associations": 7,
+        "min_active_symptoms": 5,
+        "max_active_symptoms": 6,
+        "mean_active_symptoms": 5.702
+      },
+      "Paralysis (brain hemorrhage)": {
+        "class_name": "Paralysis (brain hemorrhage)",
+        "sample_count": 121,
+        "unique_symptom_vectors": 5,
+        "duplicate_rows": 116,
+        "unique_symptom_associations": 5,
+        "min_active_symptoms": 3,
+        "max_active_symptoms": 4,
+        "mean_active_symptoms": 3.653
+      },
+      "Peptic Ulcer Disease": {
+        "class_name": "Peptic Ulcer Disease",
+        "sample_count": 121,
+        "unique_symptom_vectors": 7,
+        "duplicate_rows": 114,
+        "unique_symptom_associations": 7,
+        "min_active_symptoms": 5,
+        "max_active_symptoms": 6,
+        "mean_active_symptoms": 5.603
+      },
+      "Pneumonia": {
+        "class_name": "Pneumonia",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 10,
+        "max_active_symptoms": 11,
+        "mean_active_symptoms": 10.603
+      },
+      "Psoriasis": {
+        "class_name": "Psoriasis",
+        "sample_count": 121,
+        "unique_symptom_vectors": 7,
+        "duplicate_rows": 114,
+        "unique_symptom_associations": 7,
+        "min_active_symptoms": 5,
+        "max_active_symptoms": 6,
+        "mean_active_symptoms": 5.702
+      },
+      "Tuberculosis": {
+        "class_name": "Tuberculosis",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 15,
+        "max_active_symptoms": 16,
+        "mean_active_symptoms": 15.603
+      },
+      "Typhoid": {
+        "class_name": "Typhoid",
+        "sample_count": 121,
+        "unique_symptom_vectors": 9,
+        "duplicate_rows": 112,
+        "unique_symptom_associations": 9,
+        "min_active_symptoms": 10,
+        "max_active_symptoms": 11,
+        "mean_active_symptoms": 10.603
+      },
+      "Urinary Tract Infection": {
+        "class_name": "Urinary Tract Infection",
+        "sample_count": 121,
+        "unique_symptom_vectors": 5,
+        "duplicate_rows": 116,
+        "unique_symptom_associations": 5,
+        "min_active_symptoms": 3,
+        "max_active_symptoms": 4,
+        "mean_active_symptoms": 3.653
+      },
+      "Varicose Veins": {
+        "class_name": "Varicose Veins",
+        "sample_count": 121,
+        "unique_symptom_vectors": 8,
+        "duplicate_rows": 113,
+        "unique_symptom_associations": 8,
+        "min_active_symptoms": 6,
+        "max_active_symptoms": 7,
+        "mean_active_symptoms": 6.603
+      },
+      "Vertigo": {
+        "class_name": "Vertigo",
+        "sample_count": 121,
+        "unique_symptom_vectors": 7,
+        "duplicate_rows": 114,
+        "unique_symptom_associations": 7,
+        "min_active_symptoms": 5,
+        "max_active_symptoms": 6,
+        "mean_active_symptoms": 5.653
+      }
+    },
+    "unique_vectors_per_class_range": [
+      5,
+      10
+    ]
+  },
+  "separability": {
+    "raw_4961": {
+      "avg_cosine": 0.106681,
+      "median_cosine": 0.0,
+      "min_cosine": 0.0,
+      "max_cosine": 0.829611,
+      "n_pairs": 820,
+      "most_similar_pairs": [
+        {
+          "diseases": [
+            "Hepatitis D",
+            "Hepatitis E"
+          ],
+          "cosine": 0.829611
+        },
+        {
+          "diseases": [
+            "Hepatitis A",
+            "Hepatitis D"
+          ],
+          "cosine": 0.797711
+        },
+        {
+          "diseases": [
+            "Chronic Cholestasis",
+            "Hepatitis D"
+          ],
+          "cosine": 0.755929
+        },
+        {
+          "diseases": [
+            "Chronic Cholestasis",
+            "Hepatitis A"
+          ],
+          "cosine": 0.679854
+        },
+        {
+          "diseases": [
+            "Hepatitis C",
+            "Hepatitis D"
+          ],
+          "cosine": 0.679089
+        },
+        {
+          "diseases": [
+            "Tuberculosis",
+            "Pneumonia"
+          ],
+          "cosine": 0.6668
+        },
+        {
+          "diseases": [
+            "Hepatitis A",
+            "Hepatitis E"
+          ],
+          "cosine": 0.663341
+        },
+        {
+          "diseases": [
+            "Malaria",
+            "Typhoid"
+          ],
+          "cosine": 0.635729
+        }
+      ],
+      "least_similar_pairs": [
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Allergy"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "GERD"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Peptic Ulcer Disease"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "AIDS"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Diabetes"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Gastroenteritis"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Bronchial Asthma"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Hypertension"
+          ],
+          "cosine": 0.0
+        }
+      ],
+      "representation": "A_raw_4961_rows"
+    },
+    "dedup_304": {
+      "avg_cosine": 0.105753,
+      "median_cosine": 0.0,
+      "min_cosine": 0.0,
+      "max_cosine": 0.825573,
+      "n_pairs": 820,
+      "most_similar_pairs": [
+        {
+          "diseases": [
+            "Hepatitis D",
+            "Hepatitis E"
+          ],
+          "cosine": 0.825573
+        },
+        {
+          "diseases": [
+            "Hepatitis A",
+            "Hepatitis D"
+          ],
+          "cosine": 0.788531
+        },
+        {
+          "diseases": [
+            "Chronic Cholestasis",
+            "Hepatitis D"
+          ],
+          "cosine": 0.755929
+        },
+        {
+          "diseases": [
+            "Hepatitis C",
+            "Hepatitis D"
+          ],
+          "cosine": 0.680414
+        },
+        {
+          "diseases": [
+            "Chronic Cholestasis",
+            "Hepatitis A"
+          ],
+          "cosine": 0.674021
+        },
+        {
+          "diseases": [
+            "Hepatitis A",
+            "Hepatitis E"
+          ],
+          "cosine": 0.654996
+        },
+        {
+          "diseases": [
+            "Tuberculosis",
+            "Pneumonia"
+          ],
+          "cosine": 0.650751
+        },
+        {
+          "diseases": [
+            "Chronic Cholestasis",
+            "Hepatitis E"
+          ],
+          "cosine": 0.636556
+        }
+      ],
+      "least_similar_pairs": [
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Allergy"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "GERD"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Peptic Ulcer Disease"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "AIDS"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Diabetes"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Gastroenteritis"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Bronchial Asthma"
+          ],
+          "cosine": 0.0
+        },
+        {
+          "diseases": [
+            "Fungal Infection",
+            "Hypertension"
+          ],
+          "cosine": 0.0
+        }
+      ],
+      "representation": "C_dedup_304_associations"
+    },
+    "note": "Cosines are class-mean profile similarities (structural geometry), NOT clinical validity. Deduplication does not materially change separability."
+  },
+  "leakage": {
+    "description": "Repeated rows are exact repeats of the same symptom vector. Random row-level train/test splitting places identical vectors on BOTH sides -> identical information appears in train and test -> overly optimistic evaluation.",
+    "unique_vectors_total": 304,
+    "vectors_repeated_more_than_once": 304,
+    "rows_residing_in_repeated_vectors": 4961,
+    "percent_rows_in_repeated_vectors": 100.0,
+    "max_multiplicity": 91,
+    "multiplicity_distribution": {
+      "6": 216,
+      "12": 45,
+      "73": 19,
+      "79": 12,
+      "67": 6,
+      "91": 2,
+      "85": 2,
+      "18": 2
+    },
+    "per_class_vectors": {
+      "AIDS": 5,
+      "Acne": 5,
+      "Alcoholic Hepatitis": 8,
+      "Allergy": 5,
+      "Arthritis": 6,
+      "Bronchial Asthma": 7,
+      "Cervical Spondylosis": 6,
+      "Chickenpox": 10,
+      "Chronic Cholestasis": 8,
+      "Common Cold": 9,
+      "Dengue": 10,
+      "Diabetes": 9,
+      "Dimorphic Hemmorhoids (piles)": 6,
+      "Drug Reaction": 6,
+      "Fungal Infection": 5,
+      "GERD": 7,
+      "Gastroenteritis": 5,
+      "Heart Attack": 5,
+      "Hepatitis A": 9,
+      "Hepatitis B": 9,
+      "Hepatitis C": 7,
+      "Hepatitis D": 10,
+      "Hepatitis E": 9,
+      "Hypertension": 6,
+      "Hyperthyroidism": 9,
+      "Hypoglycemia": 9,
+      "Hypothyroidism": 8,
+      "Impetigo": 6,
+      "Jaundice": 9,
+      "Malaria": 8,
+      "Migraine": 10,
+      "Osteoarthritis": 7,
+      "Paralysis (brain hemorrhage)": 5,
+      "Peptic Ulcer Disease": 7,
+      "Pneumonia": 9,
+      "Psoriasis": 7,
+      "Tuberculosis": 9,
+      "Typhoid": 9,
+      "Urinary Tract Infection": 5,
+      "Varicose Veins": 8,
+      "Vertigo": 7
+    },
+    "recommended_strategy": {
+      "representation": "C_unique_vector_disease_associations (304 rows)",
+      "split": "GROUPED split by unique symptom vector (LeaveOneVectorOut / GroupKFold-like): assign each unique vector to exactly one fold; NEVER split identical vectors across folds. With 5-10 vectors per class, use repeated grouped CV (e.g., 5-fold grouped, repeated 10x) and report macro metrics + per-class support. Because classes have only 5-10 association vectors, small-dataset uncertainty is expected and must be reported.",
+      "avoid": "Random row-level split on the 4,961-row file (would leak identical vectors), and any split that lets a vector appear in both train and test.",
+      "evaluation_limitations": "41 classes but only 304 total association vectors -> evaluation is inherently small-sample; treat results as exploratory, not clinical."
+    }
+  },
+  "representations": {
+    "A_original_4961": {
+      "name": "A_original_4961",
+      "rows": 4961,
+      "unique_vectors": 304,
+      "classes": 41,
+      "class_min": 121,
+      "class_max": 121,
+      "class_mean": 121.0,
+      "imbalance_ratio": 1.0,
+      "interpretation": "Association rows repeated to uniform 121/class; rows are NOT independent patient samples.",
+      "leakage_risk": "HIGH if row-split naively: identical vectors span train/test.",
+      "independent_samples_valid": false,
+      "suitability_ml": "Acceptable source for class-conditional statistics but misleading as i.i.d. samples."
+    },
+    "B_exact_duplicates_removed": {
+      "name": "B_exact_duplicates_removed",
+      "rows": 304,
+      "unique_vectors": 304,
+      "classes": 41,
+      "class_min": 121,
+      "class_max": 121,
+      "class_mean": 121.0,
+      "imbalance_ratio": 1.0,
+      "interpretation": "Row-level dedup; here equals unique vector+label pairs (no contradictions).",
+      "leakage_risk": "Low if used as association table; still group-split by vector for evaluation.",
+      "independent_samples_valid": false,
+      "suitability_ml": "Deduplicates repeated formatting; preferred base."
+    },
+    "C_unique_vector_disease_associations": {
+      "name": "C_unique_vector_disease_associations",
+      "rows": 304,
+      "unique_vectors": 304,
+      "classes": 41,
+      "class_min": 5,
+      "class_max": 10,
+      "class_mean": 7.41,
+      "imbalance_ratio": 2.0,
+      "interpretation": "One row per unique disease->symptom association (304 rows). Honest information-bearing set.",
+      "leakage_risk": "None from duplicates; split must be stratified/grouped by vector.",
+      "independent_samples_valid": true,
+      "suitability_ml": "Recommended for Phase 7I training/evaluation."
+    },
+    "D_unique_vectors_multilabel": {
+      "name": "D_unique_vectors_multilabel",
+      "rows": 304,
+      "unique_vectors": 304,
+      "classes": 41,
+      "class_min": 121,
+      "class_max": 121,
+      "class_mean": 121.0,
+      "imbalance_ratio": 1.0,
+      "interpretation": "Only if contradictions existed; here 0 contradictions so D == B == C structurally.",
+      "leakage_risk": "Not applicable (no multilabel vectors).",
+      "independent_samples_valid": true,
+      "suitability_ml": "Not needed; documented for completeness."
+    }
+  },
+  "selected_candidate_representation": {
+    "name": "C_unique_vector_disease_associations",
+    "rows": 304,
+    "unique_vectors": 304,
+    "classes": 41,
+    "class_min": 5,
+    "class_max": 10,
+    "class_mean": 7.41,
+    "imbalance_ratio": 2.0,
+    "interpretation": "One row per unique disease->symptom association (304 rows). Honest information-bearing set.",
+    "leakage_risk": "None from duplicates; split must be stratified/grouped by vector.",
+    "independent_samples_valid": true,
+    "suitability_ml": "Recommended for Phase 7I training/evaluation."
+  },
+  "train_test_recommendation": {
+    "representation": "C_unique_vector_disease_associations (304 rows)",
+    "split": "GROUPED split by unique symptom vector (LeaveOneVectorOut / GroupKFold-like): assign each unique vector to exactly one fold; NEVER split identical vectors across folds. With 5-10 vectors per class, use repeated grouped CV (e.g., 5-fold grouped, repeated 10x) and report macro metrics + per-class support. Because classes have only 5-10 association vectors, small-dataset uncertainty is expected and must be reported.",
+    "avoid": "Random row-level split on the 4,961-row file (would leak identical vectors), and any split that lets a vector appear in both train and test.",
+    "evaluation_limitations": "41 classes but only 304 total association vectors -> evaluation is inherently small-sample; treat results as exploratory, not clinical."
+  },
+  "unresolved_issues": [
+    {
+      "id": "U1",
+      "issue": "provenance is community-curated symptom->disease associations, NOT patient records",
+      "status": "manual review (Phase 7G open item 1)"
+    },
+    {
+      "id": "U2",
+      "issue": "304 association rows is a small sample (5-10 unique vectors/disease); evaluation uncertainty expected",
+      "status": "documented limitation for Phase 7I"
+    },
+    {
+      "id": "U3",
+      "issue": "HIGH_CONFIDENCE_SYNONYM mappings (stomach_pain, belly_pain -> abdominal_pain; breathlessness -> shortness_of_breath) should be blessed by a clinician before product-facing labels",
+      "status": "manual review"
+    },
+    {
+      "id": "U4",
+      "issue": "fluid_overload (all-zero constant) and fluid_overload_1 (real signal): same-name duplicate header in source; candidate for documented removal in Phase 7I (zero variance), kept in cleaned file",
+      "status": "Phase 7I decision with documented reason"
+    },
+    {
+      "id": "U5",
+      "issue": "no source-documented evidence these symptoms/prognoses have clinical validation",
+      "status": "do not claim diagnostic capability"
+    }
+  ],
+  "final_status": {
+    "decision": "B_CONDITIONALLY_APPROVED_MANUAL_REVIEW_REQUIRED",
+    "approved_for_phase7i": false,
+    "blockers": [
+      "provenance characterization sign-off",
+      "clinician confirmation of 3 synonym mappings"
+    ],
+    "representation_for_phase7i": "C_unique_vector_disease_associations",
+    "train_test_recommendation": {
+      "representation": "C_unique_vector_disease_associations (304 rows)",
+      "split": "GROUPED split by unique symptom vector (LeaveOneVectorOut / GroupKFold-like): assign each unique vector to exactly one fold; NEVER split identical vectors across folds. With 5-10 vectors per class, use repeated grouped CV (e.g., 5-fold grouped, repeated 10x) and report macro metrics + per-class support. Because classes have only 5-10 association vectors, small-dataset uncertainty is expected and must be reported.",
+      "avoid": "Random row-level split on the 4,961-row file (would leak identical vectors), and any split that lets a vector appear in both train and test.",
+      "evaluation_limitations": "41 classes but only 304 total association vectors -> evaluation is inherently small-sample; treat results as exploratory, not clinical."
+    },
+    "summary": "Structural validity PASSED; duplicate rows are legitimate association-format repetition (0 contradictions); 304 unique association vectors; 132-feature vocabulary valid with no normalization collisions; labels clean; classical MI/separability strong; leakage fully characterized and mitigated by grouped split. Conditional on manual review of the 3 open items before Phase 7I proceeds."
+  },
+  "cleaned_dataset_sha256": {
+    "symbipredict_cleaned.csv": "c79634d625cd451526b63e6087971987dd1e399e555208e1aadf1522f86537d4",
+    "symbipredict_deduplicated.csv": "8396a6644296c43daa12df521632393265c98878c930de247b746b77c7b6e8bc"
+  }
+}

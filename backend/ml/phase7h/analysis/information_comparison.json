@@ -1,0 +1,47 @@
+{
+  "current_v2": {
+    "rows": 100000,
+    "unique_full_rows": 100000,
+    "classes": 46,
+    "features": 174,
+    "class_min": 1,
+    "class_max": 21295,
+    "imbalance_ratio": 21295.0,
+    "missing": 0.0,
+    "duplicate_rows": 0,
+    "note": "row-internal duplicates zero; but 93% of rows near-duplicates (avg cos 0.694)"
+  },
+  "symbipredict_raw_4961": {
+    "rows": 4961,
+    "unique_full_rows": 304,
+    "classes": 41,
+    "features": 132,
+    "class_min": 121,
+    "class_max": 121,
+    "imbalance_ratio": 1.0,
+    "missing": 0.0,
+    "duplicate_rows": 4657
+  },
+  "symbipredict_cleaned_4961": {
+    "rows": 4961,
+    "unique_full_rows": 304,
+    "classes": 41,
+    "features": 132,
+    "class_min": 121,
+    "class_max": 121,
+    "imbalance_ratio": 1.0,
+    "missing": 0.0,
+    "duplicate_rows": 4657
+  },
+  "symbipredict_dedup_304": {
+    "rows": 304,
+    "unique_full_rows": 304,
+    "classes": 41,
+    "features": 132,
+    "class_min": 5,
+    "class_max": 10,
+    "imbalance_ratio": 2.0,
+    "missing": 0.0,
+    "duplicate_rows": 0
+  }
+}

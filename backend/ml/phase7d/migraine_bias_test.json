@@ -1,0 +1,56 @@
+{
+  "title": "Migraine Bias Test (Phase 7D)",
+  "date": "2026-09-08",
+  "migraine_actual_test_count": 93,
+  "models": {
+    "rf_balanced": {
+      "migraine_precision": 0.061327,
+      "migraine_recall": 0.526882,
+      "migraine_f1": 0.109865,
+      "migraine_support": 93,
+      "migraine_predicted_count": 799,
+      "migraine_prediction_percentage": 3.9948,
+      "total_predictions": 20001,
+      "actual_prevalence_pct": 0.465,
+      "prediction_to_prevalence_ratio": 8.5914,
+      "bias_assessment": "OVER-represented in predictions"
+    },
+    "rf_none": {
+      "migraine_precision": 0.0,
+      "migraine_recall": 0.0,
+      "migraine_f1": 0.0,
+      "migraine_support": 93,
+      "migraine_predicted_count": 0,
+      "migraine_prediction_percentage": 0.0,
+      "total_predictions": 20001,
+      "actual_prevalence_pct": 0.465,
+      "prediction_to_prevalence_ratio": 0.0,
+      "bias_assessment": "UNDER-represented in predictions"
+    },
+    "logreg": {
+      "migraine_precision": 0.386364,
+      "migraine_recall": 0.182796,
+      "migraine_f1": 0.248175,
+      "migraine_support": 93,
+      "migraine_predicted_count": 44,
+      "migraine_prediction_percentage": 0.22,
+      "total_predictions": 20001,
+      "actual_prevalence_pct": 0.465,
+      "prediction_to_prevalence_ratio": 0.4731,
+      "bias_assessment": "UNDER-represented in predictions"
+    },
+    "linear_svm": {
+      "migraine_precision": 0.333333,
+      "migraine_recall": 0.053763,
+      "migraine_f1": 0.092593,
+      "migraine_support": 93,
+      "migraine_predicted_count": 15,
+      "migraine_prediction_percentage": 0.075,
+      "total_predictions": 20001,
+      "actual_prevalence_pct": 0.465,
+      "prediction_to_prevalence_ratio": 0.1613,
+      "bias_assessment": "UNDER-represented in predictions"
+    }
+  },
+  "conclusion": "The RF balanced model shows Migraine recall of ~52% with ~6% precision, meaning it over-predicts Migraine relative to its true prevalence. This is an expected behavior of class_weight='balanced' which upsamples minority class influence. The production model exhibits the same trade-off."
+}

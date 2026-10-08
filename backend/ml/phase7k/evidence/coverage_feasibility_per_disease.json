@@ -1,0 +1,92 @@
+{
+  "Arthritis": {
+    "n_associations": 10,
+    "mapped_usable": 3,
+    "mapped_exact_only": 0,
+    "usable_features": [
+      "breathlessness",
+      "dizziness",
+      "fatigue"
+    ],
+    "signal_retained_exact_high_pct": 30.0
+  },
+  "Diabetes": {
+    "n_associations": 14,
+    "mapped_usable": 8,
+    "mapped_exact_only": 4,
+    "usable_features": [
+      "breathlessness",
+      "chest_pain",
+      "dizziness",
+      "fatigue",
+      "nausea",
+      "polyuria",
+      "sweating",
+      "vomiting"
+    ],
+    "signal_retained_exact_high_pct": 57.1
+  },
+  "Gastroenteritis": {
+    "n_associations": 11,
+    "mapped_usable": 2,
+    "mapped_exact_only": 1,
+    "usable_features": [
+      "high_fever",
+      "nausea"
+    ],
+    "signal_retained_exact_high_pct": 18.2
+  },
+  "Hepatitis B": {
+    "n_associations": 9,
+    "mapped_usable": 0,
+    "mapped_exact_only": 0,
+    "usable_features": [],
+    "signal_retained_exact_high_pct": 0.0
+  },
+  "Hepatitis C": {
+    "n_associations": 11,
+    "mapped_usable": 2,
+    "mapped_exact_only": 2,
+    "usable_features": [
+      "chills",
+      "cough"
+    ],
+    "signal_retained_exact_high_pct": 18.2
+  },
+  "Hypoglycemia": {
+    "n_associations": 10,
+    "mapped_usable": 1,
+    "mapped_exact_only": 1,
+    "usable_features": [
+      "polyuria"
+    ],
+    "signal_retained_exact_high_pct": 10.0
+  },
+  "Hypothyroidism": {
+    "n_associations": 21,
+    "mapped_usable": 7,
+    "mapped_exact_only": 4,
+    "usable_features": [
+      "breathlessness",
+      "dizziness",
+      "fatigue",
+      "polyuria",
+      "vomiting",
+      "weight_gain"
+    ],
+    "signal_retained_exact_high_pct": 33.3
+  },
+  "Pneumonia": {
+    "n_associations": 19,
+    "mapped_usable": 5,
+    "mapped_exact_only": 3,
+    "usable_features": [
+      "breathlessness",
+      "chills",
+      "cough",
+      "high_fever",
+      "malaise"
+    ],
+    "signal_retained_exact_high_pct": 26.3
+  }
+}

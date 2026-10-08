@@ -1,0 +1,42 @@
+disease,support,precision,recall,f1,tp
+AIDS,50,1.0,1.0,1.0,50
+Acne,50,1.0,1.0,1.0,50
+Allergy,50,1.0,1.0,1.0,50
+Fungal Infection,50,1.0,1.0,1.0,50
+Heart Attack,50,1.0,1.0,1.0,50
+Gastroenteritis,50,1.0,1.0,1.0,50
+Urinary Tract Infection,50,1.0,1.0,1.0,50
+Paralysis (brain hemorrhage),50,1.0,1.0,1.0,50
+Impetigo,60,1.0,1.0,1.0,60
+Hypertension,60,1.0,1.0,1.0,60
+Dimorphic Hemmorhoids (piles),60,1.0,1.0,1.0,60
+Arthritis,60,1.0,1.0,1.0,60
+Cervical Spondylosis,60,1.0,1.0,1.0,60
+Drug Reaction,60,1.0,1.0,1.0,60
+Bronchial Asthma,70,1.0,1.0,1.0,70
+GERD,70,1.0,1.0,1.0,70
+Peptic Ulcer Disease,70,1.0,1.0,1.0,70
+Psoriasis,70,1.0,1.0,1.0,70
+Hepatitis C,70,1.0,1.0,1.0,70
+Vertigo,70,1.0,1.0,1.0,70
+Osteoarthritis,70,1.0,1.0,1.0,70
+Alcoholic Hepatitis,80,1.0,1.0,1.0,80
+Hypothyroidism,80,1.0,1.0,1.0,80
+Chronic Cholestasis,80,1.0,1.0,1.0,80
+Varicose Veins,80,1.0,1.0,1.0,80
+Malaria,80,1.0,1.0,1.0,80
+Jaundice,90,1.0,1.0,1.0,90
+Hypoglycemia,90,1.0,1.0,1.0,90
+Hyperthyroidism,90,1.0,1.0,1.0,90
+Hepatitis E,90,1.0,1.0,1.0,90
+Common Cold,90,1.0,1.0,1.0,90
+Diabetes,90,1.0,1.0,1.0,90
+Tuberculosis,90,1.0,1.0,1.0,90
+Hepatitis A,90,1.0,1.0,1.0,90
+Typhoid,90,1.0,1.0,1.0,90
+Pneumonia,90,1.0,1.0,1.0,90
+Hepatitis B,90,1.0,1.0,1.0,90
+Hepatitis D,100,1.0,1.0,1.0,100
+Chickenpox,100,1.0,1.0,1.0,100
+Dengue,100,1.0,1.0,1.0,100
+Migraine,100,1.0,1.0,1.0,100

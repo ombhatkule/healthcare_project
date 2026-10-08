@@ -1,0 +1,42 @@
+phase7i_label,columbia_label,status
+AIDS,acquired immuno-deficiency syndrome^UMLS:C0019682_HIV^UMLS:C0019693_hiv infections,HIGH_CONFIDENCE
+Acne,,NO_MATCH
+Alcoholic Hepatitis,chronic alcoholic intoxication,POSSIBLE
+Allergy,,NO_MATCH
+Arthritis,arthritis,EXACT
+Bronchial Asthma,asthma,HIGH_CONFIDENCE
+Cervical Spondylosis,,NO_MATCH
+Chickenpox,,NO_MATCH
+Chronic Cholestasis,biliary calculus,POSSIBLE
+Common Cold,,NO_MATCH
+Dengue,,NO_MATCH
+Diabetes,diabetes,EXACT
+Dimorphic Hemmorhoids (piles),,NO_MATCH
+Drug Reaction,,NO_MATCH
+Fungal Infection,oral candidiasis,POSSIBLE
+GERD,,NO_MATCH
+Gastroenteritis,gastroenteritis,EXACT
+Heart Attack,myocardial infarction,HIGH_CONFIDENCE
+Hepatitis A,,NO_MATCH
+Hepatitis B,hepatitis B,EXACT
+Hepatitis C,hepatitis C,EXACT
+Hepatitis D,,NO_MATCH
+Hepatitis E,,NO_MATCH
+Hypertension,hypertensive disease,HIGH_CONFIDENCE
+Hyperthyroidism,,NO_MATCH
+Hypoglycemia,hypoglycemia,EXACT
+Hypothyroidism,hypothyroidism,EXACT
+Impetigo,,NO_MATCH
+Jaundice,hyperbilirubinemia,HIGH_CONFIDENCE
+Malaria,,NO_MATCH
+Migraine,migraine disorders,HIGH_CONFIDENCE
+Osteoarthritis,,NO_MATCH
+Paralysis (brain hemorrhage),,NO_MATCH
+Peptic Ulcer Disease,ulcer peptic,HIGH_CONFIDENCE
+Pneumonia,pneumonia,EXACT
+Psoriasis,,NO_MATCH
+Tuberculosis,,NO_MATCH
+Typhoid,,NO_MATCH
+Urinary Tract Infection,infection urinary tract,HIGH_CONFIDENCE
+Varicose Veins,,NO_MATCH
+Vertigo,,NO_MATCH
